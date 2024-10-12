@@ -19,17 +19,15 @@ Two Simple Reactive Robots:
 - Round, Differential locomotion
 - Any tech, but must be ROS robots without communication
 
-Teacher recomendations:
-
-- Parameterize everything
-- Choose a good set of sensors
-- Find a good distance for R2 to be on tail of R1 without colision
-
 **Environment:** 
 
 ![env](env.png)
 
-**Tech:** 
+**Teacher recomendations:** 
+
+- Parameterize everything
+- Choose a good set of sensors
+- Find a good distance for R2 to be on tail of R1 without colision
 
 ## Deliverables
 
@@ -37,7 +35,7 @@ Teacher recomendations:
 - Video (under 100MB and with FEUP Logo)
 - Article
 
-* The README shoud state:
+\* The README shoud state:
 
 - Directory structure
 - Requirements (versions, dependencies, etc.)
