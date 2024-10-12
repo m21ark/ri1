@@ -1,0 +1,18 @@
+[0.999s] Invoking command in '/home/m/Desktop/S1/RI/proj1/workspace/build/robot1': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/workspace/build/robot1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/m/Desktop/S1/RI/proj1/workspace/build/robot1/build --no-deps symlink_data
+[1.251s] running develop
+[1.400s] running egg_info
+[1.400s] writing robot1.egg-info/PKG-INFO
+[1.400s] writing dependency_links to robot1.egg-info/dependency_links.txt
+[1.400s] writing entry points to robot1.egg-info/entry_points.txt
+[1.401s] writing requirements to robot1.egg-info/requires.txt
+[1.401s] writing top-level names to robot1.egg-info/top_level.txt
+[1.432s] reading manifest file 'robot1.egg-info/SOURCES.txt'
+[1.433s] writing manifest file 'robot1.egg-info/SOURCES.txt'
+[1.467s] running build_ext
+[1.467s] Creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/python3.8/site-packages/robot1.egg-link (link to .)
+[1.468s] Installing follow script to /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/robot1
+[1.468s] 
+[1.468s] Installed /home/m/Desktop/S1/RI/proj1/workspace/build/robot1
+[1.468s] running symlink_data
+[1.468s] creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/robot1/urdf
+[1.516s] Invoked command in '/home/m/Desktop/S1/RI/proj1/workspace/build/robot1' returned '0': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/workspace/build/robot1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/m/Desktop/S1/RI/proj1/workspace/build/robot1/build --no-deps symlink_data

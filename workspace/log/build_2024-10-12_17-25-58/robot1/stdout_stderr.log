@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot1.egg-info
+writing robot1.egg-info/PKG-INFO
+writing dependency_links to robot1.egg-info/dependency_links.txt
+writing entry points to robot1.egg-info/entry_points.txt
+writing requirements to robot1.egg-info/requires.txt
+writing top-level names to robot1.egg-info/top_level.txt
+writing manifest file 'robot1.egg-info/SOURCES.txt'
+reading manifest file 'robot1.egg-info/SOURCES.txt'
+writing manifest file 'robot1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/python3.8/site-packages/site.py
+Creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/lib/python3.8/site-packages/robot1.egg-link (link to .)
+
+Installed /home/m/Desktop/S1/RI/proj1/workspace/build/robot1
+running symlink_data
+creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/ament_index
+creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/ament_index/resource_index
+creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/ament_index/resource_index/packages
+symbolically linking /home/m/Desktop/S1/RI/proj1/workspace/build/robot1/resource/robot1 -> /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/ament_index/resource_index/packages
+symbolically linking /home/m/Desktop/S1/RI/proj1/workspace/build/robot1/package.xml -> /home/m/Desktop/S1/RI/proj1/workspace/install/robot1/share/robot1

@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing robot2.egg-info/PKG-INFO
+writing dependency_links to robot2.egg-info/dependency_links.txt
+writing entry points to robot2.egg-info/entry_points.txt
+writing requirements to robot2.egg-info/requires.txt
+writing top-level names to robot2.egg-info/top_level.txt
+reading manifest file 'robot2.egg-info/SOURCES.txt'
+writing manifest file 'robot2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/lib/python3.8/site-packages/robot2.egg-link (link to .)
+Installing follow2 script to /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/lib/robot2
+
+Installed /home/m/Desktop/S1/RI/proj1/workspace/build/robot2
+running symlink_data
+creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/share/robot2/launch
+symbolically linking /home/m/Desktop/S1/RI/proj1/workspace/build/robot2/launch/spawn_robot2.launch.py -> /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/share/robot2/launch
+creating /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/share/robot2/urdf
+symbolically linking /home/m/Desktop/S1/RI/proj1/workspace/build/robot2/urdf/robot2.urdf -> /home/m/Desktop/S1/RI/proj1/workspace/install/robot2/share/robot2/urdf
