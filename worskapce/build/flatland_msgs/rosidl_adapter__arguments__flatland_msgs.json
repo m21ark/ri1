@@ -1,0 +1,13 @@
+{
+  "package_name": "flatland_msgs",
+  "non_idl_tuples": [
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:msg/DebugTopicList.msg",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:msg/Collision.msg",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:msg/Collisions.msg",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:msg/Vector2.msg",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:srv/ChangeRate.srv",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:srv/SpawnModel.srv",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:srv/DeleteModel.srv",
+    "/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs:srv/MoveModel.srv"
+  ]
+}

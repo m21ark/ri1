@@ -1,1 +1,0 @@
-/home/m/Desktop/S1/RI/proj1/workspace/src/robot1/setup.py

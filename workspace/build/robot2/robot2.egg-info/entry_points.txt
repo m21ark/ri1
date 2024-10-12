@@ -1,3 +1,0 @@
-[console_scripts]
-follow2 = robot2.WallFollower:main
-

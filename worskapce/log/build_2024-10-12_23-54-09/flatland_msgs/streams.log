@@ -1,0 +1,453 @@
+[0.017s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs -DCMAKE_INSTALL_PREFIX=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.430s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.432s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.432s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.945s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.030s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.062s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.067s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.074s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.122s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.136s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.029s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.032s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.035s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.038s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.587s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.589s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.653s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.654s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.654s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.654s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.700s] -- Found PythonExtra: .so  
+[3.841s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.843s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.888s] -- Configuring done
+[4.039s] -- Generating done
+[4.045s] -- Build files have been written to: /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs
+[4.071s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs -DCMAKE_INSTALL_PREFIX=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs
+[4.072s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs -- -j8 -l8
+[4.154s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.228s] [  1%] Built target ament_cmake_python_copy_flatland_msgs
+[4.239s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.638s] running egg_info
+[4.639s] creating flatland_msgs.egg-info
+[4.655s] writing flatland_msgs.egg-info/PKG-INFO
+[4.655s] writing dependency_links to flatland_msgs.egg-info/dependency_links.txt
+[4.655s] writing top-level names to flatland_msgs.egg-info/top_level.txt
+[4.655s] writing manifest file 'flatland_msgs.egg-info/SOURCES.txt'
+[4.777s] reading manifest file 'flatland_msgs.egg-info/SOURCES.txt'
+[4.777s] writing manifest file 'flatland_msgs.egg-info/SOURCES.txt'
+[4.820s] [  2%] Built target ament_cmake_python_build_flatland_msgs_egg
+[5.032s] [  3%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/msg/detail/debug_topic_list__functions.c.o[0m
+[5.036s] [  4%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/msg/detail/collision__functions.c.o[0m
+[5.036s] [  5%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/msg/detail/collisions__functions.c.o[0m
+[5.036s] [  6%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/msg/detail/vector2__functions.c.o[0m
+[5.045s] [  8%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/srv/detail/change_rate__functions.c.o[0m
+[5.053s] [  9%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/srv/detail/spawn_model__functions.c.o[0m
+[5.087s] [ 10%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/srv/detail/delete_model__functions.c.o[0m
+[5.093s] [ 11%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_c.dir/rosidl_generator_c/flatland_msgs/srv/detail/move_model__functions.c.o[0m
+[5.121s] [ 11%] Built target flatland_msgs__cpp
+[5.130s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.132s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.132s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.158s] [ 16%] [32m[1mLinking C shared library libflatland_msgs__rosidl_generator_c.so[0m
+[5.192s] [ 16%] Built target flatland_msgs__rosidl_generator_c
+[5.200s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.203s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.203s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.599s] [ 22%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/msg/collisions__type_support.cpp.o[0m
+[5.599s] [ 22%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/msg/debug_topic_list__type_support.cpp.o[0m
+[5.599s] [ 22%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/msg/collision__type_support.cpp.o[0m
+[5.634s] [ 25%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/srv/change_rate__type_support.cpp.o[0m
+[5.634s] [ 25%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/msg/vector2__type_support.cpp.o[0m
+[5.636s] [ 26%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/srv/spawn_model__type_support.cpp.o[0m
+[5.668s] [ 27%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/srv/delete_model__type_support.cpp.o[0m
+[5.669s] [ 28%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flatland_msgs/srv/move_model__type_support.cpp.o[0m
+[5.701s] [ 29%] [32m[1mLinking CXX shared library libflatland_msgs__rosidl_typesupport_c.so[0m
+[5.737s] [ 29%] Built target flatland_msgs__rosidl_typesupport_c
+[5.778s] [ 31%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/msg/detail/dds_fastrtps/collision__type_support.cpp.o[0m
+[5.780s] [ 32%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/msg/detail/dds_fastrtps/debug_topic_list__type_support.cpp.o[0m
+[5.780s] [ 33%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/msg/detail/dds_fastrtps/collisions__type_support.cpp.o[0m
+[5.789s] [ 34%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[5.873s] [ 35%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/msg/debug_topic_list__type_support.cpp.o[0m
+[6.134s] [ 36%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/msg/detail/debug_topic_list__type_support.cpp.o[0m
+[6.261s] [ 39%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/msg/detail/debug_topic_list__type_support.c.o[0m
+[6.261s] [ 39%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/msg/collision__type_support.cpp.o[0m
+[6.306s] [ 40%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/msg/detail/collision__type_support.c.o[0m
+[6.334s] [ 41%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/msg/detail/debug_topic_list__type_support_c.cpp.o[0m
+[6.363s] [ 42%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/msg/detail/collisions__type_support.c.o[0m
+[6.384s] [ 43%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/msg/detail/collision__type_support_c.cpp.o[0m
+[6.415s] [ 44%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/msg/detail/vector2__type_support.c.o[0m
+[6.459s] [ 45%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/srv/detail/change_rate__type_support.c.o[0m
+[6.475s] [ 47%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/srv/detail/dds_fastrtps/change_rate__type_support.cpp.o[0m
+[6.499s] [ 48%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/srv/detail/dds_fastrtps/spawn_model__type_support.cpp.o[0m
+[6.509s] [ 49%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/srv/detail/spawn_model__type_support.c.o[0m
+[6.526s] [ 50%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/srv/detail/dds_fastrtps/delete_model__type_support.cpp.o[0m
+[6.560s] [ 51%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/srv/detail/delete_model__type_support.c.o[0m
+[6.609s] [ 52%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flatland_msgs/srv/detail/move_model__type_support.c.o[0m
+[6.660s] [ 54%] [32m[1mLinking C shared library libflatland_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.670s] [ 55%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/msg/collisions__type_support.cpp.o[0m
+[6.702s] [ 55%] Built target flatland_msgs__rosidl_typesupport_introspection_c
+[6.713s] [ 56%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/msg/vector2__type_support.cpp.o[0m
+[6.814s] [ 57%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/msg/detail/collision__type_support.cpp.o[0m
+[6.851s] [ 58%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/msg/detail/collisions__type_support_c.cpp.o[0m
+[6.930s] [ 59%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[7.084s] [ 60%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/srv/change_rate__type_support.cpp.o[0m
+[7.104s] [ 62%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flatland_msgs/srv/detail/dds_fastrtps/move_model__type_support.cpp.o[0m
+[7.119s] [ 63%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/srv/spawn_model__type_support.cpp.o[0m
+[7.161s] [ 64%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/srv/delete_model__type_support.cpp.o[0m
+[7.166s] [ 65%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatland_msgs/srv/move_model__type_support.cpp.o[0m
+[7.367s] [ 66%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/srv/detail/change_rate__type_support_c.cpp.o[0m
+[7.424s] [ 67%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/srv/detail/spawn_model__type_support_c.cpp.o[0m
+[7.499s] [ 68%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/srv/detail/delete_model__type_support_c.cpp.o[0m
+[7.564s] [ 70%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/msg/detail/collisions__type_support.cpp.o[0m
+[7.585s] [ 71%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flatland_msgs/srv/detail/move_model__type_support_c.cpp.o[0m
+[7.605s] [ 72%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[7.614s] [ 73%] [32m[1mLinking CXX shared library libflatland_msgs__rosidl_typesupport_cpp.so[0m
+[7.670s] [ 73%] Built target flatland_msgs__rosidl_typesupport_cpp
+[7.680s] [ 74%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/srv/detail/change_rate__type_support.cpp.o[0m
+[7.745s] [ 75%] [32m[1mLinking CXX shared library libflatland_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.883s] [ 75%] Built target flatland_msgs__rosidl_typesupport_fastrtps_cpp
+[7.893s] [ 77%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/srv/detail/spawn_model__type_support.cpp.o[0m
+[7.919s] [ 78%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/srv/detail/delete_model__type_support.cpp.o[0m
+[7.995s] [ 79%] [32mBuilding CXX object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flatland_msgs/srv/detail/move_model__type_support.cpp.o[0m
+[8.133s] [ 80%] [32m[1mLinking CXX shared library libflatland_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.257s] [ 80%] Built target flatland_msgs__rosidl_typesupport_fastrtps_c
+[8.471s] [ 81%] [32m[1mLinking CXX shared library libflatland_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.544s] [ 81%] Built target flatland_msgs__rosidl_typesupport_introspection_cpp
+[8.560s] [ 81%] Built target flatland_msgs
+[8.576s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.560s] [ 82%] Built target flatland_msgs__py
+[9.579s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/msg/_vector2_s.c.o[0m
+[9.579s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/msg/_collision_s.c.o[0m
+[9.579s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/srv/_change_rate_s.c.o[0m
+[9.579s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/msg/_debug_topic_list_s.c.o[0m
+[9.579s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/srv/_spawn_model_s.c.o[0m
+[9.580s] [ 91%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/srv/_delete_model_s.c.o[0m
+[9.580s] [ 91%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/srv/_move_model_s.c.o[0m
+[9.580s] [ 90%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_generator_py.dir/rosidl_generator_py/flatland_msgs/msg/_collisions_s.c.o[0m
+[9.746s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/flatland_msgs/libflatland_msgs__rosidl_generator_py.so[0m
+[9.783s] [ 93%] Built target flatland_msgs__rosidl_generator_py
+[9.799s] [ 96%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.799s] [ 96%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.799s] [ 96%] [32mBuilding C object CMakeFiles/flatland_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.926s] [100%] [32m[1mLinking C shared library rosidl_generator_py/flatland_msgs/flatland_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.926s] [100%] [32m[1mLinking C shared library rosidl_generator_py/flatland_msgs/flatland_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.926s] [100%] [32m[1mLinking C shared library rosidl_generator_py/flatland_msgs/flatland_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.961s] [100%] Built target flatland_msgs__rosidl_typesupport_introspection_c__pyext
+[9.961s] [100%] Built target flatland_msgs__rosidl_typesupport_c__pyext
+[9.961s] [100%] Built target flatland_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.970s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs -- -j8 -l8
+[10.065s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs
+[10.071s] -- Install configuration: ""
+[10.071s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/ament_index/resource_index/rosidl_interfaces/flatland_msgs
+[10.071s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.071s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.071s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/vector2.h
+[10.072s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/collision.h
+[10.072s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/collisions.h
+[10.072s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.072s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__functions.c
+[10.072s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__type_support.h
+[10.073s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__functions.h
+[10.073s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__type_support.h
+[10.073s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__struct.h
+[10.073s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__functions.c
+[10.073s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__type_support.h
+[10.074s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__functions.h
+[10.074s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__functions.h
+[10.074s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__functions.c
+[10.074s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__type_support.h
+[10.074s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__struct.h
+[10.075s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__functions.c
+[10.075s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__struct.h
+[10.075s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__functions.h
+[10.075s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__struct.h
+[10.075s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/debug_topic_list.h
+[10.076s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.076s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.076s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/spawn_model.h
+[10.076s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/delete_model.h
+[10.076s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.077s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__functions.c
+[10.077s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__type_support.h
+[10.077s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__functions.h
+[10.078s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__struct.h
+[10.078s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__struct.h
+[10.078s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__struct.h
+[10.078s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__functions.c
+[10.078s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__functions.c
+[10.079s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__functions.h
+[10.079s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__functions.h
+[10.079s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__type_support.h
+[10.079s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__type_support.h
+[10.080s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__struct.h
+[10.080s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__functions.c
+[10.080s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__functions.h
+[10.080s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__type_support.h
+[10.080s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/change_rate.h
+[10.081s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/move_model.h
+[10.081s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/library_path.sh
+[10.081s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/library_path.dsv
+[10.081s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_generator_c.so
+[10.082s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_generator_c.so" to ""
+[10.082s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.082s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.082s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.083s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__rosidl_typesupport_fastrtps_c.h
+[10.083s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__rosidl_typesupport_fastrtps_c.h
+[10.083s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[10.083s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__rosidl_typesupport_fastrtps_c.h
+[10.083s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.083s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.084s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.084s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__rosidl_typesupport_fastrtps_c.h
+[10.084s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__rosidl_typesupport_fastrtps_c.h
+[10.084s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__rosidl_typesupport_fastrtps_c.h
+[10.084s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__rosidl_typesupport_fastrtps_c.h
+[10.084s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_fastrtps_c.so
+[10.085s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.085s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.085s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.085s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/vector2.hpp
+[10.085s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/collisions.hpp
+[10.086s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.086s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__builder.hpp
+[10.086s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__builder.hpp
+[10.086s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__traits.hpp
+[10.086s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__traits.hpp
+[10.087s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__struct.hpp
+[10.087s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__struct.hpp
+[10.087s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__builder.hpp
+[10.087s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__struct.hpp
+[10.087s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__builder.hpp
+[10.088s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__traits.hpp
+[10.088s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__struct.hpp
+[10.088s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__traits.hpp
+[10.088s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/collision.hpp
+[10.088s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/debug_topic_list.hpp
+[10.089s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.089s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/move_model.hpp
+[10.089s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.089s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__struct.hpp
+[10.089s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__struct.hpp
+[10.089s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__traits.hpp
+[10.090s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__struct.hpp
+[10.090s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__builder.hpp
+[10.090s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__traits.hpp
+[10.090s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__builder.hpp
+[10.090s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__builder.hpp
+[10.091s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__traits.hpp
+[10.091s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__traits.hpp
+[10.091s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__builder.hpp
+[10.091s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__struct.hpp
+[10.092s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/change_rate.hpp
+[10.092s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/delete_model.hpp
+[10.092s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/spawn_model.hpp
+[10.092s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.092s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.092s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/dds_fastrtps
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__rosidl_typesupport_fastrtps_cpp.hpp
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__rosidl_typesupport_fastrtps_cpp.hpp
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__rosidl_typesupport_fastrtps_cpp.hpp
+[10.093s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.094s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.094s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.094s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/dds_fastrtps
+[10.094s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.094s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.094s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__rosidl_typesupport_fastrtps_cpp.hpp
+[10.095s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.095s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.096s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.096s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.096s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.096s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.096s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.096s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__rosidl_typesupport_introspection_c.h
+[10.096s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__type_support.c
+[10.097s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__rosidl_typesupport_introspection_c.h
+[10.097s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[10.097s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__rosidl_typesupport_introspection_c.h
+[10.097s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__type_support.c
+[10.097s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__type_support.c
+[10.098s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__type_support.c
+[10.098s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.098s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.098s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__rosidl_typesupport_introspection_c.h
+[10.098s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__type_support.c
+[10.099s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__type_support.c
+[10.099s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__rosidl_typesupport_introspection_c.h
+[10.099s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__rosidl_typesupport_introspection_c.h
+[10.099s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__rosidl_typesupport_introspection_c.h
+[10.099s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__type_support.c
+[10.100s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__type_support.c
+[10.100s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_introspection_c.so
+[10.100s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.100s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_c.so
+[10.101s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_c.so" to ""
+[10.101s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs
+[10.101s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg
+[10.101s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail
+[10.101s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__type_support.cpp
+[10.101s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[10.102s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__type_support.cpp
+[10.102s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__type_support.cpp
+[10.102s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collision__rosidl_typesupport_introspection_cpp.hpp
+[10.102s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/collisions__rosidl_typesupport_introspection_cpp.hpp
+[10.102s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/debug_topic_list__rosidl_typesupport_introspection_cpp.hpp
+[10.103s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/msg/detail/vector2__type_support.cpp
+[10.103s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv
+[10.103s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail
+[10.103s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__rosidl_typesupport_introspection_cpp.hpp
+[10.103s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__type_support.cpp
+[10.103s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/change_rate__rosidl_typesupport_introspection_cpp.hpp
+[10.104s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__type_support.cpp
+[10.104s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/spawn_model__rosidl_typesupport_introspection_cpp.hpp
+[10.104s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__type_support.cpp
+[10.104s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/move_model__rosidl_typesupport_introspection_cpp.hpp
+[10.104s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/include/flatland_msgs/flatland_msgs/srv/detail/delete_model__type_support.cpp
+[10.105s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_introspection_cpp.so
+[10.105s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.106s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_cpp.so
+[10.106s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_typesupport_cpp.so" to ""
+[10.106s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/pythonpath.sh
+[10.106s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/pythonpath.dsv
+[10.106s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs-2.0.0-py3.10.egg-info
+[10.107s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[10.107s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[10.107s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[10.107s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[10.107s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs
+[10.108s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.108s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.108s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg
+[10.108s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collision_s.c
+[10.109s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_vector2_s.c
+[10.109s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_debug_topic_list.py
+[10.109s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_debug_topic_list_s.c
+[10.109s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collision.py
+[10.110s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collisions.py
+[10.110s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_vector2.py
+[10.110s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collisions_s.c
+[10.110s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/__init__.py
+[10.110s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_c.c
+[10.111s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.111s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/_flatland_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.111s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/__init__.py
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_change_rate_s.c
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_delete_model.py
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_delete_model_s.c
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_change_rate.py
+[10.112s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_spawn_model_s.c
+[10.113s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_move_model_s.c
+[10.113s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_move_model.py
+[10.113s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/__init__.py
+[10.113s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_spawn_model.py
+[10.114s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.114s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/libflatland_msgs__rosidl_generator_py.so
+[10.153s] Listing '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs'...
+[10.153s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/__init__.py'...
+[10.153s] Listing '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg'...
+[10.153s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/__init__.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collision.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_collisions.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_debug_topic_list.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/msg/_vector2.py'...
+[10.154s] Listing '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/__init__.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_change_rate.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_delete_model.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_move_model.py'...
+[10.154s] Compiling '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/srv/_spawn_model.py'...
+[10.158s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.159s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.159s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.159s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.160s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.160s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/local/lib/python3.10/dist-packages/flatland_msgs/flatland_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.160s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_generator_py.so
+[10.161s] -- Set runtime path of "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/libflatland_msgs__rosidl_generator_py.so" to ""
+[10.161s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/DebugTopicList.idl
+[10.161s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Collision.idl
+[10.161s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Collisions.idl
+[10.161s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Vector2.idl
+[10.161s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/ChangeRate.idl
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/SpawnModel.idl
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/DeleteModel.idl
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/MoveModel.idl
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/DebugTopicList.msg
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Collision.msg
+[10.162s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Collisions.msg
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/msg/Vector2.msg
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/ChangeRate.srv
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/ChangeRate_Request.msg
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/ChangeRate_Response.msg
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/SpawnModel.srv
+[10.163s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/SpawnModel_Request.msg
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/SpawnModel_Response.msg
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/DeleteModel.srv
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/DeleteModel_Request.msg
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/DeleteModel_Response.msg
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/MoveModel.srv
+[10.164s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/MoveModel_Request.msg
+[10.165s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/srv/MoveModel_Response.msg
+[10.165s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/ament_index/resource_index/package_run_dependencies/flatland_msgs
+[10.165s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/ament_index/resource_index/parent_prefix_path/flatland_msgs
+[10.165s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/ament_prefix_path.sh
+[10.166s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/ament_prefix_path.dsv
+[10.166s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/path.sh
+[10.166s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/environment/path.dsv
+[10.166s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/local_setup.bash
+[10.166s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/local_setup.sh
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/local_setup.zsh
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/local_setup.dsv
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.dsv
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/ament_index/resource_index/packages/flatland_msgs
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_generator_cExport.cmake
+[10.167s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.168s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.168s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.168s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_generator_cppExport.cmake
+[10.168s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.168s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.169s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.169s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.169s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_cExport.cmake
+[10.169s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.169s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.170s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.170s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_cppExport.cmake
+[10.170s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.170s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_generator_pyExport.cmake
+[10.170s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/export_flatland_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/rosidl_cmake-extras.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.171s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.172s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.172s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgsConfig.cmake
+[10.172s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/cmake/flatland_msgsConfig-version.cmake
+[10.172s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.xml
+[10.175s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs

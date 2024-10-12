@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatland_msgs/msg/DebugTopicList.msg
+// generated code does not contain a copyright notice
+
+
+module flatland_msgs {
+  module msg {
+    struct DebugTopicList {
+      sequence<string> topics;
+    };
+  };
+};

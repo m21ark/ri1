@@ -1,0 +1,145 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d
+[  8%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2Joint.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2GearJoint.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2DistanceJoint.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2FrictionJoint.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2MouseJoint.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2PrismaticJoint.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2MotorJoint.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2PulleyJoint.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2RevoluteJoint.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2RopeJoint.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2WeldJoint.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Joints/b2WheelJoint.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2CircleContact.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2Contact.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2ContactSolver.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2PolygonAndCircleContact.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2EdgeAndCircleContact.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2ChainAndCircleContact.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2ChainAndPolygonContact.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/Contacts/b2PolygonContact.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2Body.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2ContactManager.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2Fixture.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2Island.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2World.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Dynamics/b2WorldCallbacks.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2BlockAllocator.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2Draw.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2Math.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2Settings.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2StackAllocator.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Common/b2Timer.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/Shapes/b2CircleShape.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/Shapes/b2EdgeShape.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/Shapes/b2ChainShape.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/Shapes/b2PolygonShape.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2BroadPhase.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2CollideCircle.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2CollideEdge.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2CollidePolygon.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2Collision.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2Distance.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2TimeOfImpact.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Collision/b2DynamicTree.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/flatland_box2d_lib.dir/src/Rope/b2Rope.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libflatland_box2d_lib.so[0m
+[100%] Built target flatland_box2d_lib
+-- Install configuration: ""
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/library_path.sh
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/library_path.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/ament_index/resource_index/package_run_dependencies/flatland_box2d
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/ament_index/resource_index/parent_prefix_path/flatland_box2d
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/ament_prefix_path.sh
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/ament_prefix_path.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/path.sh
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/environment/path.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/local_setup.bash
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/local_setup.sh
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/local_setup.zsh
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/local_setup.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/ament_index/resource_index/packages/flatland_box2d
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/export_flatland_box2dExport.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/export_flatland_box2dExport-noconfig.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/flatland_box2dConfig.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/cmake/flatland_box2dConfig-version.cmake
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.xml
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib/libflatland_box2d_lib.so
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/b2Distance.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes/b2PolygonShape.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes/b2Shape.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes/b2CircleShape.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes/b2EdgeShape.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/Shapes/b2ChainShape.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/b2DynamicTree.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/b2Collision.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/b2BroadPhase.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Collision/b2TimeOfImpact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Box2D.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2FrictionJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2DistanceJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2PrismaticJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2WeldJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2PulleyJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2Joint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2RevoluteJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2RopeJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2MouseJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2MotorJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2WheelJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Joints/b2GearJoint.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2TimeStep.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2PolygonContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2CircleContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2Contact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/Contacts/b2ContactSolver.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2World.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2WorldCallbacks.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2Body.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2Island.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2Fixture.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Dynamics/b2ContactManager.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Rope
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Rope/b2Rope.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2Settings.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2GrowableStack.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2Timer.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2Math.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2Draw.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2BlockAllocator.h
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/include/Box2D/Common/b2StackAllocator.h

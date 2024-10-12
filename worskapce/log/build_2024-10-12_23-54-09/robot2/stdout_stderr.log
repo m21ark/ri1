@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/robot2/robot2.egg-info
+writing ../../build/robot2/robot2.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot2/robot2.egg-info/dependency_links.txt
+writing requirements to ../../build/robot2/robot2.egg-info/requires.txt
+writing top-level names to ../../build/robot2/robot2.egg-info/top_level.txt
+writing manifest file '../../build/robot2/robot2.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot2/robot2.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot2/robot2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build
+creating /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build/lib
+creating /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build/lib/robot2
+copying robot2/__init__.py -> /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build/lib/robot2
+running install
+running install_lib
+creating /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2
+copying /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build/lib/robot2/__init__.py -> /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2
+byte-compiling /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/ament_index
+creating /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/ament_index/resource_index
+creating /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/ament_index/resource_index/packages
+copying resource/robot2 -> /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/ament_index/resource_index/packages
+copying package.xml -> /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2
+running install_egg_info
+Copying ../../build/robot2/robot2.egg-info to /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log'

@@ -1,0 +1,493 @@
+In file included from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/debug_visualization.cpp:53[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:50[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:[m[K In constructor ‘[01m[Kflatland_server::Model::Model(std::shared_ptr<rclcpp::Node>, b2World*, flatland_server::CollisionFilterRegistry*, const string&, const string&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:76:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kflatland_server::Model::cfr_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   76 |   CollisionFilterRegistry * [01;35m[Kcfr_[m[K;    ///< Collision filter registry
+      |                             [01;35m[K^~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:75:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kflatland_server::YamlReader flatland_server::Model::plugins_reader_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   75 |   YamlReader [01;35m[Kplugins_reader_[m[K;        ///< for storing plugins when paring YAML
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:55:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   55 | [01;35m[KModel[m[K::Model(
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/debug_visualization.h:54[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_server::Model::DebugOutput() const[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:286:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst flatland_server::Model*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  286 |     [01;35m[K"Model %p: physics_world(%p) name(%s) namespace(%s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  287 | [01;35m[K    "num_bodies(%lu) num_joints(%lu)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  288 |     [32m[Kthis[m[K, physics_world_, name_.c_str(), namespace_.c_str(), bodies_.size(), joints_.size());
+      |     [32m[K~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kconst flatland_server::Model*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:286:13:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  286 |     "Model [01;36m[K%p[m[K: physics_world(%p) name(%s) namespace(%s) "
+      |            [01;36m[K~^[m[K
+      |             [01;36m[K|[m[K
+      |             [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/debug_visualization.h:54[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:286:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 6 has type ‘[01m[Kb2World*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  286 |     [01;35m[K"Model %p: physics_world(%p) name(%s) namespace(%s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  287 | [01;35m[K    "num_bodies(%lu) num_joints(%lu)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  288 |     this, [32m[Kphysics_world_[m[K, name_.c_str(), namespace_.c_str(), bodies_.size(), joints_.size());
+      |           [32m[K~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Kb2World*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/model.cpp:286:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  286 |     "Model %p: physics_world([01;36m[K%p[m[K) name(%s) namespace(%s) "
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kvoid*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:[m[K In constructor ‘[01m[Kflatland_server::Layer::Layer(std::shared_ptr<rclcpp::Node>, b2World*, flatland_server::CollisionFilterRegistry*, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const flatland_server::Color&, const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:105:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcolor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 |   const std::vector<std::string> & names, [01;35m[Kconst Color & color[m[K, const YAML::Node & properties)
+      |                                           [01;35m[K~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:105:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproperties[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 |   const std::vector<std::string> & names, const Color & color, [01;35m[Kconst YAML::Node & properties[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/debug_visualization.h:54[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_server::Layer::DebugOutput() const[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:328:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst flatland_server::Layer*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  328 |     [01;35m[K"Layer %p: physics_world(%p) name(%s) names(%s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  329 | [01;35m[K    "category_bits(0x%X)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  330 |     [32m[Kthis[m[K, physics_world_, name_.c_str(), names.c_str(), category_bits);
+      |     [32m[K~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kconst flatland_server::Layer*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:328:13:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  328 |     "Layer [01;36m[K%p[m[K: physics_world(%p) name(%s) names(%s) "
+      |            [01;36m[K~^[m[K
+      |             [01;36m[K|[m[K
+      |             [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/debug_visualization.h:54[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:328:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 6 has type ‘[01m[Kb2World*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  328 |     [01;35m[K"Layer %p: physics_world(%p) name(%s) names(%s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  329 | [01;35m[K    "category_bits(0x%X)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  330 |     this, [32m[Kphysics_world_[m[K, name_.c_str(), names.c_str(), category_bits);
+      |           [32m[K~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Kb2World*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/layer.cpp:328:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  328 |     "Layer %p: physics_world([01;36m[K%p[m[K) name(%s) names(%s) "
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kvoid*[m[K
+In file included from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/world.cpp:51[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/world.h:[m[K In constructor ‘[01m[Kflatland_server::World::World(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/world.h:84:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kflatland_server::World::service_paused_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   84 |   bool [01;35m[Kservice_paused_[m[K;                          ///< indicates if simulation is paused by a service
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/world.h:83:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kflatland_server::PluginManager flatland_server::World::plugin_manager_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   83 |   PluginManager [01;35m[Kplugin_manager_[m[K;                 ///< for loading and updating plugins
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/world.cpp:63:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   63 | [01;35m[KWorld[m[K::World(std::shared_ptr<rclcpp::Node> node)
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/body.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:[m[K In member function ‘[01m[Kvoid flatland_server::Body::DebugOutput() const[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:103:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst flatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  103 |     [01;35m[K"Body %p: entity(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  104 | [01;35m[K    "physics_body(%p) num_fixtures(%d) type(%d) pose(%f, %f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  105 | [01;35m[K    "angular_damping(%f) linear_damping(%f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  106 |     [32m[Kthis[m[K, entity_, entity_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+      |     [32m[K~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kconst flatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:103:12:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  103 |     "Body [01;36m[K%p[m[K: entity(%p, %s) name(%s) color(%f,%f,%f,%f) "
+      |           [01;36m[K~^[m[K
+      |            [01;36m[K|[m[K
+      |            [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/body.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:103:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 6 has type ‘[01m[Kflatland_server::Entity*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  103 |     [01;35m[K"Body %p: entity(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  104 | [01;35m[K    "physics_body(%p) num_fixtures(%d) type(%d) pose(%f, %f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  105 | [01;35m[K    "angular_damping(%f) linear_damping(%f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  106 |     this, [32m[Kentity_[m[K, entity_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+      |           [32m[K~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Kflatland_server::Entity*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:103:23:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  103 |     "Body %p: entity([01;36m[K%p[m[K, %s) name(%s) color(%f,%f,%f,%f) "
+      |                      [01;36m[K~^[m[K
+      |                       [01;36m[K|[m[K
+      |                       [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/body.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:103:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 13 has type ‘[01m[Kb2Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  103 |     [01;35m[K"Body %p: entity(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  104 | [01;35m[K    "physics_body(%p) num_fixtures(%d) type(%d) pose(%f, %f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  105 | [01;35m[K    "angular_damping(%f) linear_damping(%f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  106 |     this, entity_, entity_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+  107 |     [32m[Kphysics_body_[m[K, GetFixturesCount(), physics_body_->GetType(), physics_body_->GetPosition().x,
+      |     [32m[K~~~~~~~~~~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kb2Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/body.cpp:104:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  104 |     "physics_body([01;36m[K%p[m[K) num_fixtures(%d) type(%d) pose(%f, %f, %f) "
+      |                   [01;36m[K~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/joint.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:[m[K In member function ‘[01m[Kvoid flatland_server::Joint::DebugOutput() const[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kconst flatland_server::Joint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  202 |     [01;35m[K"Joint %p: model(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;35m[K    "physics_joint(%p) body_A(%p, %s) anchor_A_world(%f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;35m[K    "body_B(%p, %s) anchor_B_world(%f, %f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 |     [32m[Kthis[m[K, model_, model_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+      |     [32m[K~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kconst flatland_server::Joint*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:13:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  202 |     "Joint [01;36m[K%p[m[K: model(%p, %s) name(%s) color(%f,%f,%f,%f) "
+      |            [01;36m[K~^[m[K
+      |             [01;36m[K|[m[K
+      |             [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/joint.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 6 has type ‘[01m[Kflatland_server::Model*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  202 |     [01;35m[K"Joint %p: model(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;35m[K    "physics_joint(%p) body_A(%p, %s) anchor_A_world(%f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;35m[K    "body_B(%p, %s) anchor_B_world(%f, %f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 |     this, [32m[Kmodel_[m[K, model_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+      |           [32m[K~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Kflatland_server::Model*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:23:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  202 |     "Joint %p: model([01;36m[K%p[m[K, %s) name(%s) color(%f,%f,%f,%f) "
+      |                      [01;36m[K~^[m[K
+      |                       [01;36m[K|[m[K
+      |                       [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/joint.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 13 has type ‘[01m[Kb2Joint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  202 |     [01;35m[K"Joint %p: model(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;35m[K    "physics_joint(%p) body_A(%p, %s) anchor_A_world(%f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;35m[K    "body_B(%p, %s) anchor_B_world(%f, %f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 |     this, model_, model_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+  206 |     [32m[Kphysics_joint_[m[K, body_A, body_A->name_.c_str(), j->GetAnchorA().x, j->GetAnchorA().y, body_B,
+      |     [32m[K~~~~~~~~~~~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kb2Joint*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:203:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  203 |     "physics_joint([01;36m[K%p[m[K) body_A(%p, %s) anchor_A_world(%f, %f) "
+      |                    [01;36m[K~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/joint.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 14 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  202 |     [01;35m[K"Joint %p: model(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;35m[K    "physics_joint(%p) body_A(%p, %s) anchor_A_world(%f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;35m[K    "body_B(%p, %s) anchor_B_world(%f, %f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 |     this, model_, model_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+  206 |     physics_joint_, [32m[Kbody_A[m[K, body_A->name_.c_str(), j->GetAnchorA().x, j->GetAnchorA().y, body_B,
+      |                     [32m[K~~~~~~[m[K
+      |                     [32m[K|[m[K
+      |                     [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:203:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  203 |     "physics_joint(%p) body_A([01;36m[K%p[m[K, %s) anchor_A_world(%f, %f) "
+      |                               [01;36m[K~^[m[K
+      |                                [01;36m[K|[m[K
+      |                                [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_preprocessor.h:56[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/yaml_reader.h:53[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/entity.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/model.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/include/flatland_server/joint.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:202:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 18 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  202 |     [01;35m[K"Joint %p: model(%p, %s) name(%s) color(%f,%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;35m[K    "physics_joint(%p) body_A(%p, %s) anchor_A_world(%f, %f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  204 | [01;35m[K    "body_B(%p, %s) anchor_B_world(%f, %f)"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 |     this, model_, model_->name_.c_str(), name_.c_str(), color_.r, color_.g, color_.b, color_.a,
+  206 |     physics_joint_, body_A, body_A->name_.c_str(), j->GetAnchorA().x, j->GetAnchorA().y, [32m[Kbody_B[m[K,
+      |                                                                                          [32m[K~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/joint.cpp:204:14:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  204 |     "body_B([01;36m[K%p[m[K, %s) anchor_B_world(%f, %f)",
+      |             [01;36m[K~^[m[K
+      |              [01;36m[K|[m[K
+      |              [01;36m[Kvoid*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/interactive_marker_manager.cpp:[m[K In member function ‘[01m[Kvoid flatland_server::InteractiveMarkerManager::processMouseDownFeedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/interactive_marker_manager.cpp:193:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  193 |  [01;35m[Kconst visualization_msgs::msg::InteractiveMarkerFeedback::ConstSharedPtr & feedback[m[K)
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/interactive_marker_manager.cpp:[m[K In member function ‘[01m[Kvoid flatland_server::InteractiveMarkerManager::processPoseUpdateFeedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/interactive_marker_manager.cpp:199:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  199 |  [01;35m[Kconst visualization_msgs::msg::InteractiveMarkerFeedback::ConstSharedPtr & feedback[m[K)
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::ChangeRate(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<flatland_msgs::srv::ChangeRate_Request_<std::allocator<void> > >, std::shared_ptr<flatland_msgs::srv::ChangeRate_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:94:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::SpawnModel(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<flatland_msgs::srv::SpawnModel_Request_<std::allocator<void> > >, std::shared_ptr<flatland_msgs::srv::SpawnModel_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:114:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  114 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::DeleteModel(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<flatland_msgs::srv::DeleteModel_Request_<std::allocator<void> > >, std::shared_ptr<flatland_msgs::srv::DeleteModel_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:142:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  142 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::MoveModel(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<flatland_msgs::srv::MoveModel_Request_<std::allocator<void> > >, std::shared_ptr<flatland_msgs::srv::MoveModel_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:163:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::Pause(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:186:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:187:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  187 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:188:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  188 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::Resume(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:195:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  195 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:196:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  196 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:197:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  197 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:[m[K In member function ‘[01m[Kbool flatland_server::ServiceManager::TogglePause(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:204:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  204 |   [01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:205:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  205 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/service_manager.cpp:206:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  206 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/dummy_world_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::DummyWorldPlugin::OnInitialize(const YAML::Node&, flatland_server::YamlReader&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/dummy_world_plugin.cpp:59:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_reader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | void DummyWorldPlugin::OnInitialize([01;35m[Kconst YAML::Node & plugin_reader[m[K, YamlReader & world_config)
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/src/dummy_world_plugin.cpp:59:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kworld_config[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | void DummyWorldPlugin::OnInitialize(const YAML::Node & plugin_reader, [01;35m[KYamlReader & world_config[m[K)
+      |                                                                       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestModelPlugin::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:89:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconfig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   89 |   void OnInitialize([01;35m[Kconst YAML::Node & config[m[K) override { function_called["OnInitialize"] = true; }
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestModelPlugin::BeforePhysicsStep(const flatland_server::Timekeeper&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:91:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimekeeper[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   91 |   void BeforePhysicsStep([01;35m[Kconst Timekeeper & timekeeper[m[K) override
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestModelPlugin::AfterPhysicsStep(const flatland_server::Timekeeper&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:96:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimekeeper[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   96 |   void AfterPhysicsStep([01;35m[Kconst Timekeeper & timekeeper[m[K) override
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestModelPlugin::PreSolve(b2Contact*, const b2Manifold*)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:113:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KoldManifold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 |   void PreSolve(b2Contact * contact, [01;35m[Kconst b2Manifold * oldManifold[m[K) override
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestModelPlugin::PostSolve(b2Contact*, const b2ContactImpulse*)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server/test/plugin_manager_test.cpp:119:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimpulse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 |   void PostSolve(b2Contact * contact, [01;35m[Kconst b2ContactImpulse * impulse[m[K) override
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

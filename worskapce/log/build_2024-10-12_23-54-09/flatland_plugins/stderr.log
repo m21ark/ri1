@@ -1,0 +1,308 @@
+In file included from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:54[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/diff_drive.cpp:53[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/bumper.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::Bumper::BeforePhysicsStep(const flatland_server::Timekeeper&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/bumper.cpp:108:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimekeeper[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  108 | void Bumper::BeforePhysicsStep([01;35m[Kconst Timekeeper & timekeeper[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/tricycle_drive.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::TricycleDrive::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  172 |     [01;35m[K"Initialized with params body(%p %s) front_wj(%p %s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  173 | [01;35m[K    "rear_left_wj(%p %s) rear_right_wj(%p %s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  174 | [01;35m[K    "odom_frame_id(%s) twist_sub(%s) odom_pub(%s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  175 | [01;35m[K    "ground_truth_pub(%s) odom_pose_noise({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  176 | [01;35m[K    "odom_twist_noise({%f,%f,%f}) pub_rate(%f)\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  177 |     [32m[Kbody_[m[K, body_->GetName().c_str(), front_wj_, front_wj_->GetName().c_str(), rear_left_wj_,
+      |     [32m[K~~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  172 |     "Initialized with params body([01;36m[K%p[m[K %s) front_wj(%p %s) "
+      |                                   [01;36m[K~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/tricycle_drive.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 7 has type ‘[01m[Kflatland_server::Joint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  172 |     [01;35m[K"Initialized with params body(%p %s) front_wj(%p %s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  173 | [01;35m[K    "rear_left_wj(%p %s) rear_right_wj(%p %s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  174 | [01;35m[K    "odom_frame_id(%s) twist_sub(%s) odom_pub(%s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  175 | [01;35m[K    "ground_truth_pub(%s) odom_pose_noise({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  176 | [01;35m[K    "odom_twist_noise({%f,%f,%f}) pub_rate(%f)\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  177 |     body_, body_->GetName().c_str(), [32m[Kfront_wj_[m[K, front_wj_->GetName().c_str(), rear_left_wj_,
+      |                                      [32m[K~~~~~~~~~[m[K
+      |                                      [32m[K|[m[K
+      |                                      [32m[Kflatland_server::Joint*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  172 |     "Initialized with params body(%p %s) front_wj([01;36m[K%p[m[K %s) "
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/tricycle_drive.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 9 has type ‘[01m[Kflatland_server::Joint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  172 |     [01;35m[K"Initialized with params body(%p %s) front_wj(%p %s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  173 | [01;35m[K    "rear_left_wj(%p %s) rear_right_wj(%p %s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  174 | [01;35m[K    "odom_frame_id(%s) twist_sub(%s) odom_pub(%s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  175 | [01;35m[K    "ground_truth_pub(%s) odom_pose_noise({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  176 | [01;35m[K    "odom_twist_noise({%f,%f,%f}) pub_rate(%f)\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  177 |     body_, body_->GetName().c_str(), front_wj_, front_wj_->GetName().c_str(), [32m[Krear_left_wj_[m[K,
+      |                                                                               [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                               [32m[K|[m[K
+      |                                                                               [32m[Kflatland_server::Joint*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:173:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  173 |     "rear_left_wj([01;36m[K%p[m[K %s) rear_right_wj(%p %s) "
+      |                   [01;36m[K~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/tricycle_drive.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 11 has type ‘[01m[Kflatland_server::Joint*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  172 |     [01;35m[K"Initialized with params body(%p %s) front_wj(%p %s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  173 | [01;35m[K    "rear_left_wj(%p %s) rear_right_wj(%p %s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  174 | [01;35m[K    "odom_frame_id(%s) twist_sub(%s) odom_pub(%s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  175 | [01;35m[K    "ground_truth_pub(%s) odom_pose_noise({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  176 | [01;35m[K    "odom_twist_noise({%f,%f,%f}) pub_rate(%f)\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  177 |     body_, body_->GetName().c_str(), front_wj_, front_wj_->GetName().c_str(), rear_left_wj_,
+  178 |     rear_left_wj_->GetName().c_str(), [32m[Krear_right_wj_[m[K, rear_right_wj_->GetName().c_str(),
+      |                                       [32m[K~~~~~~~~~~~~~~[m[K
+      |                                       [32m[K|[m[K
+      |                                       [32m[Kflatland_server::Joint*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tricycle_drive.cpp:173:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  173 |     "rear_left_wj(%p %s) rear_right_wj([01;36m[K%p[m[K %s) "
+      |                                        [01;36m[K~^[m[K
+      |                                         [01;36m[K|[m[K
+      |                                         [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/model_tf_publisher.h:47[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/model_tf_publisher.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/model_tf_publisher.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::ModelTfPublisher::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/model_tf_publisher.cpp:103:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 6 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  103 |     [01;35m[K"Initialized with params: reference(%s, %p) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  104 | [01;35m[K    "publish_tf_world(%d) world_frame_id(%s) update_rate(%f), exclude({%s})"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  105 |     reference_body_->name_.c_str(), [32m[Kreference_body_[m[K, publish_tf_world_, world_frame_id_.c_str(),
+      |                                     [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                     [32m[K|[m[K
+      |                                     [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/model_tf_publisher.cpp:103:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  103 |     "Initialized with params: reference(%s, [01;36m[K%p[m[K) "
+      |                                             [01;36m[K~^[m[K
+      |                                              [01;36m[K|[m[K
+      |                                              [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/diff_drive.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/diff_drive.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/diff_drive.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::DiffDrive::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/diff_drive.cpp:161:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  161 |     [01;35m[K"Initialized with params body(%p %s) odom_frame_id(%s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  162 | [01;35m[K    "twist_sub(%s) odom_pub(%s) ground_truth_pub(%s) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  163 | [01;35m[K    "odom_pose_noise({%f,%f,%f}) odom_twist_noise({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  164 | [01;35m[K    "pub_rate(%f)\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~[m[K
+  165 |     [32m[Kbody_[m[K, body_->name_.c_str(), odom_frame_id.c_str(), twist_topic.c_str(), odom_topic.c_str(),
+      |     [32m[K~~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/diff_drive.cpp:161:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  161 |     "Initialized with params body([01;36m[K%p[m[K %s) odom_frame_id(%s) "
+      |                                   [01;36m[K~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Kvoid*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:[m[K In member function ‘[01m[Kvirtual float flatland_plugins::LaserCallback::ReportFixture(b2Fixture*, const b2Vec2&, const b2Vec2&, float)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:203:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 |   b2Fixture * fixture, [01;35m[Kconst b2Vec2 & point[m[K, const b2Vec2 & normal, float fraction)
+      |                        [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:203:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knormal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 |   b2Fixture * fixture, const b2Vec2 & point, [01;35m[Kconst b2Vec2 & normal[m[K, float fraction)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/laser.h:47[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:47[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:[m[K In member function ‘[01m[Kvoid flatland_plugins::Laser::ParseParameters(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:273:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 8 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  273 |     [01;35m[K"Laser %s params: topic(%s) body(%s, %p) origin(%f,%f,%f) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  274 | [01;35m[K    "frame_id(%s) broadcast_tf(%d) update_rate(%f) range(%f)  "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  275 | [01;35m[K    "noise_std_dev(%f) angle_min(%f) angle_max(%f) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  276 | [01;35m[K    "angle_increment(%f) layers(0x%u {%s})"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  277 |     GetName().c_str(), topic_.c_str(), body_name.c_str(), [32m[Kbody_[m[K, origin_.x, origin_.y,
+      |                                                           [32m[K~~~~~[m[K
+      |                                                           [32m[K|[m[K
+      |                                                           [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/laser.cpp:273:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  273 |     "Laser %s params: topic(%s) body(%s, [01;36m[K%p[m[K) origin(%f,%f,%f) "
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h:51[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/update_timer.h:50[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/include/flatland_plugins/tween.h:48[m[K,
+                 from [01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tween.cpp:48[m[K:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tween.cpp:[m[K In member function ‘[01m[Kvirtual void flatland_plugins::Tween::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tween.cpp:239:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kflatland_server::Body*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  239 |     [01;35m[K"Initialized with params body(%p %s) "[m[K
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  240 | [01;35m[K    "start ({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  241 | [01;35m[K    "end ({%f,%f,%f}) "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~[m[K
+  242 | [01;35m[K    "duration %f "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~[m[K
+  243 | [01;35m[K    "mode: %s [%d] "[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~[m[K
+  244 | [01;35m[K    "easing: %s\n"[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~[m[K
+  245 |     [32m[Kbody_[m[K, body_->name_.c_str(), start_.x, start_.y, start_.theta, delta_.x, delta_.y, delta_.theta,
+      |     [32m[K~~~~~[m[K
+      |     [32m[K|[m[K
+      |     [32m[Kflatland_server::Body*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/tween.cpp:239:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  239 |     "Initialized with params body([01;36m[K%p[m[K %s) "
+      |                                   [01;36m[K~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Kvoid*[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/world_modifier.cpp:[m[K In member function ‘[01m[Kvirtual float flatland_plugins::RayTrace::ReportFixture(b2Fixture*, const b2Vec2&, const b2Vec2&, float)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/world_modifier.cpp:72:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 |   b2Fixture * fixture, [01;35m[Kconst b2Vec2 & point[m[K, const b2Vec2 & normal, float fraction)
+      |                        [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/src/world_modifier.cpp:72:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knormal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 |   b2Fixture * fixture, const b2Vec2 & point, [01;35m[Kconst b2Vec2 & normal[m[K, float fraction)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/test/update_timer_test.cpp:[m[K In member function ‘[01m[Kvirtual void TestPlugin::OnInitialize(const YAML::Node&)[m[K’:
+[01m[K/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins/test/update_timer_test.cpp:66:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconfig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |   void OnInitialize([01;35m[Kconst YAML::Node & config[m[K) override
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

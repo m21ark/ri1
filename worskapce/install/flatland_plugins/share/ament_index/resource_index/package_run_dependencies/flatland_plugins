@@ -1,0 +1,1 @@
+libopencv-dev;pluginlib;rclcpp;std_msgs;nav_msgs;sensor_msgs;geometry_msgs;tf2;tf2_geometry_msgs;tf2_ros;yaml_cpp_vendor;flatland_msgs;flatland_server;visualization_msgs;interactive_markers;lua-dev;libboost-date-time-dev;libboost-filesystem-dev;libboost-dev

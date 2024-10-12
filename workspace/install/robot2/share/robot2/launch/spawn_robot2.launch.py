@@ -1,1 +1,0 @@
-/home/m/Desktop/S1/RI/proj1/workspace/build/robot2/launch/spawn_robot2.launch.py

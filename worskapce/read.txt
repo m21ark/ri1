@@ -1,0 +1,1 @@
+ros2 launch flatland_server server.launch world_path:=world/world.yaml
