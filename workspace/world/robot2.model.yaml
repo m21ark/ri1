@@ -9,6 +9,14 @@ bodies:
         density: 1
         layers: ["no_laser"]
 
+  - name: front
+    color: [1, 0, 1, 1]
+    footprints:
+      - type: circle
+        radius: 0.15
+        density: 1
+        layers: ["no_laser"]
+
   - name: left_wheel
     color: [1, 1, 0, 0.75]
     footprints:
@@ -54,6 +62,14 @@ joints:
       - name: base
         anchor: [0, 0.3625]
 
+  - type: weld
+    name: front_weld
+    bodies:
+      - name: front
+        anchor: [0, 0]
+      - name: base
+        anchor: [0.5, 0]
+
 plugins:
   - type: DiffDrive
     name: turtlebot_drive
@@ -70,11 +86,11 @@ plugins:
     range: 10
     angle:
       {
-        min: -3.14159265359,
-        max: 3.14159265359,
-        increment: 0.06981317007977318,
+        min: -3.141592653589793,
+        max: 3.141592653589793,
+        increment: 0.20943951023931953,
       }
-    noise_std_dev: 0.025
+    noise_std_dev: 0 # 0.025
     update_rate: 10
     layers: ["static"]
 

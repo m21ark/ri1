@@ -8,11 +8,11 @@ from geometry_msgs.msg import Twist # Need to manually include this as a depende
 from sensor_msgs.msg import LaserScan 
 
 # Constants
-MAX_ANG_SPEED = math.pi / 2
+MAX_ANG_SPEED = math.pi / 3
 MAX_LINEAR_ACC = 0.5
 IDEAL_VEL = 1.0
 IDEAL_DISTANCE = 1.5
-IDEAL_DISTANCE_TOLERANCE = 0.7
+IDEAL_DISTANCE_TOLERANCE = 0.5
 LOG_MODE = True
 
 def log(msg: str):
@@ -37,7 +37,12 @@ class Move1(Node):
         self.pub_vel(0.0, 0.0)
         exit(0)
         
+    # rotate the robot until angle with the closest object is 0    
+    # def rotateToTarget(self, angle_to_target):
+    #     self.pub_vel(0.0, clamp(angle_to_target * 0.5, MAX_ANG_SPEED))
+        
     def reactive(self, msg: LaserScan):
+        
         if all(np.isnan(msg.ranges)):
             log('The robot is too far from any object')
             self.stop()
@@ -49,39 +54,30 @@ class Move1(Node):
         # Get the index and value of the closest object
         min_hit_index = ranges.index(min(ranges))
         min_hit_distance = ranges[min_hit_index]
-        
-        # Get the angle of the closest object
         angle_to_target = msg.angle_min + min_hit_index * msg.angle_increment
         
         log(f'[CALC] Angle: {math.degrees(angle_to_target):.3f}, Distance: {min_hit_distance:.3f}')
         
-        # More aggressive corrections
+        linear_speed = 0.0
+        angular_speed = 0.0
+        
         if min_hit_distance < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
             log('The robot is too close to the object')
-            # Reduce speed significantly and increase angular correction
-            linear_speed = clamp((min_hit_distance - IDEAL_DISTANCE) * 0.3, -MAX_LINEAR_ACC / 2)  # Move away slower
-            angular_speed = -clamp(angle_to_target * 1.0, MAX_ANG_SPEED)  # Steer sharply away
-        
+            angular_speed = -clamp(angle_to_target * 0.5, MAX_ANG_SPEED)
+            linear_speed = 0.35
         elif min_hit_distance > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
             log('The robot is too far from the object')
-            # Maintain a faster speed but ensure the angle correction isn't too aggressive
-            linear_speed = clamp((min_hit_distance - IDEAL_DISTANCE) * 0.5, MAX_LINEAR_ACC)  # Move towards
-            angular_speed = clamp(angle_to_target * 0.5, MAX_ANG_SPEED)  # Steer towards but not too sharply
-        
+            angular_speed = clamp(angle_to_target* 0.5, MAX_ANG_SPEED)
+            linear_speed = 0.35
         else:
             log('The robot is at the ideal distance')
-            # Maintain constant speed and steer slightly to keep following the object
-            linear_speed = IDEAL_VEL  # Constant speed
-            angular_speed = -clamp(angle_to_target * 0.05, MAX_ANG_SPEED)  # Gentle correction for small drift
-        
+            linear_speed = IDEAL_VEL
+            angular_speed = clamp(angle_to_target * 0.5, MAX_ANG_SPEED)
+            
         log(f'[PUB] Angle Speed: {angular_speed:.3f}, Linear Speed: {linear_speed:.3f}')
         
-        # Publish the velocity
         self.pub_vel(linear_speed, angular_speed)
-
-
-        
-        
+            
     def pub_vel(self, linear, angular):
         msg = Twist()
         try:
