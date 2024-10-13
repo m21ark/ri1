@@ -1,8 +1,0 @@
-source;share/flatland/hook/cmake_prefix_path.ps1
-source;share/flatland/hook/cmake_prefix_path.dsv
-source;share/flatland/hook/cmake_prefix_path.sh
-source;share/flatland/local_setup.bash
-source;share/flatland/local_setup.dsv
-source;share/flatland/local_setup.ps1
-source;share/flatland/local_setup.sh
-source;share/flatland/local_setup.zsh
