@@ -1,0 +1,18 @@
+[2.138s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot2 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log --single-version-externally-managed install_data
+[2.757s] running egg_info
+[2.782s] writing ../../build/robot2/robot2.egg-info/PKG-INFO
+[2.782s] writing dependency_links to ../../build/robot2/robot2.egg-info/dependency_links.txt
+[2.783s] writing requirements to ../../build/robot2/robot2.egg-info/requires.txt
+[2.783s] writing top-level names to ../../build/robot2/robot2.egg-info/top_level.txt
+[4.458s] writing manifest file '../../build/robot2/robot2.egg-info/SOURCES.txt'
+[4.458s] running build
+[4.459s] running build_py
+[4.459s] running install
+[4.472s] running install_lib
+[4.499s] running install_data
+[4.499s] running install_egg_info
+[4.522s] removing '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2-0.0.0-py3.10.egg-info' (and everything under it)
+[4.523s] Copying ../../build/robot2/robot2.egg-info to /home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages/robot2-0.0.0-py3.10.egg-info
+[4.524s] running install_scripts
+[4.615s] writing list of installed files to '/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log'
+[4.673s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2' returned '0': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot2 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log --single-version-externally-managed install_data
