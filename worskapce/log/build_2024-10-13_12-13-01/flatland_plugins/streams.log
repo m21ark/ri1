@@ -1,0 +1,64 @@
+[0.025s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins -- -j8 -l8
+[0.114s] [  6%] Built target gtest_main
+[0.122s] [ 12%] Built target gtest
+[0.189s] [ 50%] Built target flatland_plugins_lib
+[0.308s] [ 56%] Built target tricycle_drive_test
+[0.312s] [ 62%] Built target model_tf_publisher_test
+[0.316s] [ 68%] Built target diff_drive_test
+[0.334s] [ 75%] Built target tween_test
+[0.338s] [ 81%] Built target gps_test
+[0.347s] [ 87%] Built target bumper_test
+[0.358s] [ 93%] Built target laser_test
+[0.405s] [100%] Built target update_timer_test
+[0.428s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins -- -j8 -l8
+[0.529s] Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins
+[0.542s] -- Install configuration: ""
+[0.543s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/library_path.sh
+[0.543s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/library_path.dsv
+[0.543s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/plugin_description.xml
+[0.543s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib/libflatland_plugins_lib.so
+[0.544s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include
+[0.544s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty
+[0.544s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny
+[0.545s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/easingresolve.h
+[0.545s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/tweenpoint.h
+[0.545s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/tweentraits.h
+[0.545s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/tween.h
+[0.546s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/int2type.h
+[0.546s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/dispatcher.h
+[0.546s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/tweeny.h
+[0.546s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/tweeny/easing.h
+[0.547s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/thirdparty/ThreadPool.h
+[0.547s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins
+[0.547s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/bumper.h
+[0.547s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/world_random_wall.h
+[0.547s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/tween.h
+[0.548s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/update_timer.h
+[0.548s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/world_modifier.h
+[0.548s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/gps.h
+[0.548s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/model_tf_publisher.h
+[0.548s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/diff_drive.h
+[0.549s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/bool_sensor.h
+[0.549s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/tricycle_drive.h
+[0.550s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/include/flatland_plugins/laser.h
+[0.552s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/ament_index/resource_index/package_run_dependencies/flatland_plugins
+[0.552s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/ament_index/resource_index/parent_prefix_path/flatland_plugins
+[0.552s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/ament_prefix_path.sh
+[0.553s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/ament_prefix_path.dsv
+[0.553s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/path.sh
+[0.553s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/environment/path.dsv
+[0.554s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/local_setup.bash
+[0.554s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/local_setup.sh
+[0.554s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/local_setup.zsh
+[0.554s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/local_setup.dsv
+[0.560s] -- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.dsv
+[0.560s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/ament_index/resource_index/packages/flatland_plugins
+[0.561s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/ament_index/resource_index/flatland_server__pluginlib__plugin/flatland_plugins
+[0.561s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/export_flatland_plugins_libExport.cmake
+[0.561s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/export_flatland_plugins_libExport-noconfig.cmake
+[0.562s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[0.562s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.563s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/flatland_pluginsConfig.cmake
+[0.564s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/cmake/flatland_pluginsConfig-version.cmake
+[0.565s] -- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.xml
+[0.566s] Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins

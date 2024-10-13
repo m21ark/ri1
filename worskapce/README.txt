@@ -1,3 +1,10 @@
+## Execute Command
+
+> ros2 launch robot1 map.launch.py
+
+
+### Alternative Manual Way
+
 Terminal 1:
 
 > ros2 launch flatland_server server.launch world_path:=world/world.yaml

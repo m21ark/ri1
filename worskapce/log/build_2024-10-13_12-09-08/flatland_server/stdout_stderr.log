@@ -1,0 +1,82 @@
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 12%] Built target flatland_server_null_test
+[ 56%] Built target flatland_lib
+[ 64%] Built target model_test
+[ 64%] Built target flatland_server
+[ 68%] Built target geometry_test
+[ 72%] Built target load_world_test
+[ 78%] Built target collision_filter_registry_test
+[ 80%] Built target plugin_manager_test
+[ 88%] Built target dummy_world_plugin_test
+[ 88%] Built target yaml_preprocessor_test
+[ 92%] Built target dummy_model_plugin_test
+[ 96%] Built target debug_visualization_test
+[100%] Built target service_manager_test
+-- Install configuration: ""
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/library_path.sh
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/library_path.dsv
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/plugin_description.xml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/libflatland_lib.so
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/flatland_server/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/dummy_world_plugin.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/world.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/dummy_model_plugin.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/layer.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/timekeeper.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/interactive_marker_manager.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/model_plugin.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/service_manager.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/yaml_preprocessor.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/debug_visualization.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/body.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/flatland_plugin.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/types.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/simulation_manager.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/joint.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/yaml_reader.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/model_body.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/geometry.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/exceptions.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/plugin_manager.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/collision_filter_registry.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/entity.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/world_plugin.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/include/flatland_server/model.h
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server//launch
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server//launch/server.launch
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server//launch/server.launch.py
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/sensor.model.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/map3d.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/walker.model.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/map3d.png
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/map.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/cleaner.model.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/turtlebot.model.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/map.png
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/test/conestogo_office_test/world.yaml
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/ament_index/resource_index/package_run_dependencies/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/ament_index/resource_index/parent_prefix_path/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/ament_prefix_path.sh
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/path.sh
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/environment/path.dsv
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/local_setup.bash
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/local_setup.sh
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/local_setup.zsh
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/local_setup.dsv
+-- Installing: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.dsv
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/ament_index/resource_index/packages/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/ament_index/resource_index/flatland_server__pluginlib__plugin/flatland_server
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/export_flatland_libExport.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/export_flatland_libExport-noconfig.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/flatland_serverConfig.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/cmake/flatland_serverConfig-version.cmake
+-- Up-to-date: /home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.xml

@@ -1,0 +1,728 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff9fd609450>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff9fd779b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff9fd779b10>>)
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.555s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/m/Desktop/S1/RI/proj1/worskapce'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'ros'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['cmake', 'python']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/_static) by extension 'python_setup_py'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'ros'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['cmake', 'python']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'cmake'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'python'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extensions ['python_setup_py']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/core_functions) by extension 'python_setup_py'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/doxygen) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/flatland_tutorials) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['cmake', 'python']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'cmake'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'python'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extensions ['python_setup_py']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/docs/included_plugins) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland' with type 'ros.ament_cmake' and name 'flatland'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_box2d) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland_box2d' with type 'ros.ament_cmake' and name 'flatland_box2d'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_msgs) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland_msgs' with type 'ros.ament_cmake' and name 'flatland_msgs'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_plugins) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland_plugins' with type 'ros.ament_cmake' and name 'flatland_plugins'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_rviz_plugins) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland_rviz_plugins' with type 'ros.ament_cmake' and name 'flatland_rviz_plugins'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_server) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'flatland/flatland_server' with type 'ros.ament_cmake' and name 'flatland_server'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_viz) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/flatland_viz) ignored
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(flatland/scripts) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot1' with type 'ros.ament_python' and name 'robot1'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot2) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot2' with type 'ros.ament_python' and name 'robot2'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/m/Desktop/S1/RI/proj1/worskapce/install
+[0.654s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_target' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.714s] Level 5:colcon.colcon_core.verb:set package 'flatland_box2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.714s] DEBUG:colcon.colcon_core.verb:Building package 'flatland_box2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_box2d', 'symlink_install': False, 'test_result_base': None}
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_target' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'flatland_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.715s] DEBUG:colcon.colcon_core.verb:Building package 'flatland_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'robot1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'robot1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/robot1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot1', 'symlink_install': False, 'test_result_base': None}
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_target' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'robot2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'robot2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2', 'symlink_install': False, 'test_result_base': None}
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'flatland' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'flatland' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'flatland_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'flatland_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'flatland_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'flatland_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'flatland_rviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'flatland_rviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins', 'merge_install': False, 'path': '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_rviz_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.721s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs' with build type 'ament_cmake'
+[0.723s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_msgs'
+[0.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_box2d' with build type 'ament_cmake'
+[0.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_box2d'
+[0.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.738s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot1' with build type 'ament_python'
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1', 'ament_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/ament_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/ament_prefix_path.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/ament_prefix_path.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.748s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2' with build type 'ament_python'
+[0.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot2', 'ament_prefix_path')
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/ament_prefix_path.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/ament_prefix_path.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/ament_prefix_path.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs -- -j8 -l8
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d -- -j8 -l8
+[1.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot1'
+[1.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.984s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2'
+[1.985s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d -- -j8 -l8
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d
+[2.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_box2d)
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d' for CMake module files
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d' for CMake config files
+[2.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_box2d', 'cmake_prefix_path')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.dsv'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.sh'
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib'
+[2.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_box2d', 'ld_library_path_lib')
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.sh'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/bin'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib/pkgconfig/flatland_box2d.pc'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib/python3.10/site-packages'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/bin'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.dsv'
+[2.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.sh'
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_box2d
+[2.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.bash'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.zsh'
+[2.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/colcon-core/packages/flatland_box2d)
+[2.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_box2d)
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d' for CMake module files
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d' for CMake config files
+[2.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_box2d', 'cmake_prefix_path')
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.ps1'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.dsv'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/cmake_prefix_path.sh'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib'
+[2.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_box2d', 'ld_library_path_lib')
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/hook/ld_library_path_lib.sh'
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/bin'
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib/pkgconfig/flatland_box2d.pc'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib/python3.10/site-packages'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/bin'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.ps1'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.sh'
+[2.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.bash'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/flatland_box2d/package.zsh'
+[2.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/share/colcon-core/packages/flatland_box2d)
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot2 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log --single-version-externally-managed install_data
+[3.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot1': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot1 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/install.log --single-version-externally-managed install_data
+[3.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs -- -j8 -l8
+[3.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs
+[3.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_msgs)
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs' for CMake module files
+[3.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_msgs
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs' for CMake config files
+[3.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_msgs', 'cmake_prefix_path')
+[3.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.dsv'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.sh'
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib'
+[3.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_msgs', 'ld_library_path_lib')
+[3.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.dsv'
+[3.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.sh'
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/bin'
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/pkgconfig/flatland_msgs.pc'
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/python3.10/site-packages'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/bin'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.ps1'
+[3.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.dsv'
+[3.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.sh'
+[3.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.bash'
+[3.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.zsh'
+[3.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/colcon-core/packages/flatland_msgs)
+[3.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_msgs)
+[3.802s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs' for CMake module files
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs' for CMake config files
+[3.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_msgs', 'cmake_prefix_path')
+[3.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.ps1'
+[3.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.dsv'
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/cmake_prefix_path.sh'
+[3.809s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib'
+[3.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_msgs', 'ld_library_path_lib')
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.ps1'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.dsv'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/hook/ld_library_path_lib.sh'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/bin'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/pkgconfig/flatland_msgs.pc'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib/python3.10/site-packages'
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/bin'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.ps1'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.dsv'
+[3.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.sh'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.bash'
+[3.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.zsh'
+[3.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/colcon-core/packages/flatland_msgs)
+[3.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server' with build type 'ament_cmake'
+[3.820s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_server'
+[3.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland' with build type 'ament_cmake'
+[3.828s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland'
+[3.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server -- -j8 -l8
+[3.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland -- -j8 -l8
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland -- -j8 -l8
+[3.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland
+[3.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland)
+[3.952s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland' for CMake module files
+[3.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland' for CMake config files
+[3.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland', 'cmake_prefix_path')
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.dsv'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/bin'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/lib/pkgconfig/flatland.pc'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/lib/python3.10/site-packages'
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/bin'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.ps1'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.dsv'
+[3.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.sh'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.bash'
+[3.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.zsh'
+[3.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/colcon-core/packages/flatland)
+[3.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland)
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland' for CMake module files
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland' for CMake config files
+[3.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland', 'cmake_prefix_path')
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/hook/cmake_prefix_path.sh'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/bin'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/lib/pkgconfig/flatland.pc'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/lib/python3.10/site-packages'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/bin'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.ps1'
+[4.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.dsv'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.sh'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.bash'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/flatland/package.zsh'
+[4.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland/share/colcon-core/packages/flatland)
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server -- -j8 -l8
+[4.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server
+[4.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_server)
+[4.340s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server' for CMake module files
+[4.343s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server' for CMake config files
+[4.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_server
+[4.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_server', 'cmake_prefix_path')
+[4.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.ps1'
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.dsv'
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.sh'
+[4.347s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib'
+[4.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_server', 'ld_library_path_lib')
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.ps1'
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.dsv'
+[4.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.sh'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/bin'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/pkgconfig/flatland_server.pc'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/python3.10/site-packages'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/bin'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.ps1'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.dsv'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.sh'
+[4.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.bash'
+[4.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.zsh'
+[4.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/colcon-core/packages/flatland_server)
+[4.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_server)
+[4.501s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server' for CMake module files
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server' for CMake config files
+[4.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_server', 'cmake_prefix_path')
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.ps1'
+[4.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.dsv'
+[4.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/cmake_prefix_path.sh'
+[4.506s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib'
+[4.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_server', 'ld_library_path_lib')
+[4.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.ps1'
+[4.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.dsv'
+[4.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/hook/ld_library_path_lib.sh'
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/bin'
+[4.510s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/pkgconfig/flatland_server.pc'
+[4.510s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib/python3.10/site-packages'
+[4.511s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/bin'
+[4.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.ps1'
+[4.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.dsv'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.sh'
+[4.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.bash'
+[4.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/flatland_server/package.zsh'
+[4.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/share/colcon-core/packages/flatland_server)
+[4.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins' with build type 'ament_cmake'
+[4.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_plugins'
+[4.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_rviz_plugins' with build type 'ament_cmake'
+[4.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/m/Desktop/S1/RI/proj1/worskapce/flatland/flatland_rviz_plugins'
+[4.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins -- -j8 -l8
+[4.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins -- -j8 -l8
+[4.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins -- -j8 -l8
+[4.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins -- -j8 -l8
+[4.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins
+[4.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_rviz_plugins)
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins' for CMake module files
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins' for CMake config files
+[4.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_rviz_plugins
+[4.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_rviz_plugins', 'cmake_prefix_path')
+[4.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.ps1'
+[4.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.dsv'
+[4.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.sh'
+[4.917s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib'
+[4.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_rviz_plugins', 'ld_library_path_lib')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.dsv'
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.sh'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/bin'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib/pkgconfig/flatland_rviz_plugins.pc'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib/python3.10/site-packages'
+[4.921s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/bin'
+[4.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.ps1'
+[4.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.dsv'
+[4.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.sh'
+[4.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.bash'
+[4.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.zsh'
+[4.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/colcon-core/packages/flatland_rviz_plugins)
+[4.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_rviz_plugins)
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins' for CMake module files
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins' for CMake config files
+[4.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_rviz_plugins', 'cmake_prefix_path')
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.ps1'
+[4.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.dsv'
+[4.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/cmake_prefix_path.sh'
+[4.991s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib'
+[4.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_rviz_plugins', 'ld_library_path_lib')
+[4.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.ps1'
+[4.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.dsv'
+[4.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/hook/ld_library_path_lib.sh'
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/bin'
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib/pkgconfig/flatland_rviz_plugins.pc'
+[4.995s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib/python3.10/site-packages'
+[4.995s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/bin'
+[4.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.ps1'
+[4.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.dsv'
+[4.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.sh'
+[4.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.bash'
+[4.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/flatland_rviz_plugins/package.zsh'
+[5.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/share/colcon-core/packages/flatland_rviz_plugins)
+[5.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins
+[5.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_plugins)
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins' for CMake module files
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins' for CMake config files
+[5.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins' returned '0': CMAKE_PREFIX_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1:/opt/ros/humble LD_LIBRARY_PATH=/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_server/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_box2d/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_rviz_plugins/lib:/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/m/Desktop/S1/RI/proj1/worskapce/build/flatland_plugins
+[5.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_plugins', 'cmake_prefix_path')
+[5.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.ps1'
+[5.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.dsv'
+[5.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.sh'
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib'
+[5.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_plugins', 'ld_library_path_lib')
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.ps1'
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.dsv'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.sh'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/bin'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib/pkgconfig/flatland_plugins.pc'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib/python3.10/site-packages'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/bin'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.sh'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.bash'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.zsh'
+[5.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/colcon-core/packages/flatland_plugins)
+[5.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flatland_plugins)
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins' for CMake module files
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins' for CMake config files
+[5.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_plugins', 'cmake_prefix_path')
+[5.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.ps1'
+[5.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.dsv'
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/cmake_prefix_path.sh'
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib'
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('flatland_plugins', 'ld_library_path_lib')
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.dsv'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/hook/ld_library_path_lib.sh'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/bin'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib/pkgconfig/flatland_plugins.pc'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/lib/python3.10/site-packages'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/bin'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.ps1'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.dsv'
+[5.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.sh'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.bash'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/flatland_plugins/package.zsh'
+[5.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_plugins/share/colcon-core/packages/flatland_plugins)
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2' for CMake module files
+[5.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot2' returned '0': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot2 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot2/install.log --single-version-externally-managed install_data
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2' for CMake config files
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib'
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/bin'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/pkgconfig/robot2.pc'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/lib/python3.10/site-packages'
+[5.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot2', 'pythonpath')
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/pythonpath.ps1'
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/pythonpath.dsv'
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/hook/pythonpath.sh'
+[5.898s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/bin'
+[5.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot2)
+[5.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/package.ps1'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/package.dsv'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/package.sh'
+[5.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/package.bash'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/robot2/package.zsh'
+[5.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/robot2/share/colcon-core/packages/robot2)
+[5.951s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1' for CMake module files
+[5.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/m/Desktop/S1/RI/proj1/worskapce/src/robot1' returned '0': PYTHONPATH=/home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot1 build --build-base /home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/build install --record /home/m/Desktop/S1/RI/proj1/worskapce/build/robot1/install.log --single-version-externally-managed install_data
+[5.953s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1' for CMake config files
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/lib'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/bin'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/lib/pkgconfig/robot1.pc'
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/lib/python3.10/site-packages'
+[5.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1', 'pythonpath')
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/pythonpath.ps1'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/pythonpath.dsv'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/hook/pythonpath.sh'
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/bin'
+[5.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot1)
+[5.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/package.ps1'
+[5.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/package.dsv'
+[5.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/package.sh'
+[5.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/package.bash'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/robot1/package.zsh'
+[5.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/m/Desktop/S1/RI/proj1/worskapce/install/robot1/share/colcon-core/packages/robot1)
+[5.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.973s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.976s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/m/Desktop/S1/RI/proj1/worskapce/install/local_setup.ps1'
+[5.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/m/Desktop/S1/RI/proj1/worskapce/install/_local_setup_util_ps1.py'
+[5.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/m/Desktop/S1/RI/proj1/worskapce/install/setup.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/m/Desktop/S1/RI/proj1/worskapce/install/local_setup.sh'
+[5.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/m/Desktop/S1/RI/proj1/worskapce/install/_local_setup_util_sh.py'
+[5.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/m/Desktop/S1/RI/proj1/worskapce/install/setup.sh'
+[5.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/m/Desktop/S1/RI/proj1/worskapce/install/local_setup.bash'
+[5.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/m/Desktop/S1/RI/proj1/worskapce/install/setup.bash'
+[5.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/m/Desktop/S1/RI/proj1/worskapce/install/local_setup.zsh'
+[5.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/m/Desktop/S1/RI/proj1/worskapce/install/setup.zsh'
