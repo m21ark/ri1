@@ -21,7 +21,7 @@ Two Simple Reactive Robots:
 
 **Environment:** 
 
-![env](env.png)
+![env](docs/env.png)
 
 **Teacher recomendations:** 
 

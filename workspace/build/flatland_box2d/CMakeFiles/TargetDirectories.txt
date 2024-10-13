@@ -1,0 +1,10 @@
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/uninstall.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/flatland_box2d_uninstall.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/flatland_box2d_lib.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/test.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/edit_cache.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/rebuild_cache.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/list_install_components.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/install.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/install/local.dir
+/home/m/Desktop/S1/RI/proj1/workspace/build/flatland_box2d/CMakeFiles/install/strip.dir

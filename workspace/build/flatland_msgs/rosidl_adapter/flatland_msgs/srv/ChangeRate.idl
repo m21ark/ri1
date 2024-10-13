@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatland_msgs/srv/ChangeRate.srv
+// generated code does not contain a copyright notice
+
+
+module flatland_msgs {
+  module srv {
+    struct ChangeRate_Request {
+      double rate;
+    };
+    struct ChangeRate_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

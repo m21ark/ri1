@@ -1,0 +1,10 @@
+properties: {}
+layers:
+  - name: ["static", "no_laser"]
+    map: "map.yaml"
+    color: [0.6, 0.6, 0.6, 1]
+models:
+  - name: robot1
+    model: "robot1.model.yaml"
+  - name: robot2
+    model: "robot2.model.yaml"

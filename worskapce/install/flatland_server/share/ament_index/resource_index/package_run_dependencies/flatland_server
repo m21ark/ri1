@@ -1,1 +1,0 @@
-libopencv-dev;pluginlib;rclcpp;std_msgs;std_srvs;tf2;tf2_geometry_msgs;tf2_ros;geometry_msgs;sensor_msgs;yaml_cpp_vendor;visualization_msgs;interactive_markers;flatland_msgs;lua-dev;libboost-date-time-dev;libboost-filesystem-dev;libboost-dev;flatland_box2d;ament_cmake_gtest;ament_lint_auto

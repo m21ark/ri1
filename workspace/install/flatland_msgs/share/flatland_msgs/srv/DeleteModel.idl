@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatland_msgs/srv/DeleteModel.srv
+// generated code does not contain a copyright notice
+
+
+module flatland_msgs {
+  module srv {
+    struct DeleteModel_Request {
+      string name;
+    };
+    struct DeleteModel_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

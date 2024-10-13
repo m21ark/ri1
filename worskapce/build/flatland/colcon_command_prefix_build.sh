@@ -1,2 +1,0 @@
-# generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/m/Desktop/S1/RI/proj1/worskapce/install/flatland_msgs/share/flatland_msgs/package.sh"

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/robot1/robot1.egg-info/PKG-INFO
+../../build/robot1/robot1.egg-info/SOURCES.txt
+../../build/robot1/robot1.egg-info/dependency_links.txt
+../../build/robot1/robot1.egg-info/requires.txt
+../../build/robot1/robot1.egg-info/top_level.txt
+../../build/robot1/robot1.egg-info/zip-safe
+launch/map.launch.py
+resource/robot1
+robot1/__init__.py
+robot1/move.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

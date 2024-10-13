@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatland_msgs/msg/Vector2.msg
+// generated code does not contain a copyright notice
+
+
+module flatland_msgs {
+  module msg {
+    struct Vector2 {
+      double x;
+
+      double y;
+    };
+  };
+};

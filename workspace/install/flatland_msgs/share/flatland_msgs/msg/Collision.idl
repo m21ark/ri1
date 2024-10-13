@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatland_msgs/msg/Collision.msg
+// generated code does not contain a copyright notice
+
+#include "flatland_msgs/msg/Vector2.idl"
+
+module flatland_msgs {
+  module msg {
+    struct Collision {
+      string entity_a;
+
+      string body_a;
+
+      string entity_b;
+
+      string body_b;
+
+      sequence<double> magnitude_forces;
+
+      sequence<flatland_msgs::msg::Vector2> contact_positions;
+
+      sequence<flatland_msgs::msg::Vector2> contact_normals;
+    };
+  };
+};
