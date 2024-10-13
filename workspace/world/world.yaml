@@ -6,5 +6,6 @@ layers:
 models:
   - name: robot1
     model: "robot1.model.yaml"
-  - name: robot2
-    model: "robot2.model.yaml"
+    pose: [0, -3, 0]
+  # - name: robot2
+  #   model: "robot2.model.yaml"
