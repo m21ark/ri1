@@ -3,13 +3,13 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist # Need to manually include this as a dependency in package.xml
 
-class Move1(Node):
+class Move2(Node):
     def __init__(self):
-        super().__init__('move1')
+        super().__init__('move2')
 
         # Create a publisher
         # The arguments are: message_type, topic_name, queue_size
-        self.cmv_vel_pub = self.create_publisher(Twist, '/cmd_vel1', 10)
+        self.cmv_vel_pub = self.create_publisher(Twist, '/cmd_vel2', 10)
 
         # Create a timer calling send_vel_cmd func with 0.5 seconds interval
         self.timer_ = self.create_timer(0.5, self.send_vel_cmd)
@@ -17,7 +17,7 @@ class Move1(Node):
     def send_vel_cmd(self):
         # Create a Twist message
         vel_msg = Twist()
-        vel_msg.linear.x = 1.0
+        vel_msg.linear.x = -1.0
         vel_msg.angular.z = 0.0
 
         # Publish the message
@@ -26,7 +26,7 @@ class Move1(Node):
 
 def main(args=None):
     rclpy.init(args=args) # Initialize ROS2
-    node = Move1() # Create a node
+    node = Move2() # Create a node
     rclpy.spin(node) # Keep the node running
     rclpy.shutdown() # Shutdown ROS2
 
