@@ -1,53 +1,58 @@
 bodies:
-
   - name: base
     enabled: true
     type: dynamic
-    color: [0, 0, 1, 0.6]
+    color: [1, 0, 0, 0.6]
     footprints:
       - type: circle
-        radius: 0.09
+        radius: 0.45
         density: 1
         layers: ["no_laser"]
 
   - name: left_wheel
-    color: [1, 1, 0, 0.75] 
+    color: [1, 1, 0, 0.75]
     footprints:
       - type: polygon
         density: 1.0
         layers: ["no_laser"]
-        points: [ [ -0.035, -0.0125],
-                  [ 0.035,  -0.0125],
-                  [ 0.035, 0.0125],
-                  [ -0.035, 0.0125] ]
+        points:
+          [
+            [-0.175, -0.0625],
+            [0.175, -0.0625],
+            [0.175, 0.0625],
+            [-0.175, 0.0625],
+          ]
 
   - name: right_wheel
-    color: [1, 1, 0, 0.75] 
+    color: [1, 1, 0, 0.75]
     footprints:
       - type: polygon
         density: 1.0
         layers: ["no_laser"]
-        points: [ [ -0.035, -0.0125],
-                  [ 0.035,  -0.0125],
-                  [ 0.035, 0.0125],
-                  [ -0.035, 0.0125] ]
+        points:
+          [
+            [-0.175, -0.0625],
+            [0.175, -0.0625],
+            [0.175, 0.0625],
+            [-0.175, 0.0625],
+          ]
 
-joints: 
+joints:
   - type: weld
     name: left_wheel_weld
-    bodies: 
+    bodies:
       - name: left_wheel
         anchor: [0, 0]
       - name: base
-        anchor: [0, -0.0725]
+        anchor: [0, -0.3625]
 
   - type: weld
-    name: right_wheel_weld  
-    bodies: 
+    name: right_wheel_weld
+    bodies:
       - name: right_wheel
         anchor: [0, 0]
       - name: base
-        anchor: [0, 0.0725]
+        anchor: [0, 0.3625]
 
 plugins:
   - type: DiffDrive
@@ -63,12 +68,16 @@ plugins:
     broadcast_tf: true
     origin: [0.0, 0.0, 0.0]
     range: 10
-    angle: {min: -3.14159265359, max: 3.14159265359, increment: 0.06981317007977318}
-    noise_std_dev: 0.015
+    angle:
+      {
+        min: -3.14159265359,
+        max: 3.14159265359,
+        increment: 0.06981317007977318,
+      }
+    noise_std_dev: 0.025
     update_rate: 10
     layers: ["static"]
 
   - type: ModelTfPublisher
     name: tf_publisher
     publish_tf_world: false
-

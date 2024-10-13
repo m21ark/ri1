@@ -1,7 +1,11 @@
 ## Execute Command
 
-> ros2 launch robot1 map.launch.py
+> ros2 launch robots map.launch.py
 
+### To move robots
+
+> ros2 run robots move1
+> ros2 run robots move2
 
 ### Alternative Manual Way
 
@@ -21,7 +25,6 @@ Terminal 4:
 
 > ros2 lifecycle set /map_server configure
 > ros2 lifecycle set /map_server activate
-> ros2 topic echo /map
 
 Terminal 5:
 
