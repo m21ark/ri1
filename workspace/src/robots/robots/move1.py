@@ -8,9 +8,9 @@ from geometry_msgs.msg import Twist # Need to manually include this as a depende
 from sensor_msgs.msg import LaserScan 
 
 # Constants
-MAX_ANG_SPEED = math.pi / 3
-MAX_LINEAR_ACC = 0.5
-IDEAL_VEL = 1.0
+MAX_ANG_SPEED = 2 * math.pi / 3
+MAX_LINEAR_ACC = 2
+IDEAL_VEL = 1.5
 IDEAL_DISTANCE = 1.5
 IDEAL_DISTANCE_TOLERANCE = 0.5
 LOG_MODE = True
@@ -65,26 +65,33 @@ class Move1(Node):
         # Condition 2: Detecting a curve based on right-front distance being less than right distance
         elif right_front_distance < right_distance:
             log('Detected curve to the right, adjusting to follow the curve.')
-            angular_speed = clamp(0.8 * (right_distance - right_front_distance), MAX_ANG_SPEED)  # Turn to follow the curve
-            linear_speed = 0.2  # Slow down during curve following
+            angular_speed = clamp((right_distance - right_front_distance), MAX_ANG_SPEED)  # Turn to follow the curve
+            linear_speed = 0.7 * IDEAL_VEL  # Slow down during curve following
         
         # Condition 3: If too far from the wall on the right, turn right to get closer
         elif right_distance > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
             log('Too far from the wall, turning right.')
-            angular_speed = -clamp(0.5 * (right_distance - IDEAL_DISTANCE), MAX_ANG_SPEED)  # Turn right
-            linear_speed = 0.3  # Move forward slowly
+            angular_speed = -clamp((right_distance - IDEAL_DISTANCE), MAX_ANG_SPEED)  # Turn right
+            linear_speed = 0.5  * IDEAL_VEL # Move forward slowly
         
         # Condition 4: If too close to the wall on the right, turn left to move away
         elif right_distance < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
             log('Too close to the wall, turning left.')
             angular_speed = clamp(0.5 * (IDEAL_DISTANCE - right_distance), MAX_ANG_SPEED)  # Turn left
-            linear_speed = 0.2  # Move forward slowly
+            linear_speed = 0.5 * IDEAL_VEL # Move forward slowly
         
         # Condition 5: Ideal distance, move forward parallel to the wall
         else:
-            log('At ideal distance, moving forward.')
-            angular_speed = 0.0  # No need to turn
+            log('At ideal distance, making small adjustments to stay on track.')
+            # Small angular adjustment to maintain the ideal distance
+            angular_correction = 0.2 * (IDEAL_DISTANCE - right_distance)
+            angular_speed = clamp(angular_correction, MAX_ANG_SPEED)
             linear_speed = IDEAL_VEL  # Move at the ideal velocity
+            
+            
+        linear_speed = clamp(linear_speed, MAX_LINEAR_ACC)
+        if linear_speed < 0.2:
+            linear_speed = 0.2
 
         log(f'[PUB] Angular Speed: {angular_speed:.3f}, Linear Speed: {linear_speed:.3f}')
         
@@ -96,8 +103,8 @@ class Move1(Node):
     def pub_vel(self, linear, angular):
         msg = Twist()
         try:
-            msg.linear.x = linear
-            msg.angular.z = angular
+            msg.linear.x = float(linear)
+            msg.angular.z = float(angular)
         except:
             log('[Error]: Publishing velocity')
             

@@ -1,5 +1,5 @@
 bodies:
-  - name: base
+  - name: base2
     enabled: true
     type: dynamic
     color: [1, 0, 0, 0.6]
@@ -51,7 +51,7 @@ joints:
     bodies:
       - name: left_wheel
         anchor: [0, 0]
-      - name: base
+      - name: base2
         anchor: [0, -0.3625]
 
   - type: weld
@@ -59,7 +59,7 @@ joints:
     bodies:
       - name: right_wheel
         anchor: [0, 0]
-      - name: base
+      - name: base2
         anchor: [0, 0.3625]
 
   - type: weld
@@ -67,20 +67,20 @@ joints:
     bodies:
       - name: front
         anchor: [0, 0]
-      - name: base
+      - name: base2
         anchor: [0.5, 0]
 
 plugins:
   - type: DiffDrive
     name: turtlebot_drive
-    body: base
+    body: base2
     twist_sub: cmd_vel2
 
   - type: Laser
     name: static_laser
     frame: static_laser_link
     topic: static_laser
-    body: base
+    body: base2
     broadcast_tf: true
     origin: [0.0, 0.0, 0.0]
     range: 10
@@ -93,7 +93,3 @@ plugins:
     noise_std_dev: 0 # 0.025
     update_rate: 10
     layers: ["static"]
-
-  - type: ModelTfPublisher
-    name: tf_publisher
-    publish_tf_world: false
