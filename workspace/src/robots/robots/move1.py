@@ -37,46 +37,61 @@ class Move1(Node):
         self.pub_vel(0.0, 0.0)
         exit(0)
         
-    # rotate the robot until angle with the closest object is 0    
-    # def rotateToTarget(self, angle_to_target):
-    #     self.pub_vel(0.0, clamp(angle_to_target * 0.5, MAX_ANG_SPEED))
-        
     def reactive(self, msg: LaserScan):
-        
-        if all(np.isnan(msg.ranges)):
-            log('The robot is too far from any object')
-            self.stop()
-            return
-        
         # Replace NaN values with infinity
         ranges = [x if not np.isnan(x) else float('inf') for x in msg.ranges]
         
-        # Get the index and value of the closest object
-        min_hit_index = ranges.index(min(ranges))
-        min_hit_distance = ranges[min_hit_index]
-        angle_to_target = msg.angle_min + min_hit_index * msg.angle_increment
+        # We'll follow the wall on the right-hand side (you can adjust this for left-hand)
+        front_index = len(ranges) // 2  # Front of the robot
+        right_index = len(ranges) // 4  # Right side of the robot
+        right_front_index = len(ranges) // 3  # Forward-right to detect upcoming curves
+
+        front_distance = ranges[front_index]
+        right_distance = ranges[right_index]
+        right_front_distance = ranges[right_front_index]
         
-        log(f'[CALC] Angle: {math.degrees(angle_to_target):.3f}, Distance: {min_hit_distance:.3f}')
-        
+        log(f'[SENSOR] Front Distance: {front_distance:.3f}, Right Distance: {right_distance:.3f}, Right-Front Distance: {right_front_distance:.3f}')
+
+        # Variables to hold our desired speeds
         linear_speed = 0.0
         angular_speed = 0.0
+
+        # Condition 1: If there is a wall directly in front, turn left to avoid collision
+        if front_distance < IDEAL_DISTANCE:
+            log('Obstacle detected in front, turning left.')
+            angular_speed = MAX_ANG_SPEED  # Turn left
+            linear_speed = 0.0  # Stop forward movement
         
-        if min_hit_distance < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
-            log('The robot is too close to the object')
-            angular_speed = -clamp(angle_to_target * 0.5, MAX_ANG_SPEED)
-            linear_speed = 0.35
-        elif min_hit_distance > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
-            log('The robot is too far from the object')
-            angular_speed = clamp(angle_to_target* 0.5, MAX_ANG_SPEED)
-            linear_speed = 0.35
+        # Condition 2: Detecting a curve based on right-front distance being less than right distance
+        elif right_front_distance < right_distance:
+            log('Detected curve to the right, adjusting to follow the curve.')
+            angular_speed = clamp(0.8 * (right_distance - right_front_distance), MAX_ANG_SPEED)  # Turn to follow the curve
+            linear_speed = 0.2  # Slow down during curve following
+        
+        # Condition 3: If too far from the wall on the right, turn right to get closer
+        elif right_distance > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
+            log('Too far from the wall, turning right.')
+            angular_speed = -clamp(0.5 * (right_distance - IDEAL_DISTANCE), MAX_ANG_SPEED)  # Turn right
+            linear_speed = 0.3  # Move forward slowly
+        
+        # Condition 4: If too close to the wall on the right, turn left to move away
+        elif right_distance < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
+            log('Too close to the wall, turning left.')
+            angular_speed = clamp(0.5 * (IDEAL_DISTANCE - right_distance), MAX_ANG_SPEED)  # Turn left
+            linear_speed = 0.2  # Move forward slowly
+        
+        # Condition 5: Ideal distance, move forward parallel to the wall
         else:
-            log('The robot is at the ideal distance')
-            linear_speed = IDEAL_VEL
-            angular_speed = clamp(angle_to_target * 0.5, MAX_ANG_SPEED)
-            
-        log(f'[PUB] Angle Speed: {angular_speed:.3f}, Linear Speed: {linear_speed:.3f}')
+            log('At ideal distance, moving forward.')
+            angular_speed = 0.0  # No need to turn
+            linear_speed = IDEAL_VEL  # Move at the ideal velocity
+
+        log(f'[PUB] Angular Speed: {angular_speed:.3f}, Linear Speed: {linear_speed:.3f}')
         
+        # Publish the velocity
         self.pub_vel(linear_speed, angular_speed)
+
+
             
     def pub_vel(self, linear, angular):
         msg = Twist()
@@ -104,151 +119,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-    
-    
-    
-    
-# Single scan from a planar laser range-finder
-#
-# If you have another ranging device with different behavior (e.g. a sonar
-# array), please find or create a different message, since applications
-# will make fairly laser-specific assumptions about this data
-
-# std_msgs/Header header # timestamp in the header is the acquisition time of
-# 	builtin_interfaces/Time stamp
-# 		int32 sec
-# 		uint32 nanosec
-# 	string frame_id
-#                              # the first ray in the scan.
-#                              #
-#                              # in frame frame_id, angles are measured around
-#                              # the positive Z axis (counterclockwise, if Z is up)
-#                              # with zero angle being forward along the x axis
-
-# float32 angle_min            # start angle of the scan [rad]
-# float32 angle_max            # end angle of the scan [rad]
-# float32 angle_increment      # angular distance between measurements [rad]
-
-# float32 time_increment       # time between measurements [seconds] - if your scanner
-#                              # is moving, this will be used in interpolating position
-#                              # of 3d points
-# float32 scan_time            # time between scans [seconds]
-
-# float32 range_min            # minimum range value [m]
-# float32 range_max            # maximum range value [m]
-
-# float32[] ranges             # range data [m]
-#                              # (Note: values < range_min or > range_max should be discarded)
-# float32[] intensities        # intensity data [device-specific units].  If your
-#                              # device does not provide intensities, please leave
-#                              # the array empty.
-
-# ================================================================================
-# Example of a LaserScan message:
-# ================================================================================
-
-# header:
-#   stamp:
-#     sec: 112
-#     nanosec: 799977440
-#   frame_id: static_laser_link
-# angle_min: -3.1415927410125732
-# angle_max: 3.1415927410125732
-# angle_increment: 0.06981316953897476
-# time_increment: 0.0
-# scan_time: 0.0
-# range_min: 0.0
-# range_max: 10.0
-# ranges:
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - 2.787283420562744
-# - 2.5619168281555176
-# - 2.188401937484741
-# - 2.042145252227783
-# - 1.9153047800064087
-# - 1.905957579612732
-# - 1.8125708103179932
-# - 1.694474220275879
-# - 1.6613520383834839
-# - 1.5787473917007446
-# - 1.6144546270370483
-# - 1.6069015264511108
-# - 1.5851205587387085
-# - 1.668485403060913
-# - 1.6270102262496948
-# - 1.593016266822815
-# - 1.6596848964691162
-# - 1.758337378501892
-# - 1.83086097240448
-# - 1.938072681427002
-# - 1.9922066926956177
-# - 2.0943620204925537
-# - 2.436335563659668
-# - 2.679928779602051
-# - 3.305105209350586
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# - .nan
-# intensities: []
