@@ -9,7 +9,7 @@ models:
   - name: robot1
     model: "robot1.model.yaml"
     # pose: [-10, 0, 0]
-    pose: [-8, -4, 5]
+    pose: [-8, -4, 0]
   - name: robot2
     model: "robot2.model.yaml"
     pose: [0, -4, 0]

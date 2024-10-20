@@ -78,11 +78,6 @@ plugins:
     odom_frame_id: odom
     odom_pub: odom1
 
-  - type: Bumper
-    name: bumper
-    topic: collisions1
-    update_rate: 10
-
   - type: Laser
     name: static_laser
     frame: static_laser_link
@@ -100,8 +95,3 @@ plugins:
     noise_std_dev: 0 # 0.025 noise in the laser scan data
     update_rate: 10
     layers: ["walls"] # this laser will only see walls
-
-  # needed for some visualization components
-  - type: ModelTfPublisher
-    name: tf_publisher
-    publish_tf_world: false

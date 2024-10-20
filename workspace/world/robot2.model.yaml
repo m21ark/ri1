@@ -78,11 +78,6 @@ plugins:
     odom_frame_id: odom
     odom_pub: odom2
 
-  - type: Bumper
-    name: bumper
-    topic: collisions2
-    update_rate: 10
-
   - type: Laser
     name: static_laser1
     frame: static_laser_link
@@ -118,8 +113,3 @@ plugins:
     noise_std_dev: 0  # No noise
     update_rate: 10
     layers: ["robot1body"]  # Should only detect robot1
-
-  # needed for some visualization components
-  - type: ModelTfPublisher
-    name: tf_publisher
-    publish_tf_world: false
