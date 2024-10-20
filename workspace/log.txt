@@ -1,0 +1,678 @@
+Robot 1 is now awake
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.109, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.091, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.087, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.086, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.088, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.092, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.100, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.110, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.124, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.142, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.165, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.194, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.232, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.282, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.349, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.442, RF_D:  1.997. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.320, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.399, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.534, RF_D:  1.853. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.328, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.423, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.597, RF_D:  1.820. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.317, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.425, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.639, RF_D:  1.873. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.298, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.422, RF_D:  2.517. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.683, RF_D:  1.879. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.250, RF_D:  3.087. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.374, RF_D:  2.402. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.660, RF_D:  2.007. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.195, RF_D:  2.684. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.323, RF_D:  2.281. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.112, RF_D:  2.582. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.231, RF_D:  2.331. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.520, RF_D:  2.073. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.964, RF_D:  2.423. At ideal distance, making slight adjustments of w=-0.37.
+[SENSOR] F_D:    inf, R_D:  1.706, RF_D:  2.423. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.364, RF_D:  2.543. At ideal distance, making slight adjustments of w=0.11.
+[SENSOR] F_D:    inf, R_D:  1.427, RF_D:  2.913. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.490, RF_D:  3.450. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.605, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.08.
+[SENSOR] F_D:    inf, R_D:  1.662, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.13.
+[SENSOR] F_D:    inf, R_D:  1.715, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.17.
+[SENSOR] F_D:    inf, R_D:  1.816, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.25.
+[SENSOR] F_D:    inf, R_D:  1.858, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.29.
+[SENSOR] F_D:    inf, R_D:  1.947, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.36.
+[SENSOR] F_D:    inf, R_D:  1.978, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  2.056, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.061, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.017, RF_D:  3.800. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.025, RF_D:  3.487. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.035, RF_D:  3.141. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.046, RF_D:  2.989. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.060, RF_D:  2.793. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.077, RF_D:  2.662. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.046, RF_D:  2.540. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.066, RF_D:  2.480. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.092, RF_D:  2.373. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.123, RF_D:  2.271. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.163, RF_D:  2.224. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.154, RF_D:  2.132. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.159, RF_D:  2.133. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.095, RF_D:  2.083. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.094, RF_D:  2.083. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.032, RF_D:  2.084. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.058, RF_D:  2.045. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.058, RF_D:  1.992. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.981, RF_D:  1.988. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  1.999, RF_D:  1.964. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.924, RF_D:  1.956. At ideal distance, making slight adjustments of w=-0.34.
+[SENSOR] F_D:    inf, R_D:  1.915, RF_D:  1.879. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.853, RF_D:  1.866. At ideal distance, making slight adjustments of w=-0.28.
+[SENSOR] F_D:    inf, R_D:  1.848, RF_D:  1.837. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.833, RF_D:  1.823. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.815, RF_D:  1.811. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.736, RF_D:  1.849. At ideal distance, making slight adjustments of w=-0.19.
+[SENSOR] F_D:    inf, R_D:  1.730, RF_D:  1.817. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.683, RF_D:  1.780. At ideal distance, making slight adjustments of w=-0.15.
+[SENSOR] F_D:    inf, R_D:  1.653, RF_D:  1.740. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:    inf, R_D:  1.656, RF_D:  1.749. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:    inf, R_D:  1.630, RF_D:  1.707. At ideal distance, making slight adjustments of w=-0.10.
+[SENSOR] F_D:    inf, R_D:  1.580, RF_D:  1.713. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:    inf, R_D:  1.594, RF_D:  1.717. At ideal distance, making slight adjustments of w=-0.08.
+[SENSOR] F_D:    inf, R_D:  1.538, RF_D:  1.720. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.540, RF_D:  1.722. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.493, RF_D:  1.735. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.509, RF_D:  1.774. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:    inf, R_D:  1.471, RF_D:  1.825. At ideal distance, making slight adjustments of w=0.02.
+[SENSOR] F_D:    inf, R_D:  1.475, RF_D:  1.875. At ideal distance, making slight adjustments of w=0.02.
+[SENSOR] F_D:    inf, R_D:  1.494, RF_D:  1.925. At ideal distance, making slight adjustments of w=0.00.
+[SENSOR] F_D:    inf, R_D:  1.511, RF_D:  1.976. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:    inf, R_D:  1.526, RF_D:  2.079. At ideal distance, making slight adjustments of w=-0.02.
+[SENSOR] F_D:    inf, R_D:  1.539, RF_D:  2.148. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.548, RF_D:  2.234. At ideal distance, making slight adjustments of w=-0.04.
+[SENSOR] F_D:    inf, R_D:  1.560, RF_D:  2.389. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.568, RF_D:  2.442. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.641, RF_D:  2.637. At ideal distance, making slight adjustments of w=-0.11.
+[SENSOR] F_D:    inf, R_D:  1.660, RF_D:  2.774. At ideal distance, making slight adjustments of w=-0.13.
+[SENSOR] F_D:    inf, R_D:  1.697, RF_D:  2.873. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.749, RF_D:  2.972. At ideal distance, making slight adjustments of w=-0.20.
+[SENSOR] F_D:    inf, R_D:  1.792, RF_D:  3.110. At ideal distance, making slight adjustments of w=-0.23.
+[SENSOR] F_D:    inf, R_D:  1.827, RF_D:  3.224. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:    inf, R_D:  1.854, RF_D:  3.289. At ideal distance, making slight adjustments of w=-0.28.
+[SENSOR] F_D:    inf, R_D:  1.876, RF_D:  3.234. At ideal distance, making slight adjustments of w=-0.30.
+[SENSOR] F_D:    inf, R_D:  1.921, RF_D:  3.191. At ideal distance, making slight adjustments of w=-0.34.
+[SENSOR] F_D:    inf, R_D:  1.958, RF_D:  3.173. At ideal distance, making slight adjustments of w=-0.37.
+[SENSOR] F_D:    inf, R_D:  1.960, RF_D:  3.131. At ideal distance, making slight adjustments of w=-0.37.
+[SENSOR] F_D:    inf, R_D:  2.014, RF_D:  3.087. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.013, RF_D:  2.906. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.010, RF_D:  2.833. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.009, RF_D:  2.690. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.009, RF_D:  2.567. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.062, RF_D:  2.459. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.063, RF_D:  2.351. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.067, RF_D:  2.255. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.122, RF_D:  2.232. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.131, RF_D:  2.145. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.143, RF_D:  2.065. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.143, RF_D:  2.069. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.092, RF_D:  2.021. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.043, RF_D:  2.032. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.995, RF_D:  2.037. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:    inf, R_D:  1.953, RF_D:  1.995. At ideal distance, making slight adjustments of w=-0.36.
+[SENSOR] F_D:    inf, R_D:  1.958, RF_D:  1.952. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.903, RF_D:  1.944. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  1.903, RF_D:  1.905. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  1.901, RF_D:  1.807. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.835, RF_D:  1.799. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.771, RF_D:  1.791. At ideal distance, making slight adjustments of w=-0.22.
+[SENSOR] F_D:    inf, R_D:  1.762, RF_D:  1.758. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.749, RF_D:  1.743. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.685, RF_D:  1.729. At ideal distance, making slight adjustments of w=-0.15.
+[SENSOR] F_D:    inf, R_D:  1.671, RF_D:  1.699. At ideal distance, making slight adjustments of w=-0.14.
+[SENSOR] F_D:    inf, R_D:  1.655, RF_D:  1.721. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:    inf, R_D:  1.636, RF_D:  1.688. At ideal distance, making slight adjustments of w=-0.11.
+[SENSOR] F_D:    inf, R_D:  1.563, RF_D:  1.655. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.538, RF_D:  1.623. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.512, RF_D:  1.646. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:  9.871, R_D:  1.484, RF_D:  1.617. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:  9.719, R_D:  1.455, RF_D:  1.642. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:  9.563, R_D:  1.478, RF_D:  1.668. At ideal distance, making slight adjustments of w=0.02.
+[SENSOR] F_D:  9.410, R_D:  1.450, RF_D:  1.694. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:  9.304, R_D:  1.421, RF_D:  1.722. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:  9.145, R_D:  1.444, RF_D:  1.753. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:  8.988, R_D:  1.417, RF_D:  1.836. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:  8.829, R_D:  1.442, RF_D:  1.922. At ideal distance, making slight adjustments of w=0.05.
+[SENSOR] F_D:  8.672, R_D:  1.468, RF_D:  2.009. At ideal distance, making slight adjustments of w=0.03.
+[SENSOR] F_D:  8.519, R_D:  1.496, RF_D:  2.095. At ideal distance, making slight adjustments of w=0.00.
+[SENSOR] F_D:  8.368, R_D:  1.493, RF_D:  2.232. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:  8.218, R_D:  1.502, RF_D:  2.317. At ideal distance, making slight adjustments of w=-0.00.
+[SENSOR] F_D:  8.068, R_D:  1.582, RF_D:  2.454. At ideal distance, making slight adjustments of w=-0.07.
+[SENSOR] F_D:  7.925, R_D:  1.613, RF_D:  2.640. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:  7.786, R_D:  1.645, RF_D:  2.713. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:  7.650, R_D:  1.676, RF_D:  2.835. At ideal distance, making slight adjustments of w=-0.14.
+[SENSOR] F_D:  7.468, R_D:  1.759, RF_D:  2.898. At ideal distance, making slight adjustments of w=-0.21.
+[SENSOR] F_D:  7.347, R_D:  1.792, RF_D:  2.953. At ideal distance, making slight adjustments of w=-0.23.
+[SENSOR] F_D:  7.183, R_D:  1.825, RF_D:  3.003. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:  7.027, R_D:  1.848, RF_D:  2.995. At ideal distance, making slight adjustments of w=-0.28.
+[SENSOR] F_D:  6.878, R_D:  1.888, RF_D:  2.985. At ideal distance, making slight adjustments of w=-0.31.
+[SENSOR] F_D:  6.739, R_D:  1.920, RF_D:  2.919. At ideal distance, making slight adjustments of w=-0.34.
+[SENSOR] F_D:  6.559, R_D:  1.951, RF_D:  2.901. At ideal distance, making slight adjustments of w=-0.36.
+[SENSOR] F_D:  6.336, R_D:  1.983, RF_D:  2.882. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:  6.179, R_D:  2.013, RF_D:  2.809. Too far from the wall, turning right.             
+[SENSOR] F_D:  6.018, R_D:  1.995, RF_D:  2.713. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:  5.813, R_D:  2.011, RF_D:  2.642. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.641, R_D:  2.037, RF_D:  2.554. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.457, R_D:  2.035, RF_D:  2.521. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.274, R_D:  2.046, RF_D:  2.441. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.019, R_D:  2.094, RF_D:  2.324. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.783, R_D:  2.084, RF_D:  2.240. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.519, R_D:  2.118, RF_D:  2.170. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.281, R_D:  2.156, RF_D:  2.103. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  4.179, R_D:  2.106, RF_D:  2.114. Too far from the wall, turning right.             
+[SENSOR] F_D:  3.995, R_D:  2.148, RF_D:  2.052. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.904, R_D:  2.090, RF_D:  2.010. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.821, R_D:  2.071, RF_D:  2.019. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.709, R_D:  2.001, RF_D:  2.003. Too far from the wall, turning right.             
+[SENSOR] F_D:  3.538, R_D:  2.039, RF_D:  1.948. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.445, R_D:  1.989, RF_D:  1.904. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.360, R_D:  1.951, RF_D:  1.890. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.270, R_D:  1.912, RF_D:  1.865. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.176, R_D:  1.872, RF_D:  1.863. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.074, R_D:  1.880, RF_D:  1.780. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.988, R_D:  1.849, RF_D:  1.788. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.898, R_D:  1.786, RF_D:  1.769. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.797, R_D:  1.770, RF_D:  1.704. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.702, R_D:  1.733, RF_D:  1.717. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.590, R_D:  1.748, RF_D:  1.651. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.455, R_D:  1.657, RF_D:  1.634. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.353, R_D:  1.676, RF_D:  1.596. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.261, R_D:  1.641, RF_D:  1.555. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.171, R_D:  1.606, RF_D:  1.514. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.081, R_D:  1.576, RF_D:  1.474. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.993, R_D:  1.546, RF_D:  1.391. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.912, R_D:  1.521, RF_D:  1.352. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.834, R_D:  1.445, RF_D:  1.302. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.752, R_D:  1.453, RF_D:  1.265. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.675, R_D:  1.372, RF_D:  1.229. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.593, R_D:  1.380, RF_D:  1.144. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.523, R_D:  1.306, RF_D:  1.111. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.448, R_D:  1.239, RF_D:  1.030. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.635, R_D:  1.149, RF_D:  1.044. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.603, R_D:  1.124, RF_D:  0.991. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.531, R_D:  1.045, RF_D:  0.936. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.454, R_D:  1.032, RF_D:  0.882. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.769, R_D:  0.915, RF_D:  0.895. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.672, R_D:  0.928, RF_D:  0.872. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.588, R_D:  0.892, RF_D:  0.841. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.509, R_D:  0.856, RF_D:  0.759. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.449, R_D:  0.821, RF_D:  0.729. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.745, R_D:  0.771, RF_D:  0.778. Too close to the wall, turning left.              
+[SENSOR] F_D:  1.971, R_D:  0.708, RF_D:  0.755. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.052, R_D:  0.707, RF_D:  0.796. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.148, R_D:  0.716, RF_D:  0.791. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.311, R_D:  0.736, RF_D:  0.867. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.390, R_D:  0.715, RF_D:  0.893. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.545, R_D:  0.755, RF_D:  0.940. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.668, R_D:  0.754, RF_D:  0.943. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.819, R_D:  0.764, RF_D:  1.009. Too close to the wall, turning left.              
+[SENSOR] F_D:  3.002, R_D:  0.838, RF_D:  1.056. Too close to the wall, turning left.              
+[SENSOR] F_D:  3.144, R_D:  0.866, RF_D:  1.123. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.904, RF_D:  1.196. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.950, RF_D:  1.275. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.937, RF_D:  1.310. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  1.002, RF_D:  1.401. At ideal distance, making slight adjustments of w=0.40.
+[SENSOR] F_D:    inf, R_D:  1.070, RF_D:  1.461. At ideal distance, making slight adjustments of w=0.34.
+[SENSOR] F_D:    inf, R_D:  1.152, RF_D:  1.472. At ideal distance, making slight adjustments of w=0.28.
+[SENSOR] F_D:    inf, R_D:  1.187, RF_D:  1.490. At ideal distance, making slight adjustments of w=0.25.
+[SENSOR] F_D:    inf, R_D:  1.243, RF_D:  1.512. At ideal distance, making slight adjustments of w=0.21.
+[SENSOR] F_D:    inf, R_D:  1.267, RF_D:  1.538. At ideal distance, making slight adjustments of w=0.19.
+[SENSOR] F_D:    inf, R_D:  1.285, RF_D:  1.517. At ideal distance, making slight adjustments of w=0.17.
+[SENSOR] F_D:    inf, R_D:  1.341, RF_D:  1.499. At ideal distance, making slight adjustments of w=0.13.
+[SENSOR] F_D:    inf, R_D:  1.335, RF_D:  1.483. At ideal distance, making slight adjustments of w=0.13.
+[SENSOR] F_D:    inf, R_D:  1.365, RF_D:  1.469. At ideal distance, making slight adjustments of w=0.11.
+[SENSOR] F_D:    inf, R_D:  1.340, RF_D:  1.456. At ideal distance, making slight adjustments of w=0.13.
+[SENSOR] F_D:    inf, R_D:  1.374, RF_D:  1.396. At ideal distance, making slight adjustments of w=0.10.
+[SENSOR] F_D:    inf, R_D:  1.353, RF_D:  1.387. At ideal distance, making slight adjustments of w=0.12.
+[SENSOR] F_D:    inf, R_D:  1.334, RF_D:  1.329. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.340, RF_D:    inf. At ideal distance, making slight adjustments of w=0.13.
+[SENSOR] F_D:    inf, R_D:  1.270, RF_D:    inf. At ideal distance, making slight adjustments of w=0.18.
+[SENSOR] F_D:    inf, R_D:  1.253, RF_D:    inf. At ideal distance, making slight adjustments of w=0.20.
+[SENSOR] F_D:    inf, R_D:  1.237, RF_D:    inf. At ideal distance, making slight adjustments of w=0.21.
+[SENSOR] F_D:    inf, R_D:  1.170, RF_D:    inf. At ideal distance, making slight adjustments of w=0.26.
+[SENSOR] F_D:    inf, R_D:  1.378, RF_D:    inf. At ideal distance, making slight adjustments of w=0.10.
+[SENSOR] F_D:    inf, R_D:  1.789, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.23.
+[SENSOR] F_D:    inf, R_D:  2.068, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.025, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.976, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  2.100, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.046, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.005, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.981, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  2.062, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.038, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.000, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:    inf, R_D:  2.060, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.047, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.033, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.024, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.018, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.013, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.014, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.019, RF_D:  2.770. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.023, RF_D:  2.664. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.030, RF_D:  2.568. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.037, RF_D:  2.480. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.047, RF_D:  2.400. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.059, RF_D:  2.325. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.073, RF_D:  2.256. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.091, RF_D:  2.192. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.113, RF_D:  2.131. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.139, RF_D:  2.074. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.110, RF_D:  2.048. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.077, RF_D:  2.024. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.046, RF_D:  2.000. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.016, RF_D:  1.977. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.987, RF_D:  1.953. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.958, RF_D:  1.930. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.931, RF_D:  1.907. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.904, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  1.887, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.31.
+[SENSOR] F_D:    inf, R_D:  1.867, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.29.
+[SENSOR] F_D:    inf, R_D:  1.842, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.27.
+[SENSOR] F_D:    inf, R_D:  1.812, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.25.
+[SENSOR] F_D:    inf, R_D:  1.777, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.22.
+[SENSOR] F_D:    inf, R_D:  1.735, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.19.
+[SENSOR] F_D:    inf, R_D:  1.686, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.15.
+[SENSOR] F_D:    inf, R_D:  1.631, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.10.
+[SENSOR] F_D:    inf, R_D:  1.568, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.695, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.910, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.33.
+[SENSOR] F_D:    inf, R_D:  2.152, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.004, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.976, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  2.139, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.026, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.003, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.990, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.053, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.040, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.027, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.018, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.012, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.009, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.007, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.008, RF_D:  4.559. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.009, RF_D:  3.890. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.012, RF_D:  3.437. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.017, RF_D:  3.231. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.022, RF_D:  3.046. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.030, RF_D:  2.877. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.038, RF_D:  2.723. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.049, RF_D:  2.637. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:  2.502. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.038, RF_D:  3.200. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.098, RF_D:  3.164. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.057, RF_D:  2.985. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.069, RF_D:  2.829. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.083, RF_D:  2.686. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.100, RF_D:  2.553. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.121, RF_D:  2.429. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.148, RF_D:  2.365. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.182, RF_D:  2.306. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.226, RF_D:  2.201. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.186, RF_D:  2.162. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.140, RF_D:  2.174. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.172, RF_D:  2.129. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.123, RF_D:  2.086. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.067, RF_D:  2.093. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.096, RF_D:  2.002. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.098, RF_D:  2.005. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.028, RF_D:  2.008. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.969, RF_D:  1.961. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.971, RF_D:  1.964. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.914, RF_D:  1.967. At ideal distance, making slight adjustments of w=-0.33.
+[SENSOR] F_D:    inf, R_D:  1.932, RF_D:  1.897. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.870, RF_D:  1.894. At ideal distance, making slight adjustments of w=-0.30.
+[SENSOR] F_D:    inf, R_D:  1.841, RF_D:  1.873. At ideal distance, making slight adjustments of w=-0.27.
+[SENSOR] F_D:    inf, R_D:  1.821, RF_D:  1.848. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:    inf, R_D:  1.820, RF_D:  1.770. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.742, RF_D:  1.760. At ideal distance, making slight adjustments of w=-0.19.
+[SENSOR] F_D:    inf, R_D:  1.727, RF_D:  1.731. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.708, RF_D:  1.699. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.693, RF_D:  1.686. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.612, RF_D:  1.675. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:    inf, R_D:  1.579, RF_D:  1.693. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:    inf, R_D:  1.564, RF_D:  1.657. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.562, RF_D:  1.620. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.518, RF_D:  1.633. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:    inf, R_D:  1.489, RF_D:  1.644. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.481, RF_D:  1.655. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.427, RF_D:  1.666. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.436, RF_D:  1.677. At ideal distance, making slight adjustments of w=0.05.
+[SENSOR] F_D:    inf, R_D:  1.445, RF_D:  1.738. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:    inf, R_D:  1.452, RF_D:  1.801. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:    inf, R_D:  1.417, RF_D:  1.864. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.462, RF_D:  1.927. At ideal distance, making slight adjustments of w=0.03.
+[SENSOR] F_D:    inf, R_D:  1.429, RF_D:  2.041. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.472, RF_D:  2.156. At ideal distance, making slight adjustments of w=0.02.
+[SENSOR] F_D:    inf, R_D:  1.514, RF_D:  2.321. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:    inf, R_D:  1.546, RF_D:  2.488. At ideal distance, making slight adjustments of w=-0.04.
+[SENSOR] F_D:    inf, R_D:  1.580, RF_D:  2.654. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:    inf, R_D:  1.605, RF_D:  2.871. At ideal distance, making slight adjustments of w=-0.08.
+[SENSOR] F_D:    inf, R_D:  1.696, RF_D:  3.038. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.705, RF_D:  3.231. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.777, RF_D:  3.380. At ideal distance, making slight adjustments of w=-0.22.
+[SENSOR] F_D:    inf, R_D:  1.766, RF_D:  3.703. At ideal distance, making slight adjustments of w=-0.21.
+[SENSOR] F_D:    inf, R_D:  1.822, RF_D:  3.663. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:    inf, R_D:  1.867, RF_D:  3.764. At ideal distance, making slight adjustments of w=-0.29.
+[SENSOR] F_D:    inf, R_D:  1.915, RF_D:  3.788. At ideal distance, making slight adjustments of w=-0.33.
+[SENSOR] F_D:    inf, R_D:  1.986, RF_D:  3.740. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  1.990, RF_D:  3.626. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.006, RF_D:  3.522. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.005, RF_D:  3.263. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.997, RF_D:  3.099. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:    inf, R_D:  2.046, RF_D:  3.030. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.043, RF_D:  2.838. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.036, RF_D:  2.702. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.085, RF_D:  2.603. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.099, RF_D:  2.460. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.127, RF_D:  2.397. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.159, RF_D:  2.287. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.177, RF_D:  2.204. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.233, RF_D:  2.141. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.193, RF_D:  2.097. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.155, RF_D:  2.127. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.068, RF_D:  2.085. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.077, RF_D:  2.061. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.083, RF_D:  2.023. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.040, RF_D:  2.039. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.997, RF_D:  2.028. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:    inf, R_D:  1.959, RF_D:  1.951. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.913, RF_D:  1.953. At ideal distance, making slight adjustments of w=-0.33.
+[SENSOR] F_D:    inf, R_D:  1.921, RF_D:  1.921. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.871, RF_D:  1.918. At ideal distance, making slight adjustments of w=-0.30.
+[SENSOR] F_D:    inf, R_D:  1.825, RF_D:  1.889. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:    inf, R_D:  1.826, RF_D:  1.800. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.820, RF_D:  1.794. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.763, RF_D:  1.791. At ideal distance, making slight adjustments of w=-0.21.
+[SENSOR] F_D:    inf, R_D:  1.710, RF_D:  1.764. At ideal distance, making slight adjustments of w=-0.17.
+[SENSOR] F_D:    inf, R_D:  1.704, RF_D:  1.737. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.695, RF_D:  1.709. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.633, RF_D:  1.680. At ideal distance, making slight adjustments of w=-0.11.
+[SENSOR] F_D:    inf, R_D:  1.618, RF_D:  1.652. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:    inf, R_D:  1.601, RF_D:  1.624. At ideal distance, making slight adjustments of w=-0.08.
+[SENSOR] F_D:    inf, R_D:  1.531, RF_D:  1.596. At ideal distance, making slight adjustments of w=-0.02.
+[SENSOR] F_D:    inf, R_D:  1.510, RF_D:  1.624. At ideal distance, making slight adjustments of w=-0.01.
+[SENSOR] F_D:    inf, R_D:  1.487, RF_D:  1.600. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.464, RF_D:  1.576. At ideal distance, making slight adjustments of w=0.03.
+[SENSOR] F_D:  9.891, R_D:  1.440, RF_D:  1.608. At ideal distance, making slight adjustments of w=0.05.
+[SENSOR] F_D:  9.762, R_D:  1.416, RF_D:  1.642. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.392, RF_D:  1.678. At ideal distance, making slight adjustments of w=0.09.
+[SENSOR] F_D:    inf, R_D:  1.421, RF_D:  1.717. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.400, RF_D:  1.756. At ideal distance, making slight adjustments of w=0.08.
+[SENSOR] F_D:    inf, R_D:  1.431, RF_D:  1.798. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.412, RF_D:  1.894. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.446, RF_D:  1.938. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:    inf, R_D:  1.480, RF_D:  2.036. At ideal distance, making slight adjustments of w=0.02.
+[SENSOR] F_D:    inf, R_D:  1.466, RF_D:  2.132. At ideal distance, making slight adjustments of w=0.03.
+[SENSOR] F_D:    inf, R_D:  1.502, RF_D:  2.230. At ideal distance, making slight adjustments of w=-0.00.
+[SENSOR] F_D:    inf, R_D:  1.539, RF_D:  2.325. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.577, RF_D:  2.472. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:  8.852, R_D:  1.621, RF_D:  2.460. At ideal distance, making slight adjustments of w=-0.10.
+[SENSOR] F_D:  7.794, R_D:  1.610, RF_D:  2.380. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:  7.695, R_D:  1.619, RF_D:  2.378. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:  7.556, R_D:  1.592, RF_D:  2.234. At ideal distance, making slight adjustments of w=-0.07.
+[SENSOR] F_D:  7.452, R_D:  1.608, RF_D:  2.207. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:  7.316, R_D:  1.595, RF_D:  2.186. At ideal distance, making slight adjustments of w=-0.08.
+[SENSOR] F_D:  7.204, R_D:  1.576, RF_D:  2.165. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:  7.076, R_D:  1.565, RF_D:  2.328. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:  6.970, R_D:  1.565, RF_D:  2.437. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:  6.885, R_D:  1.636, RF_D:  2.918. At ideal distance, making slight adjustments of w=-0.11.
+[SENSOR] F_D:    inf, R_D:  1.730, RF_D:  3.645. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.900, RF_D:  4.364. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  2.093, RF_D:  4.805. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.146, RF_D:  4.865. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.250, RF_D:  4.831. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.304, RF_D:  4.829. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.305, RF_D:  4.786. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.261, RF_D:  4.626. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.172, RF_D:  4.349. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.181, RF_D:  4.079. Too far from the wall, turning right.             
+[SENSOR] F_D:  6.009, R_D:  2.111, RF_D:  3.786. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.945, R_D:  2.092, RF_D:  3.581. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.847, R_D:  2.107, RF_D:  3.343. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.771, R_D:  2.119, RF_D:  3.170. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.648, R_D:  2.117, RF_D:  3.009. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.518, R_D:  2.098, RF_D:  2.807. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.384, R_D:  2.079, RF_D:  2.714. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.257, R_D:  2.122, RF_D:  2.612. Too far from the wall, turning right.             
+[SENSOR] F_D:  5.066, R_D:  2.113, RF_D:  2.495. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.874, R_D:  2.135, RF_D:  2.418. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.662, R_D:  2.174, RF_D:  2.346. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.465, R_D:  2.190, RF_D:  2.228. Too far from the wall, turning right.             
+[SENSOR] F_D:  4.202, R_D:  2.219, RF_D:  2.215. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  4.118, R_D:  2.197, RF_D:  2.138. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.996, R_D:  2.165, RF_D:  2.154. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.895, R_D:  2.138, RF_D:  2.120. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.796, R_D:  2.091, RF_D:  2.087. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.692, R_D:  2.111, RF_D:  2.054. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.604, R_D:  2.041, RF_D:  2.071. Too far from the wall, turning right.             
+[SENSOR] F_D:  3.451, R_D:  2.072, RF_D:  2.002. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.354, R_D:  2.032, RF_D:  2.010. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.255, R_D:  1.993, RF_D:  1.965. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.157, R_D:  1.972, RF_D:  1.934. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  3.061, R_D:  1.917, RF_D:  1.896. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.961, R_D:  1.925, RF_D:  1.859. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.870, R_D:  1.903, RF_D:  1.873. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.773, R_D:  1.867, RF_D:  1.837. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.674, R_D:  1.829, RF_D:  1.801. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.576, R_D:  1.829, RF_D:  1.765. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.483, R_D:  1.759, RF_D:  1.727. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.375, R_D:  1.780, RF_D:  1.692. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.247, R_D:  1.704, RF_D:  1.654. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.135, R_D:  1.721, RF_D:  1.619. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  2.048, R_D:  1.650, RF_D:  1.582. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.955, R_D:  1.665, RF_D:  1.548. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.869, R_D:  1.596, RF_D:  1.512. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.778, R_D:  1.615, RF_D:  1.427. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.702, R_D:  1.538, RF_D:  1.391. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.621, R_D:  1.521, RF_D:  1.306. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.517, R_D:  1.466, RF_D:  1.270. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.402, R_D:  1.440, RF_D:  1.193. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.611, R_D:  1.342, RF_D:  1.107. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.580, R_D:  1.305, RF_D:  1.056. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.475, R_D:  1.220, RF_D:  1.005. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.699, R_D:  1.145, RF_D:  1.026. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.691, R_D:  1.103, RF_D:  0.953. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.579, R_D:  1.014, RF_D:  0.928. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.481, R_D:  0.982, RF_D:  0.903. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.821, R_D:  0.930, RF_D:  0.915. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.721, R_D:  0.924, RF_D:  0.903. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.615, R_D:  0.869, RF_D:  0.859. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.510, R_D:  0.865, RF_D:  0.798. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:  1.455, R_D:  0.860, RF_D:  0.797. Obstacle detected in front, turning left to avoid collision.
+[SENSOR] F_D:  1.712, R_D:  0.802, RF_D:  0.835. Too close to the wall, turning left.              
+[SENSOR] F_D:  1.778, R_D:  0.772, RF_D:  0.835. Too close to the wall, turning left.              
+[SENSOR] F_D:  1.897, R_D:  0.751, RF_D:  0.816. Too close to the wall, turning left.              
+[SENSOR] F_D:  1.927, R_D:  0.740, RF_D:  0.832. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.029, R_D:  0.760, RF_D:  0.859. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.152, R_D:  0.746, RF_D:  0.874. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.305, R_D:  0.764, RF_D:  0.871. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.424, R_D:  0.779, RF_D:  0.938. Too close to the wall, turning left.              
+[SENSOR] F_D:  2.574, R_D:  0.775, RF_D:  0.961. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.822, RF_D:  0.998. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.816, RF_D:  1.030. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.889, RF_D:  1.078. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.904, RF_D:  1.133. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.920, RF_D:  1.197. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.943, RF_D:  1.219. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  0.978, RF_D:  1.249. Too close to the wall, turning left.              
+[SENSOR] F_D:    inf, R_D:  1.020, RF_D:  1.337. At ideal distance, making slight adjustments of w=0.38.
+[SENSOR] F_D:    inf, R_D:  1.081, RF_D:  1.358. At ideal distance, making slight adjustments of w=0.34.
+[SENSOR] F_D:    inf, R_D:  1.094, RF_D:  1.382. At ideal distance, making slight adjustments of w=0.32.
+[SENSOR] F_D:    inf, R_D:  1.151, RF_D:  1.413. At ideal distance, making slight adjustments of w=0.28.
+[SENSOR] F_D:    inf, R_D:  1.202, RF_D:  1.448. At ideal distance, making slight adjustments of w=0.24.
+[SENSOR] F_D:    inf, R_D:  1.232, RF_D:  1.487. At ideal distance, making slight adjustments of w=0.21.
+[SENSOR] F_D:    inf, R_D:  1.254, RF_D:  1.476. At ideal distance, making slight adjustments of w=0.20.
+[SENSOR] F_D:    inf, R_D:  1.279, RF_D:    inf. At ideal distance, making slight adjustments of w=0.18.
+[SENSOR] F_D:    inf, R_D:  1.309, RF_D:    inf. At ideal distance, making slight adjustments of w=0.15.
+[SENSOR] F_D:    inf, R_D:  1.291, RF_D:    inf. At ideal distance, making slight adjustments of w=0.17.
+[SENSOR] F_D:    inf, R_D:  1.326, RF_D:    inf. At ideal distance, making slight adjustments of w=0.14.
+[SENSOR] F_D:    inf, R_D:  1.313, RF_D:    inf. At ideal distance, making slight adjustments of w=0.15.
+[SENSOR] F_D:    inf, R_D:  2.327, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.900, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  2.210, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.027, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.945, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.36.
+[SENSOR] F_D:    inf, R_D:  2.115, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.044, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.986, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.105, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.050, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.009, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.985, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.063, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.039, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.017, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.002, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.991, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.044, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.036, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.027, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.020, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.017, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.016, RF_D:  3.014. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.017, RF_D:  2.881. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.021, RF_D:  2.763. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.025, RF_D:  2.657. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.032, RF_D:  2.562. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.040, RF_D:  2.475. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.050, RF_D:  2.394. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.062, RF_D:  2.320. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.076, RF_D:  2.251. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  3.435, RF_D:  2.187. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.039, RF_D:  2.291. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.049, RF_D:  2.241. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.065, RF_D:  2.179. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.084, RF_D:  2.120. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.108, RF_D:  2.064. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.081, RF_D:  2.038. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.052, RF_D:  2.014. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.023, RF_D:  1.991. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.995, RF_D:  1.968. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.968, RF_D:  1.944. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.941, RF_D:  1.921. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.915, RF_D:  1.898. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.890, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.31.
+[SENSOR] F_D:    inf, R_D:  1.872, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.30.
+[SENSOR] F_D:    inf, R_D:  1.852, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.28.
+[SENSOR] F_D:    inf, R_D:  1.827, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.26.
+[SENSOR] F_D:    inf, R_D:  1.797, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.24.
+[SENSOR] F_D:    inf, R_D:  1.761, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.21.
+[SENSOR] F_D:    inf, R_D:  1.719, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.671, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.14.
+[SENSOR] F_D:    inf, R_D:  1.617, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:    inf, R_D:  1.556, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.04.
+[SENSOR] F_D:    inf, R_D:  1.755, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.20.
+[SENSOR] F_D:    inf, R_D:  2.057, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.021, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.905, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.32.
+[SENSOR] F_D:    inf, R_D:  2.098, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.060, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.957, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.37.
+[SENSOR] F_D:    inf, R_D:  2.104, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.076, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  1.989, RF_D:    inf. At ideal distance, making slight adjustments of w=-0.39.
+[SENSOR] F_D:    inf, R_D:  2.107, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.089, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.010, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.007, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.005, RF_D:    inf. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.006, RF_D:  4.786. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.007, RF_D:  3.883. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.011, RF_D:  3.502. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.015, RF_D:  3.227. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.021, RF_D:  3.042. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.028, RF_D:  2.874. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.037, RF_D:  2.720. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.048, RF_D:  2.635. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:    inf, RF_D:  2.500. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.086, RF_D:  3.261. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.096, RF_D:  3.120. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.106, RF_D:  2.887. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.069, RF_D:  2.731. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.084, RF_D:  2.594. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.102, RF_D:  2.520. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.125, RF_D:  2.399. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.153, RF_D:  2.337. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.190, RF_D:  2.229. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.237, RF_D:  2.178. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.190, RF_D:  2.138. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.138, RF_D:  2.149. Too far from the wall, turning right.             
+[SENSOR] F_D:    inf, R_D:  2.171, RF_D:  2.105. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.121, RF_D:  2.060. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.119, RF_D:  2.016. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  2.054, RF_D:  2.023. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.998, RF_D:  2.030. At ideal distance, making slight adjustments of w=-0.40.
+[SENSOR] F_D:    inf, R_D:  1.969, RF_D:  2.011. At ideal distance, making slight adjustments of w=-0.38.
+[SENSOR] F_D:    inf, R_D:  1.995, RF_D:  1.938. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.930, RF_D:  1.935. At ideal distance, making slight adjustments of w=-0.34.
+[SENSOR] F_D:    inf, R_D:  1.945, RF_D:  1.862. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.870, RF_D:  1.857. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.864, RF_D:  1.854. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.797, RF_D:  1.801. At ideal distance, making slight adjustments of w=-0.24.
+[SENSOR] F_D:    inf, R_D:  1.795, RF_D:  1.777. Detected curve to the right, turning left to follow curve.
+[SENSOR] F_D:    inf, R_D:  1.724, RF_D:  1.769. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.711, RF_D:  1.742. At ideal distance, making slight adjustments of w=-0.17.
+[SENSOR] F_D:    inf, R_D:  1.694, RF_D:  1.712. At ideal distance, making slight adjustments of w=-0.16.
+[SENSOR] F_D:    inf, R_D:  1.673, RF_D:  1.681. At ideal distance, making slight adjustments of w=-0.14.
+[SENSOR] F_D:    inf, R_D:  1.646, RF_D:  1.697. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:    inf, R_D:  1.614, RF_D:  1.662. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:    inf, R_D:  1.576, RF_D:  1.625. At ideal distance, making slight adjustments of w=-0.06.
+[SENSOR] F_D:    inf, R_D:  1.532, RF_D:  1.638. At ideal distance, making slight adjustments of w=-0.03.
+[SENSOR] F_D:    inf, R_D:  1.482, RF_D:  1.631. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.493, RF_D:  1.608. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.439, RF_D:  1.618. At ideal distance, making slight adjustments of w=0.05.
+[SENSOR] F_D:    inf, R_D:  1.447, RF_D:  1.678. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:    inf, R_D:  1.451, RF_D:  1.689. At ideal distance, making slight adjustments of w=0.04.
+[SENSOR] F_D:    inf, R_D:  1.414, RF_D:  1.750. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.408, RF_D:  1.761. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.416, RF_D:  1.873. At ideal distance, making slight adjustments of w=0.07.
+[SENSOR] F_D:    inf, R_D:  1.427, RF_D:  1.942. At ideal distance, making slight adjustments of w=0.06.
+[SENSOR] F_D:    inf, R_D:  1.442, RF_D:  2.051. At ideal distance, making slight adjustments of w=0.05.
+[SENSOR] F_D:    inf, R_D:  1.487, RF_D:  2.186. At ideal distance, making slight adjustments of w=0.01.
+[SENSOR] F_D:    inf, R_D:  1.527, RF_D:  2.332. At ideal distance, making slight adjustments of w=-0.02.
+[SENSOR] F_D:    inf, R_D:  1.561, RF_D:  2.498. At ideal distance, making slight adjustments of w=-0.05.
+[SENSOR] F_D:    inf, R_D:  1.587, RF_D:  2.665. At ideal distance, making slight adjustments of w=-0.07.
+[SENSOR] F_D:    inf, R_D:  1.612, RF_D:  2.882. At ideal distance, making slight adjustments of w=-0.09.
+[SENSOR] F_D:    inf, R_D:  1.646, RF_D:  3.049. At ideal distance, making slight adjustments of w=-0.12.
+[SENSOR] F_D:    inf, R_D:  1.717, RF_D:  3.319. At ideal distance, making slight adjustments of w=-0.17.
+[SENSOR] F_D:    inf, R_D:  1.721, RF_D:  3.450. At ideal distance, making slight adjustments of w=-0.18.
+[SENSOR] F_D:    inf, R_D:  1.784, RF_D:  3.874. At ideal distance, making slight adjustments of w=-0.23.
+[SENSOR] F_D:    inf, R_D:  1.840, RF_D:  3.824. At ideal distance, making slight adjustments of w=-0.27.
+[SENSOR] F_D:    inf, R_D:  1.882, RF_D:  3.852. At ideal distance, making slight adjustments of w=-0.31.
+[SENSOR] F_D:    inf, R_D:  1.914, RF_D:  3.844. At ideal distance, making slight adjustments of w=-0.33.
+Stopping the robot
+[ros2run]: Interrupt
