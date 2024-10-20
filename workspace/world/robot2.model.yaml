@@ -75,6 +75,13 @@ plugins:
     name: turtlebot_drive
     body: base2
     twist_sub: cmd_vel2
+    odom_frame_id: odom
+    odom_pub: odom2
+
+  - type: Bumper
+    name: bumper
+    topic: collisions2
+    update_rate: 10
 
   - type: Laser
     name: static_laser
@@ -93,3 +100,8 @@ plugins:
     noise_std_dev: 0 # 0.025
     update_rate: 10
     layers: ["static"]
+
+  # needed for some visualization components
+  - type: ModelTfPublisher
+    name: tf_publisher
+    publish_tf_world: false
