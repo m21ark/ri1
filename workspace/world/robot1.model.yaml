@@ -2,27 +2,27 @@ bodies:
   - name: base1
     enabled: true
     type: dynamic
-    color: [0, 0, 1, 0.6]
+    color: [0, 0, 1, 0.5]
     footprints:
       - type: circle
         radius: 0.45
         density: 1
-        layers: ["no_laser"]
+        layers: ["robot1body"]
 
   - name: front
     color: [1, 0, 1, 1]
     footprints:
       - type: circle
-        radius: 0.15
+        radius: 0.1
         density: 1
-        layers: ["no_laser"]
+        layers: ["robot1body"]
 
   - name: left_wheel
     color: [1, 1, 0, 0.75]
     footprints:
       - type: polygon
         density: 1.0
-        layers: ["no_laser"]
+        layers: ["robot1body"]
         points:
           [
             [-0.175, -0.0625],
@@ -36,7 +36,7 @@ bodies:
     footprints:
       - type: polygon
         density: 1.0
-        layers: ["no_laser"]
+        layers: ["robot1body"]
         points:
           [
             [-0.175, -0.0625],
@@ -99,7 +99,7 @@ plugins:
       }
     noise_std_dev: 0 # 0.025 noise in the laser scan data
     update_rate: 10
-    layers: ["static"]
+    layers: ["walls"] # this laser will only see walls
 
   # needed for some visualization components
   - type: ModelTfPublisher
