@@ -1,5 +1,8 @@
 import math
 
+# Robot 2 speed difference
+SPEED_DIFF2 = 1.2 # 20% faster in both linear and angular speeds 
+
 # Linear Speed
 LIN_VEL_MAX = 2
 LIN_ACC_MAX = 1

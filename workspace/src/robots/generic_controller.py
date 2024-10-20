@@ -40,18 +40,18 @@ class GenericController(Node):
         
         if self.startPos == None:
             self.startPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
-            print(f'[Start Position R1]: {self.startPos}')
+            print(f'[Start Position]: {self.startPos}')
         else:
             ended = self.detectIfAtEndPos(data)
             
             if ended:
                 endPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
                 
-                print(f'[End Position R1]: {endPos}')
-                print(f'[Number of Collisions R1]: {self.num_collisions}')
-                print(f'[Average Velocity R1]: {sum(self.velocities) / len(self.velocities):.2f}')
-                print(f'[Average Distance to Wall R1]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}')
-                print(f'[Time Taken R1]: {time.time() - self.startTime:.2f} seconds')
+                print(f'[End Position]: {endPos}')
+                print(f'[Number of Collisions]: {self.num_collisions}')
+                print(f'[Average Velocity]: {sum(self.velocities) / len(self.velocities):.2f}')
+                print(f'[Average Distance to Wall]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}')
+                print(f'[Time Taken]: {time.time() - self.startTime:.2f} seconds')
                 self.stop()
 
     
@@ -66,6 +66,11 @@ class GenericController(Node):
     def reactive(self, msg: LaserScan):
         # Replace NaN values with infinity
         ranges = [x if not np.isnan(x) else float('inf') for x in msg.ranges]
+        
+        # if any of the ranges is < 0.5, then there is a collision
+        if any([x < 0.5 for x in ranges]):
+            self.num_collisions += 1
+            print(f'[Collision Detected] {self.num_collisions} times')
         
         # We'll follow the wall on the right-hand side
         front_index = len(ranges) // 2  # Front of the robot
