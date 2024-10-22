@@ -7,7 +7,7 @@ bodies:
       - type: circle
         radius: 0.45
         density: 1
-        layers: ["robot1body"]
+        layers: ["robot1body", "laser_ignore"]
 
   - name: front
     color: [1, 0, 1, 1]
@@ -15,14 +15,14 @@ bodies:
       - type: circle
         radius: 0.1
         density: 1
-        layers: ["robot1body"]
+        layers: ["robot1body", "laser_ignore"]
 
   - name: left_wheel
     color: [1, 1, 0, 0.75]
     footprints:
       - type: polygon
         density: 1.0
-        layers: ["robot1body"]
+        layers: ["robot1body", "laser_ignore"]
         points:
           [
             [-0.175, -0.0625],
@@ -36,7 +36,7 @@ bodies:
     footprints:
       - type: polygon
         density: 1.0
-        layers: ["robot1body"]
+        layers: ["robot1body", "laser_ignore"]
         points:
           [
             [-0.175, -0.0625],
@@ -77,6 +77,11 @@ plugins:
     twist_sub: cmd_vel1
     odom_frame_id: odom
     odom_pub: odom1
+
+  - type: Bumper
+    name: bumper
+    topic: collisions1
+    update_rate: 10
 
   - type: Laser
     name: static_laser

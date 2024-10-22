@@ -12,6 +12,7 @@ class Move1(GenericController):
         # Info Subscribers
         self.lidar_sub = self.create_subscription(LaserScan, '/robot1/static_laser', self.reactive, queue_size)
         self.odom_sub = self.create_subscription(Odometry, '/odom1', self.odom_logger, queue_size)
+        self.bumper_sub = self.create_subscription(Collisions, '/collisions1', self.handleCollision, queue_size)
         
         # Decision Publisher
         self.vel_pub = self.create_publisher(Twist, '/cmd_vel1', queue_size)

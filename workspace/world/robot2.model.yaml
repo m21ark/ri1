@@ -78,6 +78,11 @@ plugins:
     odom_frame_id: odom
     odom_pub: odom2
 
+  - type: Bumper
+    name: bumper
+    topic: collisions2
+    update_rate: 10
+
   - type: Laser
     name: static_laser1
     frame: static_laser_link

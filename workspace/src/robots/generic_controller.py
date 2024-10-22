@@ -53,7 +53,6 @@ class GenericController(Node):
                 print(f'[Average Distance to Wall]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}')
                 print(f'[Time Taken]: {time.time() - self.startTime:.2f} seconds')
                 self.stop()
-
     
     def detectIfAtEndPos(self, data):
         # if it passed more than 45s and the robot is in less than 0.5m from the start position
@@ -63,14 +62,14 @@ class GenericController(Node):
             if distanceToEnd < 0.8:
                 return True
         
+    def handleCollision(self, msg: Collisions):
+        if len(msg.collisions):
+            self.num_collisions += 1
+            log(f'[Collision Detected] {self.num_collisions} times')
+            
     def reactive(self, msg: LaserScan):
         # Replace NaN values with infinity
         ranges = [x if not np.isnan(x) else float('inf') for x in msg.ranges]
-        
-        # if any of the ranges is < 0.5, then there is a collision
-        if any([x < 0.5 for x in ranges]):
-            self.num_collisions += 1
-            print(f'[Collision Detected] {self.num_collisions} times')
         
         # We'll follow the wall on the right-hand side
         front_index = len(ranges) // 2  # Front of the robot

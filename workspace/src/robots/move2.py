@@ -1,5 +1,6 @@
 from robots.generic_controller import *
 from sensor_msgs.msg import LaserScan
+from flatland_msgs.msg import Collisions
 
 class Move2(GenericController):
     
@@ -16,6 +17,7 @@ class Move2(GenericController):
         # Info Subscribers
         self.lidar_sub_walls = self.create_subscription(LaserScan, '/robot2/static_laser1', self.reactive_walls, queue_size)
         self.lidar_sub_r1 = self.create_subscription(LaserScan, '/robot2/static_laser2', self.reactive_r1, queue_size)
+        self.bumper_sub = self.create_subscription(Collisions, '/collisions2', self.handleCollision, queue_size)
         self.odom_sub = self.create_subscription(Odometry, '/odom2', self.odom_logger, queue_size)
         
         # Decision Publisher
@@ -24,11 +26,6 @@ class Move2(GenericController):
         log('Robot 2 is now awake')
         
     def reactive(self, wall_ranges):
-        
-        # if any of the ranges is < 0.5, then there is a collision
-        if any([x < 0.5 for x in wall_ranges]) or any([x < 0.5 for x in self.rays_r1]):
-            self.num_collisions += 1
-            print(f'[Collision Detected] {self.num_collisions} times')
             
         # For now follow the wall like R1 and just print the ranges for R2's laser hitting R1
         ranges = wall_ranges 
