@@ -20,6 +20,14 @@ class GenericController(Node):
         self.distances_to_wall = []
         self.num_collisions = 0
         self.velocities = []
+        self.pos_path = []
+        
+        self.isFollowing = False
+        self.isFollowingStartPos = None
+        self.isFollowingStartTime = None
+        
+        if STATISTIC_ANALYSIS:
+            self.stats_file = open(f'log_{robot_name}.txt', 'w')
 
     def stop(self):
         log('Stopping the robot')
@@ -38,6 +46,12 @@ class GenericController(Node):
         curr_vel = math.sqrt(math.pow(vel_x, 2) + math.pow(vel_y, 2))
         self.velocities.append(curr_vel)
         
+        self.parse_odom_pos(data)
+        
+        if self.isFollowing and self.isFollowingStartPos == None:
+            self.isFollowingStartTime = time.time() - self.startTime
+            self.isFollowingStartPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2)) 
+        
         if self.startPos == None:
             self.startPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
             print(f'[Start Position]: {self.startPos}')
@@ -47,19 +61,32 @@ class GenericController(Node):
             if ended:
                 endPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
                 
-                print(f'[End Position]: {endPos}')
-                print(f'[Number of Collisions]: {self.num_collisions}')
-                print(f'[Average Velocity]: {sum(self.velocities) / len(self.velocities):.2f}')
-                print(f'[Average Distance to Wall]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}')
-                print(f'[Time Taken]: {time.time() - self.startTime:.2f} seconds')
+                # reduce the self.pos_path to take 1000 points at most, distributed evenly
+                if len(self.pos_path) > 1000:
+                    self.pos_path = self.pos_path[::len(self.pos_path) // 1000]
+                
+                # save everything to file
+                if STATISTIC_ANALYSIS:
+                    self.stats_file.write(f'[Start Position]: {self.startPos}\n')
+                    self.stats_file.write(f'[End Position]: {endPos}\n')
+                    self.stats_file.write(f'[Number of Collisions]: {self.num_collisions}\n')
+                    self.stats_file.write(f'[Average Velocity]: {sum(self.velocities) / len(self.velocities):.2f}\n')
+                    self.stats_file.write(f'[Average Distance to Wall]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}\n')
+                    self.stats_file.write(f'[Time Taken]: {time.time() - self.startTime:.2f} seconds\n')
+                    self.stats_file.write(f'[Path]: {self.pos_path}\n')
+                    if self.isFollowingStartPos:
+                        self.stats_file.write(f'[Started Following Time]: {self.isFollowingStartTime:.2f} seconds\n')
+                        self.stats_file.write(f'[Started Following Pos]: {self.isFollowingStartPos}\n')
+                    self.stats_file.close()
+                
                 self.stop()
     
     def detectIfAtEndPos(self, data):
         # if it passed more than 45s and the robot is in less than 0.5m from the start position
-        if time.time() - self.startTime > 45 and self.startPos != None:
+        if time.time() - self.startTime > 30 and self.startPos != None:
             currPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
             distanceToEnd = math.sqrt(math.pow(currPos[0] - self.startPos[0], 2) + math.pow(currPos[1] - self.startPos[1], 2))
-            if distanceToEnd < 1:
+            if distanceToEnd < FINISH_DISTANCE_RANGE:
                 return True
         
     def handleCollision(self, msg: Collisions):
@@ -90,7 +117,7 @@ class GenericController(Node):
         self.pub_vel(linear_speed, angular_speed)
         self.velocities.append(linear_speed)
         
-    def control_robot(self, F_D, R_D, RF_D):
+    def control_robot(self):
         print('[Error]: Generic Controller > "control_robot" method not implemented in child class')
         return 0.0, 0.0 # Default values
 
@@ -111,3 +138,6 @@ class GenericController(Node):
         self.vel_pub.publish(msg)
         pass
 
+    def parse_odom_pos(self, msg):
+        position = msg.pose.pose.position
+        self.pos_path.append((round(position.x,3), round(position.y,3)))

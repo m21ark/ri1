@@ -90,7 +90,8 @@ class Move2(GenericController):
         self.velocities.append(linear_speed)
     
     def follow_robot(self, angle, distance):
-        log(f'[F] Following r1 at angle {angle} and distance {distance}')
+        self.isFollowing = True 
+        log(f'[F] Following r1 at angle {angle:6.3f} and distance {distance:6.3f}')
         linear_speed = LIN_VEL_MAX * clamp(1 - 1 / distance, 1)
         angular_speed = clamp(angle, ANG_VEL_MAX) 
         
@@ -98,6 +99,7 @@ class Move2(GenericController):
         
         
     def follow_wall(self, F_D, R_D, RF_D):
+        self.isFollowing = False
         
         # Initialize the log message
         log_sms = f"[S] F_D: {F_D:4.2f}, R_D: {R_D:4.2f}, RF_D: {RF_D:4.2}. "

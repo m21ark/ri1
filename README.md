@@ -62,8 +62,8 @@ The article's results must include:
 
 - Loop time 
 - Travelled path
-- Performance
-- Discuss stuck robot
+- Performance > mean distance to wall, ...
+- Discuss stuck robot & collisions
 - Control 
 - Possible Performance improvements
 

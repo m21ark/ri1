@@ -97,6 +97,6 @@ plugins:
         max: 3.141592653589793,
         increment: 0.20943951023931953,
       }
-    noise_std_dev: 0 # 0.025 noise in the laser scan data
+    noise_std_dev: 0.03
     update_rate: 10
     layers: ["walls"] # this laser will only see walls

@@ -97,7 +97,7 @@ plugins:
         max: 3.141592653589793,
         increment: 0.06981317007977318,
       }
-    noise_std_dev: 0 # 0.025
+    noise_std_dev: 0.03
     update_rate: 10
     layers: ["walls"] # this laser will only see walls
 
@@ -115,6 +115,6 @@ plugins:
         max: 3.141592653589793,
         increment: 0.06981317007977318,
       }
-    noise_std_dev: 0  # No noise
+    noise_std_dev: 0.03
     update_rate: 10
     layers: ["robot1body"]  # Should only detect robot1
