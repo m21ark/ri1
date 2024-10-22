@@ -1,7 +1,8 @@
 import math
 
-# Robot 2 speed difference
-SPEED_DIFF2 = 1.2 # 20% faster in both linear and angular speeds 
+# Robot 2 speficic parameters
+SPEED_DIFF2 = 2 # 30% faster in both linear and angular speeds 
+FOLLOW_DISTANCE = 4
 
 # Linear Speed
 LIN_VEL_MAX = 2

@@ -59,7 +59,7 @@ class GenericController(Node):
         if time.time() - self.startTime > 45 and self.startPos != None:
             currPos = (round(data.pose.pose.position.x, 2), round(data.pose.pose.position.y, 2))
             distanceToEnd = math.sqrt(math.pow(currPos[0] - self.startPos[0], 2) + math.pow(currPos[1] - self.startPos[1], 2))
-            if distanceToEnd < 0.8:
+            if distanceToEnd < 1:
                 return True
         
     def handleCollision(self, msg: Collisions):

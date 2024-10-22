@@ -95,7 +95,7 @@ plugins:
       {
         min: -3.141592653589793,
         max: 3.141592653589793,
-        increment: 0.20943951023931953,
+        increment: 0.06981317007977318,
       }
     noise_std_dev: 0 # 0.025
     update_rate: 10
@@ -113,7 +113,7 @@ plugins:
       {
         min: -3.141592653589793,
         max: 3.141592653589793,
-        increment: 0.20943951023931953,
+        increment: 0.06981317007977318,
       }
     noise_std_dev: 0  # No noise
     update_rate: 10

@@ -25,36 +25,8 @@ class Move2(GenericController):
         
         log('Robot 2 is now awake')
         
-    def reactive(self, wall_ranges):
-            
-        # For now follow the wall like R1 and just print the ranges for R2's laser hitting R1
-        ranges = wall_ranges 
-        for i in self.rays_r1:
-            print(i)
-        print("==================================================")
-        
-        # We'll follow the wall on the right-hand side
-        front_index = len(ranges) // 2  # Front of the robot
-        right_index = len(ranges) // 4  # Right side of the robot
-        right_front_index = len(ranges) // 3  # Forward-right to detect upcoming curves
-
-        front_distance = ranges[front_index]
-        right_distance = ranges[right_index]
-        right_front_distance = ranges[right_front_index]
-        
-        if right_distance != float('inf'):
-            self.distances_to_wall.append(right_distance)
-        
-        # Control the robot based on the sensor readings
-        linear_speed, angular_speed = self.control_robot(front_distance, right_distance, right_front_distance)
-        
-        # Publish the velocity and save it
-        self.pub_vel(linear_speed * SPEED_DIFF2, angular_speed * SPEED_DIFF2)
-        self.velocities.append(linear_speed)
-        
     def reactive_walls(self, msg: LaserScan):
         self.rays_walls = [x if not np.isnan(x) else float('inf') for x in msg.ranges]
-        self.reactive(self.rays_walls)
     
     def reactive_r1(self, msg: LaserScan):
         self.rays_r1 = [x if not np.isnan(x) else float('inf') for x in msg.ranges]
@@ -63,8 +35,69 @@ class Move2(GenericController):
         for i in range(len(self.rays_r1)):
             if self.rays_walls[i] < self.rays_r1[i]:
                 self.rays_r1[i] = float('inf')
+                      
+        # for i in range(len(self.rays_r1)):
+        #     print(f'Ray {i}: {self.rays_r1[i]}')
+            
+        # print("=====================================")
+                
+        self.reactive()
         
-    def control_robot(self, F_D, R_D, RF_D):
+    def angle_from_index(self, index):
+        total_angle = 360  # Degrees, or the actual coverage of the lidar
+        num_rays = len(self.rays_r1)  # Total number of rays
+        angle_per_ray = total_angle / num_rays  # Calculate angle per ray
+        angle_deg = (index - num_rays // 2) * angle_per_ray
+        angle_rad = np.deg2rad(angle_deg)
+        return angle_rad
+                             
+    def reactive(self):
+        
+        # take the closest hitting ray in r1
+        distance = float('inf')
+        angle = 0
+
+        for i in range(len(self.rays_r1)):
+            if self.rays_r1[i] < distance:
+                distance = self.rays_r1[i]
+                angle = self.angle_from_index(i)
+
+        # Control the robot based on the sensor readings
+        if distance < FOLLOW_DISTANCE:
+            linear_speed, angular_speed = self.follow_robot(angle, distance)
+        else:
+            # Follow wall instead because R1 is not detected in sight
+            ranges = self.rays_walls
+            
+             # We'll follow the wall on the right-hand side
+            front_index = len(ranges) // 2  # Front of the robot
+            right_index = len(ranges) // 4  # Right side of the robot
+            right_front_index = len(ranges) // 3  # Forward-right to detect upcoming curves
+
+            front_distance = ranges[front_index]
+            right_distance = ranges[right_index]
+            right_front_distance = ranges[right_front_index]
+            
+            if right_distance != float('inf'):
+                self.distances_to_wall.append(right_distance)
+            
+            linear_speed, angular_speed = self.follow_wall(front_distance, right_distance, right_front_distance)
+        
+        # Publish the velocity and save it
+        linear_speed *= SPEED_DIFF2 # Adjust for R2 speed increase
+        angular_speed *= SPEED_DIFF2 # Adjust for R2 speed increase
+        self.pub_vel(linear_speed, angular_speed)
+        self.velocities.append(linear_speed)
+    
+    def follow_robot(self, angle, distance):
+        log(f'[F] Following r1 at angle {angle} and distance {distance}')
+        linear_speed = LIN_VEL_MAX * clamp(1 - 1 / distance, 1)
+        angular_speed = clamp(angle, ANG_VEL_MAX) 
+        
+        return linear_speed, angular_speed
+        
+        
+    def follow_wall(self, F_D, R_D, RF_D):
         
         # Initialize the log message
         log_sms = f"[S] F_D: {F_D:4.2f}, R_D: {R_D:4.2f}, RF_D: {RF_D:4.2}. "
