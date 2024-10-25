@@ -145,7 +145,7 @@ plt.text(0.65, 0.15, robot2_info_text, transform=plt.gca().transAxes, fontsize=1
 # Save the plot as a PNG file
 plt.savefig('robot_path_map.png', bbox_inches='tight', pad_inches=0, dpi=200)
 img1 = Image.open('robot_path_map.png')
-img2 = Image.open('world/map.png')
+img2 = Image.open('../world/map.png')
 
 # make image2 binary at 50% threshold
 img2 = img2.convert('L').point(lambda x: 0 if x < 128 else 255)
