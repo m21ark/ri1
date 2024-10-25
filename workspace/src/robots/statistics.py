@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import re
 import math
 from PIL import Image
+from robots.params import *
 
 # Function to read and extract data from a log file
 def extract_data(file_name):
@@ -142,6 +143,14 @@ def main():
         f"Correct % Distance to Wall: {robot2_data['correct_percentage_distance_wall']}%\n"
         f"Time Taken: {robot2_data['time_taken']} seconds"
     )
+    
+    # params values
+    params_text = (
+        f'LIN_VEL_MAX: {round(LIN_VEL_MAX,3)}\n'
+        f'ANG_VEL_MAX: {round(ANG_VEL_MAX),3}\n'
+        f'IDEAL_DISTANCE: {round(IDEAL_DISTANCE,3)}\n'
+        f'IDEAL_DISTANCE_TOLERANCE: {round(IDEAL_DISTANCE_TOLERANCE,3)}\n'
+    )
 
     # Display the information for both robots on the plot
     plt.text(0.05, 0.15, robot1_info_text, transform=plt.gca().transAxes, fontsize=10,
@@ -150,10 +159,12 @@ def main():
     plt.text(0.65, 0.15, robot2_info_text, transform=plt.gca().transAxes, fontsize=10,
             verticalalignment='top', bbox=dict(boxstyle="round,pad=0.3", edgecolor="black", facecolor="lightgray"))
 
+    plt.text(0.05, 0.95, params_text, transform=plt.gca().transAxes, fontsize=10,
+            verticalalignment='top', bbox=dict(boxstyle="round,pad=0.3", edgecolor="black", facecolor="lightgray"))
 
     # Save the plot as a PNG file
-    plt.savefig('robot_path_map.png', bbox_inches='tight', pad_inches=0, dpi=200)
-    img1 = Image.open('robot_path_map.png')
+    plt.savefig('logs/robot_path_map.png', bbox_inches='tight', pad_inches=0, dpi=200)
+    img1 = Image.open('logs/robot_path_map.png')
     img2 = Image.open('world/map.png')
 
     # make image2 binary at 50% threshold

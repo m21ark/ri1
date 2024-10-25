@@ -1,0 +1,3 @@
+robot,lin_vel_max,ang_vel_max,ideal_distance,ideal_distance_tolerance,num_collisions,avg_velocity,avg_distance_wall,correct_percentage_distance_wall,time_taken
+robot1,1.5,0.7853981633974483,1.5,0.2,0,0.94,1.78,26.99,79.36
+robot2,1.5,0.7853981633974483,1.5,0.2,0,1.12,2.11,14.29,60.82

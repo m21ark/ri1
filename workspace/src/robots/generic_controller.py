@@ -89,7 +89,7 @@ class GenericController(Node):
             
             # Check if the robot has reached the end position within a specific radius
             hasEndedPath: bool = False
-            if time.time() - self.startTime > 30:
+            if time.time() - self.startTime > 15: # Wait for 15 seconds before checking the end position to avoid false positives
                 distanceToEnd = math.sqrt(math.pow(posX - self.startPos[0], 2) + math.pow(posY - self.startPos[1], 2))
                 if distanceToEnd < FINISH_DISTANCE_RANGE:
                     hasEndedPath = True
@@ -121,6 +121,9 @@ class GenericController(Node):
         if len(msg.collisions):
             self.num_collisions += 1
             log(f'[Collision Detected] {self.num_collisions} times')
+            
+            if STOP_IF_COLLISION:
+                self.stop()
             
     def parse_laser_wall_data(self):
         

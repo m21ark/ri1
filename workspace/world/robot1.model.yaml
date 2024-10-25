@@ -81,7 +81,7 @@ plugins:
   - type: Bumper
     name: bumper
     topic: collisions1
-    update_rate: 10
+    update_rate: 1
 
   - type: Laser
     name: static_laser

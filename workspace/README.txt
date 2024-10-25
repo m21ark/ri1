@@ -18,7 +18,7 @@ Please execute the below present commands in the workspace folder.
 
 ### To Run an episode with both robots moving
 
-> ros2 run robots episode
+> ros2 launch robots episode.launch.py
 
 ## For statistic map
 
