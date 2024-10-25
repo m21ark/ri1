@@ -1,8 +1,6 @@
 from launch import LaunchDescription
 from launch.actions import ExecuteProcess, TimerAction
 from launch_ros.actions import LifecycleNode, Node
-from launch.substitutions import PathJoinSubstitution
-from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
 
@@ -62,7 +60,7 @@ def generate_launch_description():
         flatland_server,
         static_transform_publisher,
         map_server_node,
-        configure_map_server,  # Immediately configure map server
+        configure_map_server,   # Immediately configure map server
         delayed_activation,     # Delay activation by 5 seconds
         rviz_node               # Delay RViz by 5 seconds
     ])

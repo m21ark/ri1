@@ -24,7 +24,8 @@ setup(
     entry_points={
         'console_scripts': [
             'move1 = robots.move1:main',
-            'move2 = robots.move2:main'
+            'move2 = robots.move2:main',
+            'statistics = robots.statistics:main',
         ],
     },
 )

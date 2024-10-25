@@ -165,19 +165,19 @@ class GenericController(Node):
         elif RF_D < R_D:
             log_action = 'Detected curve to the right, turning left to follow curve.'
             angular_vel = clamp((R_D - RF_D), ANG_VEL_MAX)  # Turn left with force based on difference
-            linear_vel = 0.7 * IDEAL_VEL  # Slow down slightly during curve following
+            linear_vel = 0.7 * LIN_VEL_MAX  # Slow down slightly during curve following
 
         # Condition 3: Too far from the wall on the right, turn right to get closer
         elif R_D > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
             log_action = 'Too far from the wall, turning right.'
             angular_vel = -clamp((R_D - IDEAL_DISTANCE), ANG_VEL_MAX)  # Turn right, force based on how far
-            linear_vel = 0.5 * IDEAL_VEL  # Slow down while correcting distance
+            linear_vel = 0.5 * LIN_VEL_MAX  # Slow down while correcting distance
 
         # Condition 4: Too close to the wall on the right, turn left to move away
         elif R_D < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
             log_action = 'Too close to the wall, turning left.'
             angular_vel = clamp((IDEAL_DISTANCE - R_D), ANG_VEL_MAX)  # Turn left, proportionate to closeness
-            linear_vel = 0.5 * IDEAL_VEL  # Slow down while correcting
+            linear_vel = 0.5 * LIN_VEL_MAX  # Slow down while correcting
 
         # ====================== Default case: ideal distance ======================
         
@@ -185,7 +185,7 @@ class GenericController(Node):
             # At ideal distance, make slight adjustments to maintain the distance
             angular_correction = 0.7 * (IDEAL_DISTANCE - R_D)  # Small correction for wall-following
             angular_vel = 5 * clamp(angular_correction, ANG_VEL_MAX)
-            linear_vel = IDEAL_VEL  # Move forward at ideal speed
+            linear_vel = LIN_VEL_MAX  # Move forward at ideal speed
             log_action = f'At ideal distance, making slight adjustments. Ang Corr: {angular_correction:4.2f}'
 
         # Log the action and return the velocities

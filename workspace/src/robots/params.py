@@ -5,33 +5,25 @@ LOG_MODE = True
 STATISTIC_ANALYSIS = True
 
 # Robot 2 speficic parameters
-SPEED_DIFF2 = 2 # 100% faster in both linear and angular speeds than robot 1
-FOLLOW_DISTANCE = 4 # if robot 1 is at less than this distance, robot 2 will follow it
+SPEED_DIFF2 = 1.80 # 80% faster in both linear and angular speeds than robot 1
+FOLLOW_DISTANCE = 3.5 # if robot 1 is at less than this distance, robot 2 will follow it
 
-# Linear Speed
-LIN_VEL_MAX = 2
-LIN_ACC_MAX = 1
-
-# Angular Speed
+# Linear & Angular Max Speed
+LIN_VEL_MAX = 1.85
 ANG_VEL_MAX = 2 * math.pi / 3
-ANG_ACC_MAX = math.pi / 3
 
 # Distance to wall
-IDEAL_DISTANCE = 1.75
-IDEAL_DISTANCE_TOLERANCE = 0.15
-FRONT_CRITICAL_DISTANCE = IDEAL_DISTANCE - 2 * IDEAL_DISTANCE_TOLERANCE
-FRONT_SLOWDOWN_DISTANCE = IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE
+IDEAL_DISTANCE = 2
+IDEAL_DISTANCE_TOLERANCE = 0.25
 
-MAX_LINEAR_ACC = 2
-IDEAL_VEL = 1.5
-
+# Finish point radius
 FINISH_DISTANCE_RANGE = 1.5
 
 def log(msg: str):
         if LOG_MODE:
             print(msg)
             
-# Clamp function
+# Clamp functions
 
 def clampInterval(value, min_val, max_val):
     return max(min_val, min(value, max_val))
