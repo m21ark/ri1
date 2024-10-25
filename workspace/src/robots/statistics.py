@@ -18,7 +18,8 @@ def extract_data(file_name):
     time_taken_pattern = r'\[Time Taken\]: ([\d.]+) seconds'
     started_following_time_pattern = r'\[Started Following Time\]: ([\d.]+) seconds'
     started_following_pos_pattern = r'\[Started Following Pos\]: \(([-\d.]+), ([-\d.]+)\)'
-
+    correct_percent_distance_wall_pattern = r'\[Correct % Distance to Wall\]: ([\d.]+)'
+    
     # Extract start, end, and path
     start_match = re.search(start_pattern, data)
     end_match = re.search(end_pattern, data)
@@ -29,6 +30,7 @@ def extract_data(file_name):
     time_taken_match = re.search(time_taken_pattern, data)
     started_following_pos_match = re.search(started_following_pos_pattern, data)
     started_following_time_match = re.search(started_following_time_pattern, data)
+    correct_percentage_distance_wall = re.search(correct_percent_distance_wall_pattern, data)
 
     # Convert start and end positions to tuples
     start_position = (float(start_match.group(1)), float(start_match.group(2))) if start_match else None
@@ -45,6 +47,8 @@ def extract_data(file_name):
 
     started_following_pos = (float(started_following_pos_match.group(1)), float(started_following_pos_match.group(2))) if started_following_pos_match else None
     started_following_time = float(started_following_time_match.group(1)) if started_following_time_match else None
+    
+    correct_percentage_distance_wall = correct_percentage_distance_wall.group(1) if correct_percentage_distance_wall else 'N/A'
 
     return {
         'start_position': start_position,
@@ -55,7 +59,8 @@ def extract_data(file_name):
         'avg_distance_wall': avg_distance_wall,
         'time_taken': time_taken,
         'started_following_pos': started_following_pos,
-        'started_following_time': started_following_time
+        'started_following_time': started_following_time,
+        'correct_percentage_distance_wall': correct_percentage_distance_wall
     }
 
 # Helper function to find the index of the closest point to a given position
@@ -124,6 +129,7 @@ def main():
         f"Num of Collisions: {robot1_data['num_collisions']}\n"
         f"Avg. Lin. Vel: {robot1_data['avg_velocity']} m/s\n"
         f"Avg. Wall Distance: {robot1_data['avg_distance_wall']} m\n"
+        f"Correct % Distance to Wall: {robot1_data['correct_percentage_distance_wall']}%\n"
         f"Time Taken: {robot1_data['time_taken']} seconds"
     )
 
@@ -133,6 +139,7 @@ def main():
         f"Num of Collisions: {robot2_data['num_collisions']}\n"
         f"Avg. Lin. Vel: {robot2_data['avg_velocity']} m/s\n"
         f"Avg. Wall Distance: {robot2_data['avg_distance_wall']} m\n"
+        f"Correct % Distance to Wall: {robot2_data['correct_percentage_distance_wall']}%\n"
         f"Time Taken: {robot2_data['time_taken']} seconds"
     )
 

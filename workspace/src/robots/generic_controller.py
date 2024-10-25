@@ -51,7 +51,6 @@ class GenericController(Node):
         msg.linear.x = float(linear) * self.speed_multiplier
         msg.angular.z = float(angular) * self.speed_multiplier
         self.vel_pub.publish(msg)
-        self.velocities.append(linear)
         
     def angle_from_index(self, index):
         num_rays = len(self.rays_r1)
@@ -110,6 +109,7 @@ class GenericController(Node):
         self.stats_file.write(f'[Number of Collisions]: {self.num_collisions}\n')
         self.stats_file.write(f'[Average Velocity]: {sum(self.velocities) / len(self.velocities):.2f}\n')
         self.stats_file.write(f'[Average Distance to Wall]: {sum(self.distances_to_wall) / len(self.distances_to_wall):.2f}\n')
+        self.stats_file.write(f'[Correct % Distance to Wall]: {len([x for x in self.distances_to_wall if x < IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE and x > IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE]) / len(self.distances_to_wall) * 100:.2f}%\n')
         self.stats_file.write(f'[Time Taken]: {time.time() - self.startTime:.2f} seconds\n')
         self.stats_file.write(f'[Path]: {self.pos_path}\n')
         if self.isFollowingStartPos:
