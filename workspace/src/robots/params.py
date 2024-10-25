@@ -31,5 +31,3 @@ def clampInterval(value, min_val, max_val):
 
 def clamp(value, max_val):
     return clampInterval(value, -max_val, max_val) 
-
-# Overrides
