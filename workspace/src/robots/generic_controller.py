@@ -161,22 +161,28 @@ class GenericController(Node):
             log_action = 'Obstacle detected in front, turning left to avoid collision.'
             angular_vel = ANG_VEL_MAX  # Full left turn
             linear_vel = 0.0  # Stop forward movement
-
+            
+        # Condition 2: If no wall is detected on the right, turn right in-place to find the wall
+        elif R_D == float('inf'):
+            log_action = 'No wall detected on the right, turning right to find the wall.'
+            angular_vel = -ANG_VEL_MAX
+            linear_vel = 0.0
+            
         # ====================== Wall-following cases ======================
 
-        # Condition 2: Detecting a curve to the right
+        # Condition 3: Detecting a curve to the right
         elif RF_D < R_D:
             log_action = 'Detected curve to the right, turning left to follow curve.'
             angular_vel = clamp((R_D - RF_D), ANG_VEL_MAX)  # Turn left with force based on difference
             linear_vel = 0.7 * LIN_VEL_MAX  # Slow down slightly during curve following
 
-        # Condition 3: Too far from the wall on the right, turn right to get closer
+        # Condition 4: Too far from the wall on the right, turn right to get closer
         elif R_D > IDEAL_DISTANCE + IDEAL_DISTANCE_TOLERANCE:
             log_action = 'Too far from the wall, turning right.'
             angular_vel = -clamp((R_D - IDEAL_DISTANCE), ANG_VEL_MAX)  # Turn right, force based on how far
             linear_vel = 0.5 * LIN_VEL_MAX  # Slow down while correcting distance
 
-        # Condition 4: Too close to the wall on the right, turn left to move away
+        # Condition 5: Too close to the wall on the right, turn left to move away
         elif R_D < IDEAL_DISTANCE - IDEAL_DISTANCE_TOLERANCE:
             log_action = 'Too close to the wall, turning left.'
             angular_vel = clamp((IDEAL_DISTANCE - R_D), ANG_VEL_MAX)  # Turn left, proportionate to closeness
