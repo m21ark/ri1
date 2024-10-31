@@ -8,6 +8,9 @@ class Move2(GenericController):
         super().__init__('move2')
 
         queue_size = 10
+
+        if RANDOM_MODE:
+            self.set_model_random_position('robot2')
         
         # Info Subscribers
         self.lidar_sub_walls = self.create_subscription(LaserScan, '/robot2/static_laser1', self.handle_laser_wall, queue_size)

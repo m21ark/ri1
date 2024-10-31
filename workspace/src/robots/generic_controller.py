@@ -3,10 +3,12 @@ import rclpy
 import time
 import numpy as np
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, Pose2D
 from sensor_msgs.msg import LaserScan 
 from nav_msgs.msg import Odometry
+from nav_msgs.srv import GetMap
 from flatland_msgs.msg import Collisions
+from flatland_msgs.srv import MoveModel
 from robots.params import *
 import os
 
@@ -41,10 +43,53 @@ class GenericController(Node):
                 
             self.stats_file = open(f'logs/log_{robot_name}.txt', 'w')
 
+
     def stop(self):
         log('Stopping the robot')
         self.pub_vel(0.0, 0.0)
         exit(0)
+
+    def move_model(self, model_name, x, y, theta):
+        client = self.create_client(MoveModel, "/move_model")
+        client.wait_for_service()
+        request = MoveModel.Request()
+        request.name = model_name
+        request.pose = Pose2D()
+        request.pose.x = x
+        request.pose.y = y
+        request.pose.theta = theta
+        client.call_async(request)
+
+    def get_map(self):
+        client = self.create_client(GetMap, "/map_server/map")
+        client.wait_for_service()
+        request = GetMap.Request()
+        future = client.call_async(request)
+        rclpy.spin_until_future_complete(self, future)
+        return future.result()
+    
+
+
+    def set_model_random_position(self, model_name):
+        map_data = self.get_map()
+        map_width = map_data.map.info.width
+        map_height = map_data.map.info.height
+        map_resolution = map_data.map.info.resolution
+        map_origin = map_data.map.info.origin
+
+        # Generate a random position within the map, but check if it's not occupied by a wall
+        while True:
+            x = np.random.uniform(map_origin.position.x + 1.5, map_origin.position.x + map_width * map_resolution - 1.5)
+            y = np.random.uniform(map_origin.position.y + 7, map_origin.position.y + map_height * map_resolution - 7)
+            theta = np.random.uniform(-np.pi, np.pi)
+            map_x = int((x - map_origin.position.x) / map_resolution)
+            map_y = int((y - map_origin.position.y) / map_resolution)
+            map_index = map_y * map_width + map_x
+            if map_data.map.data[map_index] == 0:
+                break
+
+        self.move_model(model_name, x, y, theta)
+        log(f'Set random position for {model_name} at ({x:.2f}, {y:.2f}, {theta:.2f})')
         
     def pub_vel(self, linear, angular):
         msg = Twist()

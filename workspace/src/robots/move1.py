@@ -7,6 +7,9 @@ class Move1(GenericController):
         
         queue_size = 10
         
+        if RANDOM_MODE:
+            self.set_model_random_position('robot1')
+        
         # Info Subscribers
         self.lidar_sub = self.create_subscription(LaserScan, '/robot1/static_laser', self.control_robot, queue_size)
         self.odom_sub = self.create_subscription(Odometry, '/odom1', self.handle_odom, queue_size)
