@@ -28,7 +28,7 @@ class Move1(GenericController):
         front_distance, right_distance, right_front_distance = self.parse_laser_wall_data()
         
         # Decide what to do based on the wall data
-        linear_speed, angular_speed = self.follow_wall(front_distance, right_distance, right_front_distance)
+        linear_speed, angular_speed = self.follow_wall_PD(front_distance, right_distance, right_front_distance)
         
         # Publish the decision
         self.pub_vel(linear_speed, angular_speed)

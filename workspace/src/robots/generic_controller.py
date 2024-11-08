@@ -245,6 +245,41 @@ class GenericController(Node):
         log(log_sms)
         
         return linear_vel, angular_vel
+    
+    def follow_wall_PD(self, F_D, R_D, RF_D):
+        self.isFollowingRobot = False
+        
+        # Initialize proportional and derivative gains
+        Kp = 0.5  # Proportional gain
+        Kd = 1  # Derivative gain
+
+        # Calculate the error as the difference between current right distance and ideal distance
+        error = abs(IDEAL_DISTANCE - R_D)
+        
+        # Calculate the derivative of the error (rate of change)
+        if hasattr(self, 'last_error'):
+            derivative = (error - self.last_error) / (time.time() - self.last_time)
+        else:
+            derivative = 0.0
+
+        control = Kp * error + Kd * derivative
+
+        # PD control for angular velocity
+        angular_vel = -clamp(control, ANG_VEL_MAX)
+        
+        # Linear velocity based on front distance (slow down if too close to an obstacle)
+        if F_D < IDEAL_DISTANCE:
+            linear_vel = 0.0  # Stop to avoid collision
+        else:
+            linear_vel = LIN_VEL_MAX
+
+        # Store error and time for next derivative calculation
+        self.last_error = error
+        self.last_time = time.time()
+        
+        log(f"{error:6.3f}, {derivative:6.3f}, {angular_vel:6.3f}, {control:6.3f}")
+        
+        return linear_vel, angular_vel
         
     def control_robot(self):
         print('[Error]: Generic Controller > "control_robot" method not implemented in child class')
