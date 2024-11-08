@@ -253,12 +253,16 @@ class GenericController(Node):
         right_index = len(self.rays_walls) // 4  # Right side of the robot
         
         # collect all rays between the front and right side of the robot and average them, if they are not inf
-        right_distances = [x for x in self.rays_walls[right_index-1:front_index+1] if x != float('inf')]
+        right_distances = [x for x in self.rays_walls[0:front_index + 1] if x != float('inf')]
         right_front_sector = sum(right_distances) / len(right_distances) if len(right_distances) > 0 else float('inf')
         
+        if right_front_sector == float('inf'):
+            # Rotate left to find the wall
+            return 0.0, ANG_VEL_MAX
+        
         # Initialize proportional and derivative gains
-        Kp = 0.5  # Proportional gain
-        Kd = 1  # Derivative gain
+        Kp = 0.75  # Proportional gain
+        Kd = 1 # Derivative gain
 
         # Calculate the error as the difference between current right distance and ideal distance
         error = abs(IDEAL_DISTANCE - right_front_sector)
@@ -275,8 +279,9 @@ class GenericController(Node):
         angular_vel = -clamp(control, ANG_VEL_MAX)
         
         # Linear velocity based on front distance (slow down if too close to an obstacle)
-        if F_D < IDEAL_DISTANCE+IDEAL_DISTANCE_TOLERANCE or RF_D < IDEAL_DISTANCE+IDEAL_DISTANCE_TOLERANCE:
-            linear_vel = 0.0  # Stop to avoid collision
+        if F_D < IDEAL_DISTANCE or RF_D < IDEAL_DISTANCE:
+            dist = min((F_D), (RF_D))
+            linear_vel = LIN_VEL_MAX * clamp(1 - 1 / dist, 1)
             angular_vel = ANG_VEL_MAX  # Turn left to avoid collision
         else:
             linear_vel = LIN_VEL_MAX

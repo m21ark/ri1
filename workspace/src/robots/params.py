@@ -5,7 +5,10 @@ LOG_MODE = True
 STATISTIC_ANALYSIS = True
 STOP_IF_COLLISION = False
 
-RANDOM_START_POS = False 
+RANDOM_START_POS = False
+
+BASIC_CONTROLLER_1 = False 
+BASIC_CONTROLLER_2 = True
 
 # Robot 2 speficic parameters
 SPEED_DIFF2 = 1.65 # 65% faster in both linear and angular speeds than robot 1
