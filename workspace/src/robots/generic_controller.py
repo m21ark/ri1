@@ -249,12 +249,19 @@ class GenericController(Node):
     def follow_wall_PD(self, F_D, R_D, RF_D):
         self.isFollowingRobot = False
         
+        front_index = len(self.rays_walls) // 2  # Front of the robot
+        right_index = len(self.rays_walls) // 4  # Right side of the robot
+        
+        # collect all rays between the front and right side of the robot and average them, if they are not inf
+        right_distances = [x for x in self.rays_walls[right_index-1:front_index+1] if x != float('inf')]
+        right_front_sector = sum(right_distances) / len(right_distances) if len(right_distances) > 0 else float('inf')
+        
         # Initialize proportional and derivative gains
         Kp = 0.5  # Proportional gain
         Kd = 1  # Derivative gain
 
         # Calculate the error as the difference between current right distance and ideal distance
-        error = abs(IDEAL_DISTANCE - R_D)
+        error = abs(IDEAL_DISTANCE - right_front_sector)
         
         # Calculate the derivative of the error (rate of change)
         if hasattr(self, 'last_error'):
@@ -268,8 +275,9 @@ class GenericController(Node):
         angular_vel = -clamp(control, ANG_VEL_MAX)
         
         # Linear velocity based on front distance (slow down if too close to an obstacle)
-        if F_D < IDEAL_DISTANCE:
+        if F_D < IDEAL_DISTANCE+IDEAL_DISTANCE_TOLERANCE or RF_D < IDEAL_DISTANCE+IDEAL_DISTANCE_TOLERANCE:
             linear_vel = 0.0  # Stop to avoid collision
+            angular_vel = ANG_VEL_MAX  # Turn left to avoid collision
         else:
             linear_vel = LIN_VEL_MAX
 
@@ -277,7 +285,7 @@ class GenericController(Node):
         self.last_error = error
         self.last_time = time.time()
         
-        log(f"{error:6.3f}, {derivative:6.3f}, {angular_vel:6.3f}, {control:6.3f}")
+        log(f"{right_front_sector:6.3f}, {error:6.3f}, {derivative:6.3f}, {angular_vel:6.3f}, {control:6.3f}")
         
         return linear_vel, angular_vel
         

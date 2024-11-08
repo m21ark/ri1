@@ -12,7 +12,7 @@ SPEED_DIFF2 = 1.65 # 65% faster in both linear and angular speeds than robot 1
 FOLLOW_DISTANCE = 3.5 # if robot 1 is at less than this distance, robot 2 will follow it
 
 # Linear & Angular Max Speed
-LIN_VEL_MAX = 0.8
+LIN_VEL_MAX = 1.75
 ANG_VEL_MAX = 2 * math.pi / 3
 
 # Distance to wall
