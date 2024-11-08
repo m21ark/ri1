@@ -67,8 +67,6 @@ class GenericController(Node):
         future = client.call_async(request)
         rclpy.spin_until_future_complete(self, future)
         return future.result()
-    
-
 
     def set_model_random_position(self, model_name):
         map_data = self.get_map()

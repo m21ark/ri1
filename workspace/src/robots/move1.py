@@ -7,7 +7,7 @@ class Move1(GenericController):
         
         queue_size = 10
         
-        if RANDOM_MODE:
+        if RANDOM_START_POS:
             self.set_model_random_position('robot1')
         
         # Info Subscribers

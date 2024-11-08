@@ -5,6 +5,8 @@ LOG_MODE = True
 STATISTIC_ANALYSIS = True
 STOP_IF_COLLISION = False
 
+RANDOM_START_POS = False 
+
 # Robot 2 speficic parameters
 SPEED_DIFF2 = 1.65 # 65% faster in both linear and angular speeds than robot 1
 FOLLOW_DISTANCE = 3.5 # if robot 1 is at less than this distance, robot 2 will follow it
