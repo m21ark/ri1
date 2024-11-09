@@ -77,8 +77,8 @@ class GenericController(Node):
 
         # Generate a random position within the map, but check if it's not occupied by a wall
         while True:
-            x = np.random.uniform(map_origin.position.x + 1.5, map_origin.position.x + map_width * map_resolution - 1.5)
-            y = np.random.uniform(map_origin.position.y + 7, map_origin.position.y + map_height * map_resolution - 7)
+            x = np.random.uniform(map_origin.position.x + 2, map_origin.position.x + map_width * map_resolution - 2)
+            y = np.random.uniform(map_origin.position.y + 8, map_origin.position.y + map_height * map_resolution - 8)
             theta = np.random.uniform(-np.pi, np.pi)
             map_x = int((x - map_origin.position.x) / map_resolution)
             map_y = int((y - map_origin.position.y) / map_resolution)
@@ -250,22 +250,16 @@ class GenericController(Node):
         self.isFollowingRobot = False
         
         front_index = len(self.rays_walls) // 2  # Front of the robot
-        right_index = len(self.rays_walls) // 4  # Right side of the robot
         
         # collect all rays between the front and right side of the robot and average them, if they are not inf
         right_distances = [x for x in self.rays_walls[0:front_index + 1] if x != float('inf')]
-        right_front_sector = sum(right_distances) / len(right_distances) if len(right_distances) > 0 else float('inf')
+        right_sector_dist = sum(right_distances) / len(right_distances) if len(right_distances) > 0 else float('inf')
         
-        if right_front_sector == float('inf'):
-            # Rotate left to find the wall
-            return 0.0, ANG_VEL_MAX
-        
-        # Initialize proportional and derivative gains
-        Kp = 0.75  # Proportional gain
-        Kd = 1 # Derivative gain
+        if right_sector_dist == float('inf'):
+            return 0.0, ANG_VEL_MAX # Rotate left in place to find the wall
 
         # Calculate the error as the difference between current right distance and ideal distance
-        error = abs(IDEAL_DISTANCE - right_front_sector)
+        error = abs(IDEAL_DISTANCE - right_sector_dist)
         
         # Calculate the derivative of the error (rate of change)
         if hasattr(self, 'last_error'):
@@ -290,7 +284,7 @@ class GenericController(Node):
         self.last_error = error
         self.last_time = time.time()
         
-        log(f"{right_front_sector:6.3f}, {error:6.3f}, {derivative:6.3f}, {angular_vel:6.3f}, {control:6.3f}")
+        log(f"{right_sector_dist:6.3f}, {error:6.3f}, {derivative:6.3f}, {angular_vel:6.3f}, {control:6.3f}")
         
         return linear_vel, angular_vel
         
