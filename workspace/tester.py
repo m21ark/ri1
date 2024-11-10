@@ -5,27 +5,33 @@ import itertools
 import os
 import signal
 import pandas as pd
+import numpy as np
 from robots.statistics import extract_data
 
-lin_vel_max_values = [1.8, 2.0]
-ang_vel_max_values = [pi / 3, 2 * pi / 3, pi]
-ideal_distance_values = [1.5, 1.6, 1.7, 1.8]
-ideal_distance_tolerance_values = [0.2, 0.3, 0.4, 0.5]
+kd_min, kd_max = 0.1, 1.9
+kp_min, kp_max = 0.1, 1.9
+
+step = 0.20
+
+def generate_values(min_val, max_val, step):
+    num_steps = int((max_val - min_val) / step) + 1  # Calculate the number of points
+    return np.linspace(min_val, max_val, num_steps).tolist()
+
+kd = generate_values(kd_min, kd_max, step)
+kp = generate_values(kp_min, kp_max, step)
+
 
 # Generate all combinations of parameters
 param_combinations = list(itertools.product(
-    lin_vel_max_values, ang_vel_max_values,
-    ideal_distance_values, ideal_distance_tolerance_values
+    kp, kd
 ))
 
-def update_params_file(lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance):
+def update_params_file(kd, kp):
     with open("src/robots/params.py", "a") as file:  
               
         # Update the lines with the new parameter values
-        file.write(f"LIN_VEL_MAX = {lin_vel_max}\n")
-        file.write(f"ANG_VEL_MAX = {ang_vel_max}\n")
-        file.write(f"IDEAL_DISTANCE = {ideal_distance}\n")
-        file.write(f"IDEAL_DISTANCE_TOLERANCE = {ideal_distance_tolerance}\n\n")
+        file.write(f"Kd = {kd}\n")
+        file.write(f"Kp = {kp}\n")
         file.close()
 
 def run_simulation():
@@ -39,29 +45,40 @@ def run_simulation():
 
     time.sleep(10)  # Wait for the map to load
 
-    # Start Terminal 2 command for episode and statistics
-    process2 = subprocess.run(
-        "ros2 launch robots episode.launch.py",
-        shell=True,
-        executable="/bin/bash"
-    )
+    try:
+        # Start Terminal 2 command for episode and statistics with a timeout
+        process2 = subprocess.run(
+            "ros2 launch robots episode.launch.py",
+            shell=True,
+            executable="/bin/bash",
+            timeout=120  # Set timeout to 2 minutes (120 seconds)
+        )
 
-    # After process2 finishes, terminate the entire process group of process1
-    if process2.returncode == 0:
-        os.killpg(os.getpgid(process1.pid), signal.SIGTERM)  # Send SIGTERM to all processes in the group
+        # Check if process2 finished successfully
+        if process2.returncode == 0:
+            print("Simulation completed successfully within 2 minutes.")
+
+    except subprocess.TimeoutExpired:
+        print("Simulation exceeded 2 minutes. Terminating processes...")
+        # Terminate the entire process group of process1 if timeout is reached
+        os.killpg(os.getpgid(process1.pid), signal.SIGTERM)
         time.sleep(10)  # Allow time for everything to shut down
 
-def store_simulation_results(df, lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance):
+    finally:
+        # Make sure process1 is terminated if still running
+        if process1.poll() is None:
+            os.killpg(os.getpgid(process1.pid), signal.SIGTERM)
+
+def store_simulation_results(df, kd, kp):
     robot1_data = extract_data('logs/log_move1.txt')
     robot2_data = extract_data('logs/log_move2.txt')
     
-    r1 = robot1_data['num_collisions'], robot1_data['avg_velocity'], robot1_data['avg_distance_wall'], robot1_data['correct_percentage_distance_wall'], robot1_data['time_taken']
-    r2 = robot2_data['num_collisions'], robot2_data['avg_velocity'], robot2_data['avg_distance_wall'], robot2_data['correct_percentage_distance_wall'], robot2_data['time_taken']
+    r1 = robot1_data['avg_distance_wall'], robot1_data['correct_percentage_distance_wall'], robot1_data['time_taken']
+    r2 = robot2_data['avg_distance_wall'], robot2_data['correct_percentage_distance_wall'], robot2_data['time_taken']
     
-
     # Append the results to the dataframe
-    df.loc[len(df)] = ['robot1', lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance, *r1]
-    df.loc[len(df)] = ['robot2', lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance, *r2]
+    df.loc[len(df)] = ['robot1', kd, kp, *r1]
+    df.loc[len(df)] = ['robot2', kd, kp, *r2]
     
 def main():
     
@@ -71,22 +88,26 @@ def main():
         return
     
     # create a new dataframe
-    df = pd.DataFrame(columns=['robot', 'lin_vel_max', 'ang_vel_max', 'ideal_distance', 'ideal_distance_tolerance', 'num_collisions', 'avg_velocity', 'avg_distance_wall', 'correct_percentage_distance_wall', 'time_taken'])
+    df = pd.DataFrame(columns=['robot', 'kd', 'kp', 'avg_distance_wall', 'correct_percentage_distance_wall', 'time_taken'])
     
     # Iterate over each combination
     for params in param_combinations:
-        lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance = params
+        kd, kp = params
         
         # Update the params file with the new parameter values
-        update_params_file(lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance)
+        update_params_file(kd, kp)
         
         # Run the simulation
         print(f"Running simulation with parameters: {params}")
+        
+        # RUBEN: ADICIONAR UM BREAK DA SIMULACAO CASO CORRA HA MAIS DE 2MIN POR EX.
         run_simulation()
         print("Episode is done. Storing the results...")
-        store_simulation_results(df, lin_vel_max, ang_vel_max, ideal_distance, ideal_distance_tolerance)
+        store_simulation_results(df, kd, kp)
         df.to_csv('logs/simulation_results.csv', index=False)
         print("Simulation completed.")
+        
+    
         
 if __name__ == "__main__":
     main()
