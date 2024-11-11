@@ -1,0 +1,56 @@
+{
+  "r1": {
+    "avg_distance_wall": {
+      "max": {
+        "kd": 3.245,
+        "kp": 0.325,
+        "avg_distance_wall": 3.07
+      },
+      "min": { "kd": 0.325, "kp": 3.92, "avg_distance_wall": 1.49 }
+    },
+
+    "correct_percentage_distance_wall": {
+      "max": {
+        "kd": 1.675,
+        "kp": 2.795,
+        "correct_percentage_distance_wall": 97.04
+      },
+      "min": {
+        "kd": 3.695,
+        "kp": 0.559,
+        "correct_percentage_distance_wall": 37.13
+      }
+    },
+
+    "time_taken": {
+      "max": { "kd": 3.02, "kp": 3.02, "time_taken": 109.07 },
+      "min": { "kd": 1.0, "kp": 0.775, "time_taken": 39.51 }
+    }
+  },
+  "r2": {
+    "avg_distance_wall": {
+      "max": { "kd": 2.795, "kp": 0.1, "avg_distance_wall": 3.97 },
+      "min": { "kd": 0.559, "kp": 3.02, "avg_distance_wall": 1.52 }
+    },
+    "correct_percentage_distance_wall": {
+      "max": {
+        "kd": 2.57,
+        "kp": 3.245,
+        "correct_percentage_distance_wall": 94.33
+      },
+      "min": {
+        "kd": 2.345,
+        "kp": 0.1,
+        "correct_percentage_distance_wall": 10.89
+      }
+    },
+    "time_taken": {
+      "max": { "kd": 2.345, "kp": 0.1, "time_taken": 83.57 },
+      "min": { "kd": 0.775, "kp": 1.45, "time_taken": 15.0 }
+    }
+  }
+}
+
+
+
+

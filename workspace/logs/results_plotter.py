@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load the DataFrame
-df = pd.read_csv('combined_output.csv')
+df = pd.read_csv('filtered_output.csv')
 
 # Ensure output directory exists
 output_dir = 'results_plotter'
@@ -61,6 +61,10 @@ for robot in robots:
         # Create pivot table
         pivot_table = robot_df.pivot(index='kd', columns='kp', values=metric)
         
+        # Fill missing values by interpolating (average of neighboring cells)
+        pivot_table = pivot_table.interpolate(method='linear', axis=0, limit_direction='both')
+        pivot_table = pivot_table.interpolate(method='linear', axis=1, limit_direction='both')
+        
         # Choose color palette based on preference
         if preferred == 'high':
             cmap = sns.color_palette("RdYlGn", as_cmap=True)  # Green for high, red for low
@@ -77,4 +81,3 @@ for robot in robots:
         plt.close()
 
 print(f"Plots have been saved in the '{output_dir}' directory.")
-
