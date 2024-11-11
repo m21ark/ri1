@@ -9,7 +9,7 @@ import numpy as np
 from robots.statistics import extract_data
 
 kd_min, kd_max = 0.1, 1.9
-kp_min, kp_max = 0.1, 1.9
+kp_min, kp_max = 2.12, 3.92
 
 step = 0.20
 
@@ -23,7 +23,7 @@ kp = generate_values(kp_min, kp_max, step)
 
 # Generate all combinations of parameters
 param_combinations = list(itertools.product(
-    kp, kd
+    kd, kp
 ))
 
 def update_params_file(kd, kp):

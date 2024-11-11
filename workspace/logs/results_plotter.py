@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load the DataFrame
-df = pd.read_csv('simulation_results.csv')
+df = pd.read_csv('combined_output.csv')
 
 # Ensure output directory exists
 output_dir = 'results_plotter'
@@ -68,7 +68,7 @@ for robot in robots:
             cmap = sns.color_palette("RdYlGn_r", as_cmap=True)  # Red for high, green for low
         
         plt.figure(figsize=(10, 8))
-        sns.heatmap(pivot_table[::-1], annot=True, fmt=".2f", cmap=cmap)
+        sns.heatmap(pivot_table[::-1], annot=True, fmt=".2f", cmap=cmap, annot_kws={"size": 8})
         plt.title(f"{title} for {robot}")
         plt.xlabel('KP')
         plt.ylabel('KD')
