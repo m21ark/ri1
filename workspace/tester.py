@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from robots.statistics import extract_data
 
-kd_min, kd_max = 0.1, 1.9
+kd_min, kd_max = 2.12, 3.92
 kp_min, kp_max = 2.12, 3.92
 
 step = 0.20

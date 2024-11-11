@@ -1,7 +1,7 @@
 import pandas as pd
 
 # List of CSV file paths
-csv_files = ["1.csv", "2.csv", "3.csv"]
+csv_files = ["1.csv", "2.csv", "3.csv", "4.csv"]
 
 # Read and combine CSV files
 combined_csv = pd.concat([pd.read_csv(file) for file in csv_files])
