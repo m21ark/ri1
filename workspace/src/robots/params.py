@@ -4,14 +4,14 @@ import math
 LOG_MODE = True
 STATISTIC_ANALYSIS = True
 STOP_IF_COLLISION = True
-
+  
 RANDOM_START_POS = False
 
 # PD Controller Constants
 BASIC_CONTROLLER_1 = False 
 BASIC_CONTROLLER_2 = False
-Kp = 2.795  # Proportional gain (higher value makes the robot follow the wall more closely, but can lead to oscillations)
-Kd = 1.675  # Derivative gain (higher value makes the robot follow the wall more smoothly, but can lead to overshooting)
+Kp = 2.12  # Proportional gain (higher value makes the robot follow the wall more closely, but can lead to oscillations)
+Kd = 1.45  # Derivative gain (higher value makes the robot follow the wall more smoothly, but can lead to overshooting)
 
 # Robot 2 speficic parameters
 SPEED_DIFF2 = 1.65 # 65% faster in both linear and angular speeds than robot 1
