@@ -75,16 +75,41 @@ class GenericController(Node):
         map_resolution = map_data.map.info.resolution
         map_origin = map_data.map.info.origin
 
+        log(f'Map width: {map_width}, height: {map_height}, resolution: {map_resolution}, origin: {map_origin}')
         # Generate a random position within the map, but check if it's not occupied by a wall
         while True:
-            x = np.random.uniform(map_origin.position.x + 2, map_origin.position.x + map_width * map_resolution - 2)
-            y = np.random.uniform(map_origin.position.y + 8, map_origin.position.y + map_height * map_resolution - 8)
+            if RANDOM_START_IS_RECTANGLE:
+                # Generate a random position within a rectangle in the map
+                if model_name == 'robot1':
+                    x = np.random.uniform(map_origin.position.x + 2, map_origin.position.x + 3)
+                    y = np.random.uniform(map_origin.position.y + 10.5, map_origin.position.y + map_height * map_resolution - 10.5)
+                elif model_name == 'robot2':
+                    x = np.random.uniform(map_origin.position.x + 5, map_origin.position.x + map_width * map_resolution - 5)
+                    y = np.random.uniform(map_origin.position.y + 7.5, map_origin.position.y + 8)
+
+            else:
+                # Generate a random position around the center of the robots spawn
+                radius = np.random.uniform(0, 1)
+                angle = np.random.uniform(0, 2 * np.pi)
+
+                pos_x = 0
+                pos_y = 0
+
+                if model_name == 'robot1':
+                    pos_x = -11
+                elif model_name == 'robot2':
+                    pos_y = -3
+                
+                x = pos_x + radius * np.cos(angle)
+                y = pos_y + radius * np.sin(angle)
+                
             theta = np.random.uniform(-np.pi, np.pi)
             map_x = int((x - map_origin.position.x) / map_resolution)
             map_y = int((y - map_origin.position.y) / map_resolution)
-            map_index = map_y * map_width + map_x
-            if map_data.map.data[map_index] == 0:
+            
+            if map_data.map.data[map_y * map_width + map_x] == 0:
                 break
+
 
         self.move_model(model_name, x, y, theta)
         log(f'Set random position for {model_name} at ({x:.2f}, {y:.2f}, {theta:.2f})')
