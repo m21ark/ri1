@@ -1,6 +1,4 @@
-# RI 1
-
-## Overview
+# Reactive Robot Simulator
 
 See a demo of this project on Youtube:
 
