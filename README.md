@@ -2,9 +2,11 @@
 
 ## Overview
 
-See our project presentation on Youtube:
+See a demo of this project on Youtube:
 
 [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/lbnGi4QBRkk)
+
+Alternatively, you can read the [scientific article](docs/article.pdf).
 
 ## Assignment Description
 
@@ -17,6 +19,11 @@ Two Simple Reactive Robots:
 - Can be subsumption architecture
 - Can have a PID controller 
 
+<p>
+    <img src="docs/env.png" alt="Map" width="255"/>
+    <img src="docs/rays_draw.png" alt="Robot Rays" width="285"/>
+</p>
+
 **Goal:** 
 
 - R1 follows wall slowly
@@ -25,59 +32,7 @@ Two Simple Reactive Robots:
 - Round, Differential locomotion
 - Any tech, but must be ROS robots without communication
 
-**Environment:** 
-
-![env](docs/env.png)
-
-**Teacher recomendations:** 
-
-- Parameterize everything
-- Choose a good set of sensors
-- Find a good distance for R2 to be on tail of R1 without colision
-
-## Deliverables
-
-- Source Code ZIP (with README*)
-- Video (under 100MB and with FEUP Logo)
-- Article
-
-\* The README shoud state:
-
-- Directory structure
-- Requirements (versions, dependencies, etc.)
-- How to compile and execute
-
-### Article
-
-The 3/4 pages article should use the [LATEX template](https://www.ieee.org/conferences/publishing/templates.html) and contain:
-
-- Abstract
-- Intro (minimal)
-- SOTA (minimal)
-- Robot implementation and architecture (control law)
-- Experiments
-- Results and Discussion
-- Conclusions and Future work
-- Acknowledgments & References
-
-Note: Not a tech report
-
-#### Article Results
-
-The article's results must include:
-
-- Loop time 
-- Travelled path
-- Performance > mean distance to wall, ...
-- Discuss stuck robot & collisions
-- Control 
-- Possible Performance improvements
-
-Bonus:
-
-- Randomness
-- Limited acceleration and angular velocity
-- Results table with loop time and [accel, ang_vel, directions, …]
+<img src="docs/pd_path.png" alt="Path" width="600"/>
 
 ## Group
 
