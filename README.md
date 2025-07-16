@@ -1,5 +1,11 @@
 # RI 1
 
+## Overview
+
+See our project presentation on Youtube:
+
+[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/lbnGi4QBRkk)
+
 ## Assignment Description
 
 Two Simple Reactive Robots:
